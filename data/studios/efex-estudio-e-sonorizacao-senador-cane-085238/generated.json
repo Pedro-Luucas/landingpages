@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "studioId": "efex-estudio-e-sonorizacao-senador-cane-085238",
+  "generationId": "gen-d48fd3a8cc53ff866916",
+  "inputHash": "d48fd3a8cc53ff866916ae44dd7732e78468a3794aaab304be7a830d3f16780b",
+  "provider": "deterministic-source",
+  "model": "source-batch-v1",
+  "promptVersion": "batch.v1",
+  "templateId": "editorial",
+  "branding": {
+    "colors": {
+      "background": "#efe6d3",
+      "surface": "#faf3e6",
+      "primary": "#213a5c",
+      "secondary": "#a04e36",
+      "text": "#17202a",
+      "mutedText": "#6d6b68"
+    },
+    "fontHeading": "Fraunces",
+    "fontBody": "Newsreader",
+    "radius": "small",
+    "mood": [
+      "editorial",
+      "autoral"
+    ],
+    "imageTreatment": "Sem mídia não verificada; composição tipográfica e cromática."
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Senador Canedo — Goiás",
+      "title": "Efex Estúdio e Sonorização",
+      "subtitle": "Um endereço para música em Senador Canedo. Consulte disponibilidade e detalhes diretamente com o estúdio.",
+      "primaryCta": "Falar com o estúdio"
+    },
+    "about": {
+      "title": "O estúdio",
+      "body": "Efex Estúdio e Sonorização é um estúdio musical localizado em Senador Canedo, Goiás."
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 5,
+      "count": 73
+    },
+    "contact": {
+      "title": "Vamos conversar?",
+      "body": "R. 2, 335 - Setor Leste Universitário, Goiânia - GO, 74615-060, Brazil",
+      "cta": "Chamar no WhatsApp"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "about",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "gallery",
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "equipment",
+      "enabled": false,
+      "order": 3
+    },
+    {
+      "id": "pricing",
+      "enabled": false,
+      "order": 4
+    },
+    {
+      "id": "hours",
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "reviews",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "contact",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "map",
+      "enabled": true,
+      "order": 8
+    }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.hero.eyebrow",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    },
+    {
+      "path": "copy.hero.subtitle",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": [
+        "facts.googleReviews[0]"
+      ]
+    },
+    {
+      "path": "copy.contact.body",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    }
+  ],
+  "warnings": [
+    "Conteúdo limitado aos dados comerciais confirmados na fonte original."
+  ],
+  "createdAt": "2026-08-13T04:49:30Z"
+}

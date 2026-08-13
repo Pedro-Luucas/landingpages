@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "avancine-studio-estudio-de-podcast-antigo-detona-stu-ribeirao-pre-47e8fe",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://www.instagram.com/avancinestudiorp?igsh=MWwwbTVvZGRycGx6cw%3D%3D",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "instagram": {
+        "value": "https://www.instagram.com/avancinestudiorp?igsh=MWwwbTVvZGRycGx6cw%3D%3D",
+        "sourceUrl": "https://www.instagram.com/avancinestudiorp?igsh=MWwwbTVvZGRycGx6cw%3D%3D",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Avancine Studio - Estudio de Podcast -\"Antigo Detona studio\". é um estúdio musical localizado em Ribeirão Preto, São Paulo.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-21.210633599999998%2C-47.8117704",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 5,
+          "count": 60
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-21.210633599999998%2C-47.8117704",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -21.210633599999998,
+          "longitude": -47.8117704,
+          "address": "R. João Alves Silva Júnior, 558 - sala 9 - Condomínio Itamaraty, Ribeirão Preto - SP, 14024-190, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-21.210633599999998%2C-47.8117704",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "frog-estudio-joinville-cc3746",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "http://www.instagram.com/FrogEstudio",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "instagram": {
+        "value": "http://www.instagram.com/FrogEstudio",
+        "sourceUrl": "http://www.instagram.com/FrogEstudio",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Frog Estúdio é um estúdio musical localizado em Joinville, Santa Catarina.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-26.2737333%2C-48.8610377",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 5,
+          "count": 80
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-26.2737333%2C-48.8610377",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -26.2737333,
+          "longitude": -48.8610377,
+          "address": "Av. Alm. Jaceguay, 997 - Santo Antônio, Joinville - SC, 89218-075, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-26.2737333%2C-48.8610377",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

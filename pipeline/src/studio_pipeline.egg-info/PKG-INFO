@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: studio-pipeline
+Version: 0.1.0
+Summary: Collect, enrich, and generate landing-page data for music studios.
+Requires-Python: >=3.11
+Requires-Dist: jsonschema[format-nongpl]>=4.21
+Requires-Dist: Pillow>=10
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "studioId": "top-studio-sao-luis-b92047",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "http://wa.me/98988929961",
+        "result": "source_contact_only"
+      }
+    ],
+    "selectedProfiles": {},
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Top Studio é um estúdio musical localizado em São Luís, Maranhão.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-2.5407313%2C-44.1989971",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.8,
+          "count": 78
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-2.5407313%2C-44.1989971",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -2.5407313,
+          "longitude": -44.1989971,
+          "address": "R. 7, Quadra 16 - Casa 13 - Cohatrac, São José de Ribamar - MA, 65052-853, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-2.5407313%2C-44.1989971",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

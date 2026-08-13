@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-08-12T12:00:00Z",
+  "resumo": {
+    "total": 3,
+    "categoria": "musica"
+  },
+  "musica": [
+    {
+      "title": "Aurora Sound Lab",
+      "type": "Recording studio",
+      "cidade": "Curitiba",
+      "estado": "Paraná",
+      "address": "Rua Fictícia do Ensaio, 240, Curitiba - PR",
+      "phoneNumber": "+55 41 90000-1111",
+      "website": "https://www.aurorasoundlab.example/",
+      "latitude": -25.4298,
+      "longitude": -49.2714,
+      "score_comercial": 88.5
+    },
+    {
+      "title": "Norte Wave Studio",
+      "type": "Rehearsal studio",
+      "cidade": "Curitiba",
+      "estado": "Paraná",
+      "address": "Av. Inventada, 100, Curitiba - PR",
+      "phoneNumber": "+55 41 90000-2222",
+      "website": "not a uri",
+      "latitude": -25.43,
+      "longitude": -49.27,
+      "score_comercial": 70
+    },
+    {
+      "title": "Estúdio Lagoa Azul",
+      "type": "Recording studio",
+      "cidade": "São Paulo",
+      "estado": "São Paulo",
+      "address": "Rua Imaginária, 50, São Paulo - SP",
+      "phoneNumber": "+55 11 90000-3333",
+      "website": "https://lagoaazul.example/",
+      "latitude": -23.55,
+      "longitude": -46.63,
+      "score_comercial": 80
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "studioId": "boomer-estudio-indaiatuba-3ff155",
+  "generationId": "gen-0537293f592b5606ae60",
+  "inputHash": "0537293f592b5606ae60c183c74ed6f8e4812e4cd7a493dae19a9b23901a05d3",
+  "provider": "deterministic-source",
+  "model": "source-batch-v1",
+  "promptVersion": "batch.v1",
+  "templateId": "editorial",
+  "branding": {
+    "colors": {
+      "background": "#0b0d0f",
+      "surface": "#15191d",
+      "primary": "#f3c969",
+      "secondary": "#72808d",
+      "text": "#f6f2e9",
+      "mutedText": "#a8afb5"
+    },
+    "fontHeading": "Fraunces",
+    "fontBody": "Newsreader",
+    "radius": "small",
+    "mood": [
+      "editorial",
+      "autoral"
+    ],
+    "imageTreatment": "Sem mídia não verificada; composição tipográfica e cromática."
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Indaiatuba — São Paulo",
+      "title": "Boomer Estúdio",
+      "subtitle": "Um endereço para música em Indaiatuba. Consulte disponibilidade e detalhes diretamente com o estúdio.",
+      "primaryCta": "Falar com o estúdio"
+    },
+    "about": {
+      "title": "O estúdio",
+      "body": "Boomer Estúdio é um estúdio musical localizado em Indaiatuba, São Paulo."
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 5,
+      "count": 79
+    },
+    "contact": {
+      "title": "Vamos conversar?",
+      "body": "Av. Eng. Fábio Roberto Barnabé - Jardim Morada do Sol, Indaiatuba - SP, 13348-575, Brazil",
+      "cta": "Chamar no WhatsApp"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "about",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "gallery",
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "equipment",
+      "enabled": false,
+      "order": 3
+    },
+    {
+      "id": "pricing",
+      "enabled": false,
+      "order": 4
+    },
+    {
+      "id": "hours",
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "reviews",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "contact",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "map",
+      "enabled": true,
+      "order": 8
+    }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.hero.eyebrow",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    },
+    {
+      "path": "copy.hero.subtitle",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": [
+        "facts.googleReviews[0]"
+      ]
+    },
+    {
+      "path": "copy.contact.body",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    }
+  ],
+  "warnings": [
+    "Conteúdo limitado aos dados comerciais confirmados na fonte original."
+  ],
+  "createdAt": "2026-08-13T04:49:30Z",
+  "approvedAt": "2026-08-13T04:49:30Z",
+  "approvedBy": "batch:user-authorized",
+  "approvalNote": "Lote de 100 páginas autorizado pelo usuário; somente fatos da fonte e score entre 80 e 99.01.",
+  "assetHashes": []
+}

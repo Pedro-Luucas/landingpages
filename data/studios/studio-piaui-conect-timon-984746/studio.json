@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "studio-piaui-conect-timon-984746",
+  "sourceId": "9847469775bb1ddbed5e5a0fe171e218f08489930738d8046bf4f79258b1d33c",
+  "name": "STUDIO PIAUI CONECT",
+  "type": "Recording studio",
+  "slug": "studio-piaui-conect",
+  "location": {
+    "city": "Timon",
+    "state": "Maranhão",
+    "address": "R. Olavo Bilac, 1543 - Centro (Sul), Teresina - PI, 64027-110, Brazil",
+    "latitude": -5.0935654,
+    "longitude": -42.8094882
+  },
+  "contacts": {
+    "phone": "+55 86 97400-3751",
+    "website": "https://www.instagram.com/piauiconect_/",
+    "instagram": "https://www.instagram.com/piauiconect_/"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "020a1169045ab0e3bbb091457433e84a93d6ea1aee80653757a75e28dfcc2c4a",
+    "originalRecord": {
+      "title": "STUDIO PIAUI CONECT",
+      "type": "Recording studio",
+      "cidade": "Timon",
+      "estado": "Maranhão",
+      "ratingCount": 24,
+      "rating": 5,
+      "address": "R. Olavo Bilac, 1543 - Centro (Sul), Teresina - PI, 64027-110, Brazil",
+      "phoneNumber": "+55 86 97400-3751",
+      "website": "https://www.instagram.com/piauiconect_/",
+      "latitude": -5.0935654,
+      "longitude": -42.8094882,
+      "score_comercial": 94.79,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://www.instagram.com/piauiconect_/"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 9.79,
+          "maximo": 15,
+          "valor": 24,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 24; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 94.79,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

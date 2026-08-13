@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "studioId": "container-estudio-taubate-55f6d7",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://containeror.wixsite.com/containerestudio",
+        "result": "source_contact_only"
+      }
+    ],
+    "selectedProfiles": {},
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Container Estúdio é um estúdio musical localizado em Taubaté, São Paulo.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-23.0095056%2C-45.5313624",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.9,
+          "count": 48
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-23.0095056%2C-45.5313624",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -23.0095056,
+          "longitude": -45.5313624,
+          "address": "R. Dona Benta, 1194 - Jardim Gurilândia, Taubaté - SP, 12071-580, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-23.0095056%2C-45.5313624",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

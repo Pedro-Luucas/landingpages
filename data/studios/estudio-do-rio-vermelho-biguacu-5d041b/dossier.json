@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-do-rio-vermelho-biguacu-5d041b",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://www.facebook.com/bigtimeblues044/",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "facebook": {
+        "value": "https://www.facebook.com/bigtimeblues044/",
+        "sourceUrl": "https://www.facebook.com/bigtimeblues044/",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Estúdio do Rio Vermelho é um estúdio musical localizado em Biguaçu, Santa Catarina.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-27.4744647%2C-48.4030881",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.6,
+          "count": 38
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-27.4744647%2C-48.4030881",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -27.4744647,
+          "longitude": -48.4030881,
+          "address": "R. Antenor de Souza Conceição, 740 - São João do Rio Vermelho, Florianópolis - SC, 88060-220, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-27.4744647%2C-48.4030881",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

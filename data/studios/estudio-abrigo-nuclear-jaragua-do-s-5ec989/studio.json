@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-abrigo-nuclear-jaragua-do-s-5ec989",
+  "sourceId": "5ec9894d045a17ddd6e8991c31f18781e43e7f4ca93619cb2843c833048df91c",
+  "name": "Estúdio Abrigo Nuclear",
+  "type": "Recording studio",
+  "slug": "estudio-abrigo-nuclear",
+  "location": {
+    "city": "Jaraguá do Sul",
+    "state": "Santa Catarina",
+    "address": "R. Vitórino Stringari, 43 - Vila Lenzi, Jaraguá do Sul - SC, 89252-355, Brazil",
+    "latitude": -26.4794339,
+    "longitude": -49.096595799999996
+  },
+  "contacts": {
+    "phone": "+55 47 99959-8878",
+    "website": "https://www.facebook.com/estudio.abrigo.nuclear/",
+    "facebook": "https://www.facebook.com/estudio.abrigo.nuclear/"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "012d5721ed70d5ec9a3846561c9feca969fc4c9e4a89b0838400f884854c9a8d",
+    "originalRecord": {
+      "title": "Estúdio Abrigo Nuclear",
+      "type": "Recording studio",
+      "cidade": "Jaraguá do Sul",
+      "estado": "Santa Catarina",
+      "ratingCount": 21,
+      "rating": 5,
+      "address": "R. Vitórino Stringari, 43 - Vila Lenzi, Jaraguá do Sul - SC, 89252-355, Brazil",
+      "phoneNumber": "+55 47 99959-8878",
+      "website": "https://www.facebook.com/estudio.abrigo.nuclear/",
+      "latitude": -26.4794339,
+      "longitude": -49.096595799999996,
+      "score_comercial": 94.4,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://www.facebook.com/estudio.abrigo.nuclear/"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 9.4,
+          "maximo": 15,
+          "valor": 21,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 21; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 94.4,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

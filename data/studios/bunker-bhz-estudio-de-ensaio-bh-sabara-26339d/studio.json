@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "studioId": "bunker-bhz-estudio-de-ensaio-bh-sabara-26339d",
+  "sourceId": "26339df9554fd7b2e6e4746c49368d081fb754933136f16da45493bff71fc209",
+  "name": "Bunker Bhz - Estúdio de Ensaio BH",
+  "type": "Recording studio",
+  "slug": "bunker-bhz-estudio-de-ensaio-bh",
+  "location": {
+    "city": "Sabará",
+    "state": "Minas Gerais",
+    "address": "R. Comendador Nohme Salomão, 165 - Lagoinha, Belo Horizonte - MG, 31210-050, Brazil",
+    "latitude": -19.9058453,
+    "longitude": -43.9447033
+  },
+  "contacts": {
+    "phone": "+55 31 97133-4288",
+    "website": "https://bunkerbhz.my.canva.site/"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "612afb164796f9879d23fadb1c4b42b256582a36c691c24ecf390b7dafddd9b2",
+    "originalRecord": {
+      "title": "Bunker Bhz - Estúdio de Ensaio BH",
+      "type": "Recording studio",
+      "cidade": "Sabará",
+      "estado": "Minas Gerais",
+      "ratingCount": 64,
+      "rating": 4.8,
+      "address": "R. Comendador Nohme Salomão, 165 - Lagoinha, Belo Horizonte - MG, 31210-050, Brazil",
+      "phoneNumber": "+55 31 97133-4288",
+      "website": "https://bunkerbhz.my.canva.site/",
+      "latitude": -19.9058453,
+      "longitude": -43.9447033,
+      "score_comercial": 97.5,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://bunkerbhz.my.canva.site/"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.8,
+          "maximo": 5,
+          "valor": 4.8
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 12.7,
+          "maximo": 15,
+          "valor": 64,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.8 de 5.",
+        "Quantidade de avaliações considerada: 64; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 97.5,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "studioId": "as-estudio-sao-jose-dos-998fcf",
+  "sourceId": "998fcf01e007e46466e475695c7bf742cd456c2f8cb9fc9d20be72851c174007",
+  "name": "AS Estúdio",
+  "type": "Recording studio",
+  "slug": "as-estudio",
+  "location": {
+    "city": "São José dos Campos",
+    "state": "São Paulo",
+    "address": "Av. Paulista, 232 - Jardim Esplanada, São José dos Campos - SP, 12242-470, Brazil",
+    "latitude": -23.1980938,
+    "longitude": -45.9051526
+  },
+  "contacts": {
+    "phone": "+55 12 97406-9434",
+    "website": "https://asestudiobr.wixsite.com/asestudio"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "bb5061073b0fb312421f68e8c70b45e2403e8c2b86ba7bccb3d13041a4fd640e",
+    "originalRecord": {
+      "title": "AS Estúdio",
+      "type": "Recording studio",
+      "cidade": "São José dos Campos",
+      "estado": "São Paulo",
+      "ratingCount": 83,
+      "rating": 4.5,
+      "address": "Av. Paulista, 232 - Jardim Esplanada, São José dos Campos - SP, 12242-470, Brazil",
+      "phoneNumber": "+55 12 97406-9434",
+      "website": "https://asestudiobr.wixsite.com/asestudio",
+      "latitude": -23.1980938,
+      "longitude": -45.9051526,
+      "score_comercial": 97.98,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://asestudiobr.wixsite.com/asestudio"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.5,
+          "maximo": 5,
+          "valor": 4.5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 13.48,
+          "maximo": 15,
+          "valor": 83,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.5 de 5.",
+        "Quantidade de avaliações considerada: 83; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 97.98,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

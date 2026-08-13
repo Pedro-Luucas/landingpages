@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "studioId": "aurora-sound-lab-cwb",
+  "generationId": "gen-aurora-sound-lab-cwb-20260812T173000Z",
+  "inputHash": "ad68107853d723ef9ee3ab57e56aaacd125269c8f722a117ca22e7b1411122b7",
+  "provider": "fake",
+  "model": "fake-multimodal-v1",
+  "promptVersion": "site-copy-v1",
+  "templateId": "minimal",
+  "branding": {
+    "colors": {
+      "background": "#F6F1E8",
+      "surface": "#FFFFFF",
+      "primary": "#1F3A5F",
+      "secondary": "#C45C26",
+      "text": "#1A1A1A",
+      "mutedText": "#5C6570"
+    },
+    "fontHeading": "IBM Plex Serif",
+    "fontBody": "IBM Plex Sans",
+    "radius": "small",
+    "mood": ["quiet", "daylight"]
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Curitiba",
+      "title": "Aurora Sound Lab",
+      "subtitle": "Estúdio de gravação e ensaio com cabine isolada.",
+      "primaryCta": "Pedir horário"
+    },
+    "about": {
+      "title": "Sobre",
+      "body": "O Aurora Sound Lab é um estúdio de gravação em Curitiba, com sala tratada e cabine isolada para voz e banda."
+    },
+    "equipment": {
+      "title": "Equipamentos",
+      "items": [
+        "Mesa analógica SSL",
+        "Microfone Neumann TLM 103",
+        "Monitores Yamaha HS8"
+      ]
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 4.8,
+      "count": 42
+    },
+    "contact": {
+      "title": "Contato",
+      "cta": "Chamar no Instagram"
+    }
+  },
+  "sections": [
+    { "id": "hero", "enabled": true, "order": 0 },
+    { "id": "about", "enabled": true, "order": 1 },
+    { "id": "gallery", "enabled": true, "order": 2 },
+    { "id": "equipment", "enabled": true, "order": 3 },
+    { "id": "pricing", "enabled": false, "order": 4 },
+    { "id": "hours", "enabled": false, "order": 5 },
+    { "id": "reviews", "enabled": true, "order": 6 },
+    { "id": "contact", "enabled": true, "order": 7 },
+    { "id": "map", "enabled": true, "order": 8 }
+  ],
+  "assetPaths": [
+    "public/studios/aurora-sound-lab-cwb/logo.webp",
+    "public/studios/aurora-sound-lab-cwb/images/01.webp"
+  ],
+  "factualClaims": [
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": ["https://www.aurorasoundlab.example/sobre"]
+    },
+    {
+      "path": "copy.equipment.items",
+      "evidenceRefs": ["https://www.aurorasoundlab.example/sala"]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": ["https://maps.example.com/place/aurora-sound-lab-cwb"]
+    }
+  ],
+  "warnings": [
+    "Pricing and hours omitted because no publishable evidence was selected for this generation."
+  ],
+  "createdAt": "2026-08-12T17:30:00Z"
+}

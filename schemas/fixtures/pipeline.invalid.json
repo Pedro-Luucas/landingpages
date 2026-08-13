@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-12T18:40:00Z",
+  "items": [
+    {
+      "studioId": "aurora-sound-lab-cwb",
+      "status": "complete",
+      "attempt": 1,
+      "warnings": [],
+      "history": [],
+      "createdAt": "2026-08-12T12:00:00Z",
+      "updatedAt": "2026-08-12T18:40:00Z"
+    }
+  ]
+}

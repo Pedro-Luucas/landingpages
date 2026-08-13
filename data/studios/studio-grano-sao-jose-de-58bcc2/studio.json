@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "studio-grano-sao-jose-de-58bcc2",
+  "sourceId": "58bcc23bb22f3f5e17237fdb6443a5165f2b472da163c3c0f837860dd3a35154",
+  "name": "Studio Grano",
+  "type": "Recording studio",
+  "slug": "studio-grano",
+  "location": {
+    "city": "São José de Ribamar",
+    "state": "Maranhão",
+    "address": "Av. das Acerolas, Quadra 3, Lote 1 - Cidade Operária, São Luís - MA, 65058-667, Brazil",
+    "latitude": -2.5867122,
+    "longitude": -44.2056575
+  },
+  "contacts": {
+    "phone": "+55 98 99120-1515",
+    "website": "https://m.facebook.com/StudioGrano/",
+    "facebook": "https://m.facebook.com/StudioGrano/"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "b893817b501ad722ecb83f16143a7f5a725b6049f43aed1bcf3b58813f315a90",
+    "originalRecord": {
+      "title": "Studio Grano",
+      "type": "Recording studio",
+      "cidade": "São José de Ribamar",
+      "estado": "Maranhão",
+      "ratingCount": 45,
+      "rating": 4.8,
+      "address": "Av. das Acerolas, Quadra 3, Lote 1 - Cidade Operária, São Luís - MA, 65058-667, Brazil",
+      "phoneNumber": "+55 98 99120-1515",
+      "website": "https://m.facebook.com/StudioGrano/",
+      "latitude": -2.5867122,
+      "longitude": -44.2056575,
+      "score_comercial": 96.45,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://m.facebook.com/StudioGrano/"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.8,
+          "maximo": 5,
+          "valor": 4.8
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 11.65,
+          "maximo": 15,
+          "valor": 45,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.8 de 5.",
+        "Quantidade de avaliações considerada: 45; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 96.45,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

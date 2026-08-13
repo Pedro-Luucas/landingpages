@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "studioId": "eloy-studio-recife-66328b",
+  "generationId": "gen-b8ef056e6a3600822fd3",
+  "inputHash": "b8ef056e6a3600822fd3bca37643afc06f505d19327757374e9700b5fdd76fde",
+  "provider": "deterministic-source",
+  "model": "source-batch-v1",
+  "promptVersion": "batch.v1",
+  "templateId": "minimal",
+  "branding": {
+    "colors": {
+      "background": "#0b0d0f",
+      "surface": "#15191d",
+      "primary": "#f3c969",
+      "secondary": "#72808d",
+      "text": "#f6f2e9",
+      "mutedText": "#a8afb5"
+    },
+    "fontHeading": "Literata",
+    "fontBody": "Source_Sans_3",
+    "radius": "medium",
+    "mood": [
+      "preciso",
+      "calmo"
+    ],
+    "imageTreatment": "Sem mídia não verificada; composição tipográfica e cromática."
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Recife — Pernambuco",
+      "title": "Eloy Studio",
+      "subtitle": "Um endereço para música em Recife. Consulte disponibilidade e detalhes diretamente com o estúdio.",
+      "primaryCta": "Falar com o estúdio"
+    },
+    "about": {
+      "title": "O estúdio",
+      "body": "Eloy Studio é um estúdio musical localizado em Recife, Pernambuco."
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 4.5,
+      "count": 28
+    },
+    "contact": {
+      "title": "Vamos conversar?",
+      "body": "R. Córrego da Jaqueira, 361 - Linha do Tiro, Recife - PE, 52131-140, Brazil",
+      "cta": "Chamar no WhatsApp"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "about",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "gallery",
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "equipment",
+      "enabled": false,
+      "order": 3
+    },
+    {
+      "id": "pricing",
+      "enabled": false,
+      "order": 4
+    },
+    {
+      "id": "hours",
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "reviews",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "contact",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "map",
+      "enabled": true,
+      "order": 8
+    }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.hero.eyebrow",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    },
+    {
+      "path": "copy.hero.subtitle",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": [
+        "facts.googleReviews[0]"
+      ]
+    },
+    {
+      "path": "copy.contact.body",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    }
+  ],
+  "warnings": [
+    "Conteúdo limitado aos dados comerciais confirmados na fonte original."
+  ],
+  "createdAt": "2026-08-13T04:49:30Z",
+  "approvedAt": "2026-08-13T04:49:30Z",
+  "approvedBy": "batch:user-authorized",
+  "approvalNote": "Lote de 100 páginas autorizado pelo usuário; somente fatos da fonte e score entre 80 e 99.01.",
+  "assetHashes": []
+}

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "studioId": "4-44-prod-governador-v-663d07",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://wa.me/553384283912",
+        "result": "source_contact_only"
+      }
+    ],
+    "selectedProfiles": {},
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "4.44 PROD é um estúdio musical localizado em Governador Valadares, Minas Gerais.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-18.8945628%2C-41.952503",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 5,
+          "count": 37
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-18.8945628%2C-41.952503",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -18.8945628,
+          "longitude": -41.952503,
+          "address": "R. Berilo, 1732 - São Raimundo, Gov. Valadares - MG, 35043-110, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-18.8945628%2C-41.952503",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

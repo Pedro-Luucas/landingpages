@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "studioId": "boomer-estudio-indaiatuba-3ff155",
+  "sourceId": "3ff1555d42b83b511e5afd9850801b6b394ab6901cea2f128cd2581ff5174a94",
+  "name": "Boomer Estúdio",
+  "type": "Recording studio",
+  "slug": "boomer-estudio",
+  "location": {
+    "city": "Indaiatuba",
+    "state": "São Paulo",
+    "address": "Av. Eng. Fábio Roberto Barnabé - Jardim Morada do Sol, Indaiatuba - SP, 13348-575, Brazil",
+    "latitude": -23.1221855,
+    "longitude": -47.231910199999994
+  },
+  "contacts": {
+    "phone": "+55 19 99130-4460",
+    "website": "https://beacons.ai/boomerstudio"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "781a3d9df2751b927ea4fb06c478038823c87bf95d1e3ed54c3f73adbe66ae94",
+    "originalRecord": {
+      "title": "Boomer Estúdio",
+      "type": "Recording studio",
+      "cidade": "Indaiatuba",
+      "estado": "São Paulo",
+      "ratingCount": 79,
+      "rating": 5,
+      "address": "Av. Eng. Fábio Roberto Barnabé - Jardim Morada do Sol, Indaiatuba - SP, 13348-575, Brazil",
+      "phoneNumber": "+55 19 99130-4460",
+      "website": "https://beacons.ai/boomerstudio",
+      "latitude": -23.1221855,
+      "longitude": -47.231910199999994,
+      "score_comercial": 98.33,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://beacons.ai/boomerstudio"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 13.33,
+          "maximo": 15,
+          "valor": 79,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 79; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 98.33,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

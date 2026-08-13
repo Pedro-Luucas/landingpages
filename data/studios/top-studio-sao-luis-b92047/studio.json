@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "studioId": "top-studio-sao-luis-b92047",
+  "sourceId": "b920474bc00fe7197d98d6dec68a87ff3a1d929a36b19c5ddcdd067002fba09a",
+  "name": "Top Studio",
+  "type": "Recording studio",
+  "slug": "top-studio",
+  "location": {
+    "city": "São Luís",
+    "state": "Maranhão",
+    "address": "R. 7, Quadra 16 - Casa 13 - Cohatrac, São José de Ribamar - MA, 65052-853, Brazil",
+    "latitude": -2.5407313,
+    "longitude": -44.1989971
+  },
+  "contacts": {
+    "phone": "+55 98 98892-9961",
+    "website": "http://wa.me/98988929961"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "0d6b12d63e2ed86608bbebc594e01f01912f1ccfe0001ff7143f78c86f443716",
+    "originalRecord": {
+      "title": "Top Studio",
+      "type": "Recording studio",
+      "cidade": "São Luís",
+      "estado": "Maranhão",
+      "ratingCount": 78,
+      "rating": 4.8,
+      "address": "R. 7, Quadra 16 - Casa 13 - Cohatrac, São José de Ribamar - MA, 65052-853, Brazil",
+      "phoneNumber": "+55 98 98892-9961",
+      "website": "http://wa.me/98988929961",
+      "latitude": -2.5407313,
+      "longitude": -44.1989971,
+      "score_comercial": 98.09,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "http://wa.me/98988929961"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.8,
+          "maximo": 5,
+          "valor": 4.8
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 13.29,
+          "maximo": 15,
+          "valor": 78,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.8 de 5.",
+        "Quantidade de avaliações considerada: 78; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 98.09,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

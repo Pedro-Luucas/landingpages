@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "coruja-estudio-producoes-musicais-goiania-1eea1e",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://www.instagram.com/corujastudio",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "instagram": {
+        "value": "https://www.instagram.com/corujastudio",
+        "sourceUrl": "https://www.instagram.com/corujastudio",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Coruja Estúdio - Produções Musicais é um estúdio musical localizado em Goiânia, Goiás.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-16.6590269%2C-49.2688779",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 5,
+          "count": 81
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-16.6590269%2C-49.2688779",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -16.6590269,
+          "longitude": -49.2688779,
+          "address": "R. Armogaste José da Silveira, 249 - St. Centro Oeste, Goiânia - GO, 74560-550, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-16.6590269%2C-49.2688779",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

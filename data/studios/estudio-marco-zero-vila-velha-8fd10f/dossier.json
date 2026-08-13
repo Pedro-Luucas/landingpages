@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-marco-zero-vila-velha-8fd10f",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://www.instagram.com/estudiomarcozero/",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "instagram": {
+        "value": "https://www.instagram.com/estudiomarcozero/",
+        "sourceUrl": "https://www.instagram.com/estudiomarcozero/",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Estúdio Marco Zero é um estúdio musical localizado em Vila Velha, Espírito Santo.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-20.335268799999998%2C-40.297774",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.8,
+          "count": 73
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-20.335268799999998%2C-40.297774",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -20.335268799999998,
+          "longitude": -40.297774,
+          "address": "2o. andar 29100-012, Av. Jerônimo Monteiro, 439 - Centro de Vila Velha, Vila Velha - ES, 29100-401, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-20.335268799999998%2C-40.297774",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

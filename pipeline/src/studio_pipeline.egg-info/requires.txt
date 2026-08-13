@@ -1,0 +1,5 @@
+jsonschema[format-nongpl]>=4.21
+Pillow>=10
+
+[dev]
+pytest>=8.0

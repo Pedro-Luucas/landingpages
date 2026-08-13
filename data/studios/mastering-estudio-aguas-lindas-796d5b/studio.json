@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "mastering-estudio-aguas-lindas-796d5b",
+  "sourceId": "796d5b8be51ffa7962e36fef822fdfeb9aab2b729916c1f7809bc44754ad0b2c",
+  "name": "Mastering Estudio",
+  "type": "Recording studio",
+  "slug": "mastering-estudio",
+  "location": {
+    "city": "Águas Lindas de Goiás",
+    "state": "Goiás",
+    "address": "Guará I QE 1 - Guará, Brasília - DF, 71020-081, Brazil",
+    "latitude": -15.811611599999999,
+    "longitude": -47.9752106
+  },
+  "contacts": {
+    "phone": "+55 61 99994-8067",
+    "website": "https://pt-br.facebook.com/MasteringEstudioDf",
+    "facebook": "https://pt-br.facebook.com/MasteringEstudioDf"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "f14b4d95a552fdcaa53ad8be6f274012bb5ca561581d65e4682569a6363122c1",
+    "originalRecord": {
+      "title": "Mastering Estudio",
+      "type": "Recording studio",
+      "cidade": "Águas Lindas de Goiás",
+      "estado": "Goiás",
+      "ratingCount": 34,
+      "rating": 4.9,
+      "address": "Guará I QE 1 - Guará, Brasília - DF, 71020-081, Brazil",
+      "phoneNumber": "+55 61 99994-8067",
+      "website": "https://pt-br.facebook.com/MasteringEstudioDf",
+      "latitude": -15.811611599999999,
+      "longitude": -47.9752106,
+      "score_comercial": 95.72,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://pt-br.facebook.com/MasteringEstudioDf"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.9,
+          "maximo": 5,
+          "valor": 4.9
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 10.82,
+          "maximo": 15,
+          "valor": 34,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.9 de 5.",
+        "Quantidade de avaliações considerada: 34; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 95.72,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

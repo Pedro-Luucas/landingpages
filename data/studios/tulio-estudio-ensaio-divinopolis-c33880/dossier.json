@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "tulio-estudio-ensaio-divinopolis-c33880",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://www.facebook.com/tulioestudio/",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "facebook": {
+        "value": "https://www.facebook.com/tulioestudio/",
+        "sourceUrl": "https://www.facebook.com/tulioestudio/",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Tulio Estudio Ensaio é um estúdio musical localizado em Divinópolis, Minas Gerais.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-20.090097099999998%2C-44.5828795",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.7,
+          "count": 37
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-20.090097099999998%2C-44.5828795",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -20.090097099999998,
+          "longitude": -44.5828795,
+          "address": "R. Araxá, 560 - Res. Morro do Sol, Itaúna - MG, 35680-284, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-20.090097099999998%2C-44.5828795",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

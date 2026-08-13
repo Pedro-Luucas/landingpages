@@ -1,0 +1,37 @@
+.bold-root {
+  background: var(--studio-bg);
+}
+
+.bold-slab {
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
+}
+
+.bold-counter {
+  clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 100%);
+}
+
+.bold-stamp {
+  box-shadow: 8px 8px 0 0 var(--studio-secondary);
+}
+
+.bold-band {
+  transform: rotate(-1.4deg);
+}
+
+.bold-band-inner {
+  transform: rotate(1.4deg);
+}
+
+@media (max-width: 639px) {
+  .bold-band,
+  .bold-band-inner {
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bold-root * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

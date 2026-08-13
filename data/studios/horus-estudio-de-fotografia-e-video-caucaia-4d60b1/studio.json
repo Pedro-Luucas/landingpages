@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "horus-estudio-de-fotografia-e-video-caucaia-4d60b1",
+  "sourceId": "4d60b150192b5fa6068198af822974957012fd7f6e2c525de39593006a1ae4c2",
+  "name": "Hórus Estúdio de fotografia e vídeo",
+  "type": "Recording studio",
+  "slug": "horus-estudio-de-fotografia-e-video",
+  "location": {
+    "city": "Caucaia",
+    "state": "Ceará",
+    "address": "R. Jorge Dumar, 2121 - Sala 105 - Montese, Fortaleza - CE, 60410-426, Brazil",
+    "latitude": -3.7545686,
+    "longitude": -38.5396913
+  },
+  "contacts": {
+    "phone": "+55 85 99723-7057",
+    "website": "https://www.instagram.com/horus_estudio/",
+    "instagram": "https://www.instagram.com/horus_estudio/"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "62f20f4fd24d0cc598e42306d89db9789e90ced36835b9a8c4a879575bdf3dff",
+    "originalRecord": {
+      "title": "Hórus Estúdio de fotografia e vídeo",
+      "type": "Recording studio",
+      "cidade": "Caucaia",
+      "estado": "Ceará",
+      "ratingCount": 42,
+      "rating": 5,
+      "address": "R. Jorge Dumar, 2121 - Sala 105 - Montese, Fortaleza - CE, 60410-426, Brazil",
+      "phoneNumber": "+55 85 99723-7057",
+      "website": "https://www.instagram.com/horus_estudio/",
+      "latitude": -3.7545686,
+      "longitude": -38.5396913,
+      "score_comercial": 96.44,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://www.instagram.com/horus_estudio/"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 11.44,
+          "maximo": 15,
+          "valor": 42,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 42; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 96.44,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-nos-ribeirao-pre-117cba",
+  "generationId": "gen-3e09e3129eac66d514c2",
+  "inputHash": "3e09e3129eac66d514c27d341eafe43e1c7c176e55ccc79ca4793c7ba4d07544",
+  "provider": "deterministic-source",
+  "model": "source-batch-v1",
+  "promptVersion": "batch.v1",
+  "templateId": "minimal",
+  "branding": {
+    "colors": {
+      "background": "#efe6d3",
+      "surface": "#faf3e6",
+      "primary": "#213a5c",
+      "secondary": "#a04e36",
+      "text": "#17202a",
+      "mutedText": "#6d6b68"
+    },
+    "fontHeading": "Literata",
+    "fontBody": "Source_Sans_3",
+    "radius": "medium",
+    "mood": [
+      "preciso",
+      "calmo"
+    ],
+    "imageTreatment": "Sem mídia não verificada; composição tipográfica e cromática."
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Ribeirão Preto — São Paulo",
+      "title": "Estúdio Nós",
+      "subtitle": "Um endereço para música em Ribeirão Preto. Consulte disponibilidade e detalhes diretamente com o estúdio.",
+      "primaryCta": "Falar com o estúdio"
+    },
+    "about": {
+      "title": "O estúdio",
+      "body": "Estúdio Nós é um estúdio musical localizado em Ribeirão Preto, São Paulo."
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 4.5,
+      "count": 59
+    },
+    "contact": {
+      "title": "Vamos conversar?",
+      "body": "R. Gonçalves Dias, 260 - Vila Tiberio, Ribeirão Preto - SP, 14050-380, Brazil",
+      "cta": "Chamar no WhatsApp"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "about",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "gallery",
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "equipment",
+      "enabled": false,
+      "order": 3
+    },
+    {
+      "id": "pricing",
+      "enabled": false,
+      "order": 4
+    },
+    {
+      "id": "hours",
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "reviews",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "contact",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "map",
+      "enabled": true,
+      "order": 8
+    }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.hero.eyebrow",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    },
+    {
+      "path": "copy.hero.subtitle",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": [
+        "facts.googleReviews[0]"
+      ]
+    },
+    {
+      "path": "copy.contact.body",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    }
+  ],
+  "warnings": [
+    "Conteúdo limitado aos dados comerciais confirmados na fonte original."
+  ],
+  "createdAt": "2026-08-13T04:49:30Z"
+}

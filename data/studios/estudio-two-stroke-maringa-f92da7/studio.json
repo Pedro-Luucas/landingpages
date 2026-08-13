@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-two-stroke-maringa-f92da7",
+  "sourceId": "f92da79908826291dc4e5264485807e67e55819a6f381a304625699b2cb090c4",
+  "name": "Estúdio Two Stroke",
+  "type": "Recording studio",
+  "slug": "estudio-two-stroke",
+  "location": {
+    "city": "Maringá",
+    "state": "Paraná",
+    "address": "R. Guerino Baldo, 89 - Jardim São Silvestre, Maringá - PR, 87055-360, Brazil",
+    "latitude": -23.455234299999997,
+    "longitude": -51.9136982
+  },
+  "contacts": {
+    "phone": "+55 44 98461-5301",
+    "website": "https://instagram.com/estudio_two_stroke?igshid=YmMyMTA2M2Y=",
+    "instagram": "https://instagram.com/estudio_two_stroke?igshid=YmMyMTA2M2Y="
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "93f0e5c42f951782927a1861cb90fdb4697662bfd7aefa5a7e71e12ac6dc4858",
+    "originalRecord": {
+      "title": "Estúdio Two Stroke",
+      "type": "Recording studio",
+      "cidade": "Maringá",
+      "estado": "Paraná",
+      "ratingCount": 23,
+      "rating": 5,
+      "address": "R. Guerino Baldo, 89 - Jardim São Silvestre, Maringá - PR, 87055-360, Brazil",
+      "phoneNumber": "+55 44 98461-5301",
+      "website": "https://instagram.com/estudio_two_stroke?igshid=YmMyMTA2M2Y=",
+      "latitude": -23.455234299999997,
+      "longitude": -51.9136982,
+      "score_comercial": 94.67,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://instagram.com/estudio_two_stroke?igshid=YmMyMTA2M2Y="
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 9.67,
+          "maximo": 15,
+          "valor": 23,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 23; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 94.67,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

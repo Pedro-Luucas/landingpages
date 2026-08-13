@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-327-blumenau-b41ff7",
+  "generationId": "gen-ccbe838d52b516afc99d",
+  "inputHash": "ccbe838d52b516afc99d026dc412ffcf9755766079fc2e614f3b494cb1a5d634",
+  "provider": "deterministic-source",
+  "model": "source-batch-v1",
+  "promptVersion": "batch.v1",
+  "templateId": "immersive",
+  "branding": {
+    "colors": {
+      "background": "#111018",
+      "surface": "#201b2b",
+      "primary": "#ff6b4a",
+      "secondary": "#6fd0ca",
+      "text": "#fff6ea",
+      "mutedText": "#b9acbd"
+    },
+    "fontHeading": "Bebas_Neue",
+    "fontBody": "IBM_Plex_Sans",
+    "radius": "none",
+    "mood": [
+      "imersivo",
+      "noturno"
+    ],
+    "imageTreatment": "Sem mídia não verificada; composição tipográfica e cromática."
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Blumenau — Santa Catarina",
+      "title": "Estúdio 327",
+      "subtitle": "Um endereço para música em Blumenau. Consulte disponibilidade e detalhes diretamente com o estúdio.",
+      "primaryCta": "Falar com o estúdio"
+    },
+    "about": {
+      "title": "O estúdio",
+      "body": "Estúdio 327 é um estúdio musical localizado em Blumenau, Santa Catarina."
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 4.9,
+      "count": 84
+    },
+    "contact": {
+      "title": "Vamos conversar?",
+      "body": "R. São Cristóvão, 327 - Cordeiros, Itajaí - SC, 88310-160, Brazil",
+      "cta": "Chamar no WhatsApp"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "about",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "gallery",
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "equipment",
+      "enabled": false,
+      "order": 3
+    },
+    {
+      "id": "pricing",
+      "enabled": false,
+      "order": 4
+    },
+    {
+      "id": "hours",
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "reviews",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "contact",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "map",
+      "enabled": true,
+      "order": 8
+    }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.hero.eyebrow",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    },
+    {
+      "path": "copy.hero.subtitle",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": [
+        "facts.googleReviews[0]"
+      ]
+    },
+    {
+      "path": "copy.contact.body",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    }
+  ],
+  "warnings": [
+    "Conteúdo limitado aos dados comerciais confirmados na fonte original."
+  ],
+  "createdAt": "2026-08-13T04:49:30Z",
+  "approvedAt": "2026-08-13T04:49:30Z",
+  "approvedBy": "batch:user-authorized",
+  "approvalNote": "Lote de 100 páginas autorizado pelo usuário; somente fatos da fonte e score entre 80 e 99.01.",
+  "assetHashes": []
+}

@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "etp-studio-timon-6f12fb",
+  "sourceId": "6f12fb3f0b28e14961637804a0054c36c358643340fe9b766386678f77699a7c",
+  "name": "ETP Studio",
+  "type": "Recording studio",
+  "slug": "etp-studio",
+  "location": {
+    "city": "Timon",
+    "state": "Maranhão",
+    "address": "Diamond Center - Av. Universitária, 750 - Sala 1112 - Fátima, Teresina - PI, 64049-494, Brazil",
+    "latitude": -5.0633777,
+    "longitude": -42.7963953
+  },
+  "contacts": {
+    "phone": "+55 86 98816-6345",
+    "website": "https://www.instagram.com/etp.studio/",
+    "instagram": "https://www.instagram.com/etp.studio/"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "d4b97d82bde619bb61fa69224bccdb7c10290a831a84c0d5d8a9ee524a1b02f7",
+    "originalRecord": {
+      "title": "ETP Studio",
+      "type": "Recording studio",
+      "cidade": "Timon",
+      "estado": "Maranhão",
+      "ratingCount": 37,
+      "rating": 5,
+      "address": "Diamond Center - Av. Universitária, 750 - Sala 1112 - Fátima, Teresina - PI, 64049-494, Brazil",
+      "phoneNumber": "+55 86 98816-6345",
+      "website": "https://www.instagram.com/etp.studio/",
+      "latitude": -5.0633777,
+      "longitude": -42.7963953,
+      "score_comercial": 96.07,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://www.instagram.com/etp.studio/"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 11.07,
+          "maximo": 15,
+          "valor": 37,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 37; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 96.07,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

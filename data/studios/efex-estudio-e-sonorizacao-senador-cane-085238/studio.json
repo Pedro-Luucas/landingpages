@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "efex-estudio-e-sonorizacao-senador-cane-085238",
+  "sourceId": "085238620e25c9a87368918fd24516a6941a71874fb60cfda1e918ee3478f860",
+  "name": "Efex Estúdio e Sonorização",
+  "type": "Rehearsal studio",
+  "slug": "efex-estudio-e-sonorizacao",
+  "location": {
+    "city": "Senador Canedo",
+    "state": "Goiás",
+    "address": "R. 2, 335 - Setor Leste Universitário, Goiânia - GO, 74615-060, Brazil",
+    "latitude": -16.6727725,
+    "longitude": -49.231432
+  },
+  "contacts": {
+    "phone": "+55 62 98171-1749",
+    "website": "https://instagram.com/efex_ls?igshid=ZjA0NjI3M2I=",
+    "instagram": "https://instagram.com/efex_ls?igshid=ZjA0NjI3M2I="
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "9d96275de98d70714eed464034bb9035bf6037ba561baae671d6b32e2845a5f9",
+    "originalRecord": {
+      "title": "Efex Estúdio e Sonorização",
+      "type": "Rehearsal studio",
+      "cidade": "Senador Canedo",
+      "estado": "Goiás",
+      "ratingCount": 73,
+      "rating": 5,
+      "address": "R. 2, 335 - Setor Leste Universitário, Goiânia - GO, 74615-060, Brazil",
+      "phoneNumber": "+55 62 98171-1749",
+      "website": "https://instagram.com/efex_ls?igshid=ZjA0NjI3M2I=",
+      "latitude": -16.6727725,
+      "longitude": -49.231432,
+      "score_comercial": 98.09,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://instagram.com/efex_ls?igshid=ZjA0NjI3M2I="
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 13.09,
+          "maximo": 15,
+          "valor": 73,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 73; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 98.09,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

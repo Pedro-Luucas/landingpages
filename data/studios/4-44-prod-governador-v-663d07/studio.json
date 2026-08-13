@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "studioId": "4-44-prod-governador-v-663d07",
+  "sourceId": "663d07b723f3b727595208d85c50c6b32cff9c3a25d62fd81ed9208d5c2e58dd",
+  "name": "4.44 PROD",
+  "type": "Recording studio",
+  "slug": "4-44-prod",
+  "location": {
+    "city": "Governador Valadares",
+    "state": "Minas Gerais",
+    "address": "R. Berilo, 1732 - São Raimundo, Gov. Valadares - MG, 35043-110, Brazil",
+    "latitude": -18.8945628,
+    "longitude": -41.952503
+  },
+  "contacts": {
+    "phone": "+55 33 98428-3912",
+    "website": "https://wa.me/553384283912"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "89ff818009b77472590256bf3d9199ebb89f640ebd8ec753972ead1e614cd383",
+    "originalRecord": {
+      "title": "4.44 PROD",
+      "type": "Recording studio",
+      "cidade": "Governador Valadares",
+      "estado": "Minas Gerais",
+      "ratingCount": 37,
+      "rating": 5,
+      "address": "R. Berilo, 1732 - São Raimundo, Gov. Valadares - MG, 35043-110, Brazil",
+      "phoneNumber": "+55 33 98428-3912",
+      "website": "https://wa.me/553384283912",
+      "latitude": -18.8945628,
+      "longitude": -41.952503,
+      "score_comercial": 96.07,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://wa.me/553384283912"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 11.07,
+          "maximo": 15,
+          "valor": 37,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 37; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 96.07,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

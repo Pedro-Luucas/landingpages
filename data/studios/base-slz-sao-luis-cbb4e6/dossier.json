@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "base-slz-sao-luis-cbb4e6",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "http://www.instagram.com/baseslz",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "instagram": {
+        "value": "http://www.instagram.com/baseslz",
+        "sourceUrl": "http://www.instagram.com/baseslz",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Base SLZ é um estúdio musical localizado em São Luís, Maranhão.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-2.5094168%2C-44.265363199999996",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.9,
+          "count": 37
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-2.5094168%2C-44.265363199999996",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -2.5094168,
+          "longitude": -44.265363199999996,
+          "address": "R. da Odontologia, Quadra 07 - Número 07 - Cohafuma, São Luís - MA, 65074-750, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-2.5094168%2C-44.265363199999996",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

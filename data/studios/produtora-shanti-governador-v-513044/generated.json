@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "studioId": "produtora-shanti-governador-v-513044",
+  "generationId": "gen-812a20e766cf03d00d78",
+  "inputHash": "812a20e766cf03d00d7814825f87af379537f6eb6d063ce37b4c2b33a9968581",
+  "provider": "deterministic-source",
+  "model": "source-batch-v1",
+  "promptVersion": "batch.v1",
+  "templateId": "editorial",
+  "branding": {
+    "colors": {
+      "background": "#07130f",
+      "surface": "#10241c",
+      "primary": "#8fe36c",
+      "secondary": "#e3ad59",
+      "text": "#f1f5e9",
+      "mutedText": "#9eb2a7"
+    },
+    "fontHeading": "Fraunces",
+    "fontBody": "Newsreader",
+    "radius": "small",
+    "mood": [
+      "editorial",
+      "autoral"
+    ],
+    "imageTreatment": "Sem mídia não verificada; composição tipográfica e cromática."
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Governador Valadares — Minas Gerais",
+      "title": "Produtora Shanti",
+      "subtitle": "Um endereço para música em Governador Valadares. Consulte disponibilidade e detalhes diretamente com o estúdio.",
+      "primaryCta": "Falar com o estúdio"
+    },
+    "about": {
+      "title": "O estúdio",
+      "body": "Produtora Shanti é um estúdio musical localizado em Governador Valadares, Minas Gerais."
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 5,
+      "count": 35
+    },
+    "contact": {
+      "title": "Vamos conversar?",
+      "body": "R. Oito, 40 - São Cristóvão, Gov. Valadares - MG, 35045-490, Brazil",
+      "cta": "Chamar no WhatsApp"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "about",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "gallery",
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "equipment",
+      "enabled": false,
+      "order": 3
+    },
+    {
+      "id": "pricing",
+      "enabled": false,
+      "order": 4
+    },
+    {
+      "id": "hours",
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "reviews",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "contact",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "map",
+      "enabled": true,
+      "order": 8
+    }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.hero.eyebrow",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    },
+    {
+      "path": "copy.hero.subtitle",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": [
+        "facts.googleReviews[0]"
+      ]
+    },
+    {
+      "path": "copy.contact.body",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    }
+  ],
+  "warnings": [
+    "Conteúdo limitado aos dados comerciais confirmados na fonte original."
+  ],
+  "createdAt": "2026-08-13T04:49:30Z"
+}

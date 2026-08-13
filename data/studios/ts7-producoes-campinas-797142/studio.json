@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "ts7-producoes-campinas-797142",
+  "sourceId": "7971427b57f1bf118b3aa2397b40ee8084ba55fdfe89ddb5a4e1fa1cdc53413d",
+  "name": "TS7 PRODUÇÕES",
+  "type": "Recording studio",
+  "slug": "ts7-producoes",
+  "location": {
+    "city": "Campinas",
+    "state": "São Paulo",
+    "address": "R. Proença, 352 - Bosque, Campinas - SP, 13026-121, Brazil",
+    "latitude": -22.9131911,
+    "longitude": -47.0534189
+  },
+  "contacts": {
+    "phone": "+55 19 99717-8546",
+    "website": "https://www.facebook.com/ts7estudio",
+    "facebook": "https://www.facebook.com/ts7estudio"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "803b7173c4a09d58eb6878684942a77dcfea5d37894bff5a536bfaa60ee2108e",
+    "originalRecord": {
+      "title": "TS7 PRODUÇÕES",
+      "type": "Recording studio",
+      "cidade": "Campinas",
+      "estado": "São Paulo",
+      "ratingCount": 36,
+      "rating": 4.9,
+      "address": "R. Proença, 352 - Bosque, Campinas - SP, 13026-121, Brazil",
+      "phoneNumber": "+55 19 99717-8546",
+      "website": "https://www.facebook.com/ts7estudio",
+      "latitude": -22.9131911,
+      "longitude": -47.0534189,
+      "score_comercial": 95.89,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://www.facebook.com/ts7estudio"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.9,
+          "maximo": 5,
+          "valor": 4.9
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 10.99,
+          "maximo": 15,
+          "valor": 36,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.9 de 5.",
+        "Quantidade de avaliações considerada: 36; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 95.89,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

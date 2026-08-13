@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-caia-petrolina-eb6ef9",
+  "generationId": "gen-e027b875f36bc1c5f4d7",
+  "inputHash": "e027b875f36bc1c5f4d7dd376de05e6cd7a75d53bc0bb9dfcb7d55a2fa737e36",
+  "provider": "deterministic-source",
+  "model": "source-batch-v1",
+  "promptVersion": "batch.v1",
+  "templateId": "bold",
+  "branding": {
+    "colors": {
+      "background": "#08080a",
+      "surface": "#18181d",
+      "primary": "#d7ff3f",
+      "secondary": "#9a8cff",
+      "text": "#f8f8f2",
+      "mutedText": "#a4a4ad"
+    },
+    "fontHeading": "Archivo_Black",
+    "fontBody": "Outfit",
+    "radius": "large",
+    "mood": [
+      "enérgico",
+      "direto"
+    ],
+    "imageTreatment": "Sem mídia não verificada; composição tipográfica e cromática."
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Petrolina — Pernambuco",
+      "title": "Estúdio CAIA",
+      "subtitle": "Um endereço para música em Petrolina. Consulte disponibilidade e detalhes diretamente com o estúdio.",
+      "primaryCta": "Falar com o estúdio"
+    },
+    "about": {
+      "title": "O estúdio",
+      "body": "Estúdio CAIA é um estúdio musical localizado em Petrolina, Pernambuco."
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 4.9,
+      "count": 23
+    },
+    "contact": {
+      "title": "Vamos conversar?",
+      "body": "R. Rio Primavera, 46 - José e Maria, Petrolina - PE, 56300-190, Brazil",
+      "cta": "Chamar no WhatsApp"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "about",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "gallery",
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "equipment",
+      "enabled": false,
+      "order": 3
+    },
+    {
+      "id": "pricing",
+      "enabled": false,
+      "order": 4
+    },
+    {
+      "id": "hours",
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "reviews",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "contact",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "map",
+      "enabled": true,
+      "order": 8
+    }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.hero.eyebrow",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    },
+    {
+      "path": "copy.hero.subtitle",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": [
+        "facts.googleReviews[0]"
+      ]
+    },
+    {
+      "path": "copy.contact.body",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    }
+  ],
+  "warnings": [
+    "Conteúdo limitado aos dados comerciais confirmados na fonte original."
+  ],
+  "createdAt": "2026-08-13T04:49:30Z"
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-romanos-recife-63562a",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "http://www.facebook.com/estudioromanos/",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "facebook": {
+        "value": "http://www.facebook.com/estudioromanos/",
+        "sourceUrl": "http://www.facebook.com/estudioromanos/",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Estúdio Romanos é um estúdio musical localizado em Recife, Pernambuco.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-8.0035103%2C-34.8769318",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.7,
+          "count": 70
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-8.0035103%2C-34.8769318",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -8.0035103,
+          "longitude": -34.8769318,
+          "address": "Av. Transamazônica - Peixinhos, Olinda - PE, 53300-240, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-8.0035103%2C-34.8769318",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

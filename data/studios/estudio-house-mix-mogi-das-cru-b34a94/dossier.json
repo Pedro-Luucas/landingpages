@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-house-mix-mogi-das-cru-b34a94",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "http://instagram.com/estudiohousemix",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "instagram": {
+        "value": "http://instagram.com/estudiohousemix",
+        "sourceUrl": "http://instagram.com/estudiohousemix",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Estúdio House Mix é um estúdio musical localizado em Mogi das Cruzes, São Paulo.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-23.529278599999998%2C-46.2012779",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 5,
+          "count": 74
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-23.529278599999998%2C-46.2012779",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -23.529278599999998,
+          "longitude": -46.2012779,
+          "address": "R. Ipiranga, 1169 - Jardim Santista, Mogi das Cruzes - SP, 08730-000, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-23.529278599999998%2C-46.2012779",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-abrigo-nuclear-jaragua-do-s-5ec989",
+  "generationId": "gen-737c102acb8f939e9ed8",
+  "inputHash": "737c102acb8f939e9ed8a8627df1526be25c998989e9339025df1082924e9b4f",
+  "provider": "deterministic-source",
+  "model": "source-batch-v1",
+  "promptVersion": "batch.v1",
+  "templateId": "immersive",
+  "branding": {
+    "colors": {
+      "background": "#f2eee7",
+      "surface": "#fffaf1",
+      "primary": "#bd3f2f",
+      "secondary": "#315a63",
+      "text": "#211e1b",
+      "mutedText": "#6d665e"
+    },
+    "fontHeading": "Bebas_Neue",
+    "fontBody": "IBM_Plex_Sans",
+    "radius": "none",
+    "mood": [
+      "imersivo",
+      "noturno"
+    ],
+    "imageTreatment": "Sem mídia não verificada; composição tipográfica e cromática."
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Jaraguá do Sul — Santa Catarina",
+      "title": "Estúdio Abrigo Nuclear",
+      "subtitle": "Um endereço para música em Jaraguá do Sul. Consulte disponibilidade e detalhes diretamente com o estúdio.",
+      "primaryCta": "Falar com o estúdio"
+    },
+    "about": {
+      "title": "O estúdio",
+      "body": "Estúdio Abrigo Nuclear é um estúdio musical localizado em Jaraguá do Sul, Santa Catarina."
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 5,
+      "count": 21
+    },
+    "contact": {
+      "title": "Vamos conversar?",
+      "body": "R. Vitórino Stringari, 43 - Vila Lenzi, Jaraguá do Sul - SC, 89252-355, Brazil",
+      "cta": "Chamar no WhatsApp"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "about",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "gallery",
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "equipment",
+      "enabled": false,
+      "order": 3
+    },
+    {
+      "id": "pricing",
+      "enabled": false,
+      "order": 4
+    },
+    {
+      "id": "hours",
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "reviews",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "contact",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "map",
+      "enabled": true,
+      "order": 8
+    }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.hero.eyebrow",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    },
+    {
+      "path": "copy.hero.subtitle",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": [
+        "facts.googleReviews[0]"
+      ]
+    },
+    {
+      "path": "copy.contact.body",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    }
+  ],
+  "warnings": [
+    "Conteúdo limitado aos dados comerciais confirmados na fonte original."
+  ],
+  "createdAt": "2026-08-13T04:49:30Z"
+}

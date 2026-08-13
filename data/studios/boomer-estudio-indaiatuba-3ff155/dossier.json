@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "studioId": "boomer-estudio-indaiatuba-3ff155",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://beacons.ai/boomerstudio",
+        "result": "source_contact_only"
+      }
+    ],
+    "selectedProfiles": {},
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Boomer Estúdio é um estúdio musical localizado em Indaiatuba, São Paulo.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-23.1221855%2C-47.231910199999994",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 5,
+          "count": 79
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-23.1221855%2C-47.231910199999994",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -23.1221855,
+          "longitude": -47.231910199999994,
+          "address": "Av. Eng. Fábio Roberto Barnabé - Jardim Morada do Sol, Indaiatuba - SP, 13348-575, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-23.1221855%2C-47.231910199999994",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

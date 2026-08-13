@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "alive-studios-timon-1b4135",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "http://www.instagram.com/alive_producoes/",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "instagram": {
+        "value": "http://www.instagram.com/alive_producoes/",
+        "sourceUrl": "http://www.instagram.com/alive_producoes/",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Alive Studios é um estúdio musical localizado em Timon, Maranhão.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-5.0567756%2C-42.7709087",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.9,
+          "count": 35
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-5.0567756%2C-42.7709087",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -5.0567756,
+          "longitude": -42.7709087,
+          "address": "R. João Damasceno, 2865 - Planalto, Teresina - PI, 64002-228, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-5.0567756%2C-42.7709087",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

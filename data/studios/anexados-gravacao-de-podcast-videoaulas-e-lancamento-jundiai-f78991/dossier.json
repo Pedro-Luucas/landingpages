@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "anexados-gravacao-de-podcast-videoaulas-e-lancamento-jundiai-f78991",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://www.instagram.com/anexados.agencia?igsh=OWp1YzFocnhveXpn&utm_source=qr",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "instagram": {
+        "value": "https://www.instagram.com/anexados.agencia?igsh=OWp1YzFocnhveXpn&utm_source=qr",
+        "sourceUrl": "https://www.instagram.com/anexados.agencia?igsh=OWp1YzFocnhveXpn&utm_source=qr",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Anexados: Gravação de Podcast, Videoaulas e Lançamentos em Jundiaí é um estúdio musical localizado em Jundiaí, São Paulo.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-23.19649%2C-46.8771663",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 5,
+          "count": 91
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-23.19649%2C-46.8771663",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -23.19649,
+          "longitude": -46.8771663,
+          "address": "R. Vig. J. J. Rodrigues, 21 - sala 1204 - Vila Arens, Jundiaí - SP, 13201-001, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-23.19649%2C-46.8771663",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

@@ -1,0 +1,21 @@
+{
+  "entries": [
+    {
+      "name": "Aurora Sound Lab",
+      "city": "Curitiba",
+      "address": "Rua Fictícia do Ensaio, 240, Curitiba - PR",
+      "rating": 4.9,
+      "count": 128,
+      "excerpts": [
+        "Sala silenciosa e engenheiro paciente na sessão de voz."
+      ],
+      "map": {
+        "latitude": -25.4298,
+        "longitude": -49.2714,
+        "address": "Rua Fictícia do Ensaio, 240, Curitiba - PR",
+        "placeId": "synthetic-place-aurora-cwb"
+      },
+      "url": "https://maps.example.com/place/aurora-sound-lab-cwb"
+    }
+  ]
+}

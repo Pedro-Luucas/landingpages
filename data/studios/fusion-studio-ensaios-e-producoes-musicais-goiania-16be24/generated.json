@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "studioId": "fusion-studio-ensaios-e-producoes-musicais-goiania-16be24",
+  "generationId": "gen-aaa5a3eef7d19026fa75",
+  "inputHash": "aaa5a3eef7d19026fa757120891a24508d3dda7109d2d997f91222ec45ee2eff",
+  "provider": "deterministic-source",
+  "model": "source-batch-v1",
+  "promptVersion": "batch.v1",
+  "templateId": "bold",
+  "branding": {
+    "colors": {
+      "background": "#111018",
+      "surface": "#201b2b",
+      "primary": "#ff6b4a",
+      "secondary": "#6fd0ca",
+      "text": "#fff6ea",
+      "mutedText": "#b9acbd"
+    },
+    "fontHeading": "Archivo_Black",
+    "fontBody": "Outfit",
+    "radius": "large",
+    "mood": [
+      "enérgico",
+      "direto"
+    ],
+    "imageTreatment": "Sem mídia não verificada; composição tipográfica e cromática."
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Goiânia — Goiás",
+      "title": "Fusion Studio - Ensaios e Produções Musicais",
+      "subtitle": "Um endereço para música em Goiânia. Consulte disponibilidade e detalhes diretamente com o estúdio.",
+      "primaryCta": "Falar com o estúdio"
+    },
+    "about": {
+      "title": "O estúdio",
+      "body": "Fusion Studio - Ensaios e Produções Musicais é um estúdio musical localizado em Goiânia, Goiás."
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 5,
+      "count": 92
+    },
+    "contact": {
+      "title": "Vamos conversar?",
+      "body": "Ao lado do Buriti Shopping - Av. Dona Maria Cardoso, qd 101 - lt 07, sobreloja - Vila Sao Tomaz, Goiânia - GO, 74915-495, Brazil",
+      "cta": "Chamar no WhatsApp"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "about",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "gallery",
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "equipment",
+      "enabled": false,
+      "order": 3
+    },
+    {
+      "id": "pricing",
+      "enabled": false,
+      "order": 4
+    },
+    {
+      "id": "hours",
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "reviews",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "contact",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "map",
+      "enabled": true,
+      "order": 8
+    }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.hero.eyebrow",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    },
+    {
+      "path": "copy.hero.subtitle",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": [
+        "facts.googleReviews[0]"
+      ]
+    },
+    {
+      "path": "copy.contact.body",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    }
+  ],
+  "warnings": [
+    "Conteúdo limitado aos dados comerciais confirmados na fonte original."
+  ],
+  "createdAt": "2026-08-13T04:49:30Z"
+}

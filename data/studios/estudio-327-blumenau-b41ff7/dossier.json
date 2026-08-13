@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-327-blumenau-b41ff7",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://glaucioestudio327.wixsite.com/estudio327",
+        "result": "source_contact_only"
+      }
+    ],
+    "selectedProfiles": {},
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Estúdio 327 é um estúdio musical localizado em Blumenau, Santa Catarina.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-26.8869926%2C-48.692723099999995",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.9,
+          "count": 84
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-26.8869926%2C-48.692723099999995",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -26.8869926,
+          "longitude": -48.692723099999995,
+          "address": "R. São Cristóvão, 327 - Cordeiros, Itajaí - SC, 88310-160, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-26.8869926%2C-48.692723099999995",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

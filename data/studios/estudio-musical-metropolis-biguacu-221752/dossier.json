@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-musical-metropolis-biguacu-221752",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://linktr.ee/estudiomusicalmetropolis",
+        "result": "source_contact_only"
+      }
+    ],
+    "selectedProfiles": {},
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Estúdio Musical METRÓPOLIS é um estúdio musical localizado em Biguaçu, Santa Catarina.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-27.454529599999997%2C-48.395992",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 5,
+          "count": 35
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-27.454529599999997%2C-48.395992",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -27.454529599999997,
+          "longitude": -48.395992,
+          "address": "Servidão Valdevino Marques da Natividade, 870 - Ingleses do Rio Vermelho, Florianópolis - SC, 88058-483, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-27.454529599999997%2C-48.395992",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

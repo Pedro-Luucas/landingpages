@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-toca-do-jacare-vila-velha-a190d1",
+  "generationId": "gen-09828e2400908b967cc4",
+  "inputHash": "09828e2400908b967cc403e78d81d280664aa7442205d3020e78c8631d26b484",
+  "provider": "deterministic-source",
+  "model": "source-batch-v1",
+  "promptVersion": "batch.v1",
+  "templateId": "minimal",
+  "branding": {
+    "colors": {
+      "background": "#07130f",
+      "surface": "#10241c",
+      "primary": "#8fe36c",
+      "secondary": "#e3ad59",
+      "text": "#f1f5e9",
+      "mutedText": "#9eb2a7"
+    },
+    "fontHeading": "Literata",
+    "fontBody": "Source_Sans_3",
+    "radius": "medium",
+    "mood": [
+      "preciso",
+      "calmo"
+    ],
+    "imageTreatment": "Sem mídia não verificada; composição tipográfica e cromática."
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Vila Velha — Espírito Santo",
+      "title": "Estudio Toca do Jacaré",
+      "subtitle": "Um endereço para música em Vila Velha. Consulte disponibilidade e detalhes diretamente com o estúdio.",
+      "primaryCta": "Falar com o estúdio"
+    },
+    "about": {
+      "title": "O estúdio",
+      "body": "Estudio Toca do Jacaré é um estúdio musical localizado em Vila Velha, Espírito Santo."
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 5,
+      "count": 21
+    },
+    "contact": {
+      "title": "Vamos conversar?",
+      "body": "Ed Delta Center - Av. Alziro Zarur, 401 - Sala 05 05 - Jardim da Penha, Vitória - ES, 29060-350, Brazil",
+      "cta": "Chamar no WhatsApp"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "about",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "gallery",
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "equipment",
+      "enabled": false,
+      "order": 3
+    },
+    {
+      "id": "pricing",
+      "enabled": false,
+      "order": 4
+    },
+    {
+      "id": "hours",
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "reviews",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "contact",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "map",
+      "enabled": true,
+      "order": 8
+    }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.hero.eyebrow",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    },
+    {
+      "path": "copy.hero.subtitle",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": [
+        "facts.googleReviews[0]"
+      ]
+    },
+    {
+      "path": "copy.contact.body",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    }
+  ],
+  "warnings": [
+    "Conteúdo limitado aos dados comerciais confirmados na fonte original."
+  ],
+  "createdAt": "2026-08-13T04:49:30Z"
+}

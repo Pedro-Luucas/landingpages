@@ -1,0 +1,23 @@
+.minimal-root {
+  background: var(--studio-bg);
+}
+
+.minimal-rule {
+  height: 1px;
+  width: 2.5rem;
+  background: var(--studio-text);
+  opacity: 0.35;
+}
+
+.minimal-label {
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.68rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .minimal-root * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

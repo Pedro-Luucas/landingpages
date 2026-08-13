@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "studioId": "timelab-studio-maringa-ea4c1d",
+  "sourceId": "ea4c1d2965eefcab0b0a1ccac7e7a3f677b5fa326c53dca671e05505504eccfc",
+  "name": "TimeLab Studio",
+  "type": "Recording studio",
+  "slug": "timelab-studio",
+  "location": {
+    "city": "Maringá",
+    "state": "Paraná",
+    "address": "Av. João Paulino Vieira Filho, 362 - sala 43, 4º andar - Zona 09, Maringá - PR, 87020-015, Brazil",
+    "latitude": -23.417068,
+    "longitude": -51.9361854
+  },
+  "contacts": {
+    "phone": "+55 44 98825-5974",
+    "website": "https://timelabcontato.wixsite.com/timelab-studio"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "c05dd7db0bee382d2b512d4b9ba06dc6a2ab107b22157271e3c1ab4793eeb970",
+    "originalRecord": {
+      "title": "TimeLab Studio",
+      "type": "Recording studio",
+      "cidade": "Maringá",
+      "estado": "Paraná",
+      "ratingCount": 21,
+      "rating": 5,
+      "address": "Av. João Paulino Vieira Filho, 362 - sala 43, 4º andar - Zona 09, Maringá - PR, 87020-015, Brazil",
+      "phoneNumber": "+55 44 98825-5974",
+      "website": "https://timelabcontato.wixsite.com/timelab-studio",
+      "latitude": -23.417068,
+      "longitude": -51.9361854,
+      "score_comercial": 94.4,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://timelabcontato.wixsite.com/timelab-studio"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 9.4,
+          "maximo": 15,
+          "valor": 21,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 21; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 94.4,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

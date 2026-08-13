@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "studioId": "aurora-sound-lab-cwb",
+  "sourceId": "synthetic-aurora-001",
+  "name": "Aurora Sound Lab",
+  "type": "Recording studio",
+  "slug": "aurora-sound-lab",
+  "location": {
+    "city": "Curitiba",
+    "state": "Paraná",
+    "address": "Rua Fictícia do Ensaio, 240, Curitiba - PR",
+    "latitude": -25.4298,
+    "longitude": -49.2714
+  },
+  "contacts": {
+    "phone": "+55 41 90000-1111",
+    "website": "https://www.aurorasoundlab.example/",
+    "instagram": "https://www.instagram.com/aurorasoundlab.cwb/",
+    "facebook": "https://www.facebook.com/aurorasoundlab.cwb/"
+  },
+  "source": {
+    "importedAt": "2026-08-12T12:00:00Z",
+    "sourceFile": "data/source/estudios.json",
+    "sourceHash": "2ad84956f9ac3efe108e5de29f346c039a34350c32eb7d4a1c22a195cbe158d0",
+    "originalRecord": {
+      "title": "Aurora Sound Lab",
+      "type": "Recording studio",
+      "cidade": "Curitiba",
+      "estado": "Paraná",
+      "ratingCount": 42,
+      "rating": 4.8,
+      "address": "Rua Fictícia do Ensaio, 240, Curitiba - PR",
+      "phoneNumber": "+55 41 90000-1111",
+      "website": "https://www.aurorasoundlab.example/",
+      "latitude": -25.4298,
+      "longitude": -49.2714,
+      "score_comercial": 88.5
+    }
+  },
+  "commercialScore": 88.5,
+  "pipelineStatus": "ready_for_review",
+  "updatedAt": "2026-08-12T18:40:00Z"
+}

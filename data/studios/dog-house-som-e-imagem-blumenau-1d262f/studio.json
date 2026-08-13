@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "studioId": "dog-house-som-e-imagem-blumenau-1d262f",
+  "sourceId": "1d262f340f72e83f91663d7515f9b889a3f4f3794fa53bd08a6f0cee20735619",
+  "name": "Dog House - Som e Imagem",
+  "type": "Recording studio",
+  "slug": "dog-house-som-e-imagem",
+  "location": {
+    "city": "Blumenau",
+    "state": "Santa Catarina",
+    "address": "R. Gen. Osório, 160 - Velha, Blumenau - SC, 89041-000, Brazil",
+    "latitude": -26.9232288,
+    "longitude": -49.1035762
+  },
+  "contacts": {
+    "phone": "+55 47 99937-0840",
+    "website": "https://sites.google.com/view/lowtechmusic/dog-house-som-e-imagem"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "7dcae2d62c21005f182e1226f9152f4d77dcfd377825418eb3c70eeb3c133b07",
+    "originalRecord": {
+      "title": "Dog House - Som e Imagem",
+      "type": "Recording studio",
+      "cidade": "Blumenau",
+      "estado": "Santa Catarina",
+      "ratingCount": 63,
+      "rating": 4.9,
+      "address": "R. Gen. Osório, 160 - Velha, Blumenau - SC, 89041-000, Brazil",
+      "phoneNumber": "+55 47 99937-0840",
+      "website": "https://sites.google.com/view/lowtechmusic/dog-house-som-e-imagem",
+      "latitude": -26.9232288,
+      "longitude": -49.1035762,
+      "score_comercial": 97.55,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://sites.google.com/view/lowtechmusic/dog-house-som-e-imagem"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.9,
+          "maximo": 5,
+          "valor": 4.9
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 12.65,
+          "maximo": 15,
+          "valor": 63,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.9 de 5.",
+        "Quantidade de avaliações considerada: 63; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 97.55,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

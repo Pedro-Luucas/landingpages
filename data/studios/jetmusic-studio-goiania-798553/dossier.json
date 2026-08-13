@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "jetmusic-studio-goiania-798553",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://instagram.com/jetmusicstudio?igshid=1gsf4yir9vbzi",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "instagram": {
+        "value": "https://instagram.com/jetmusicstudio?igshid=1gsf4yir9vbzi",
+        "sourceUrl": "https://instagram.com/jetmusicstudio?igshid=1gsf4yir9vbzi",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "JETMusic Studio é um estúdio musical localizado em Goiânia, Goiás.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-16.6361046%2C-49.3001692",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.9,
+          "count": 80
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-16.6361046%2C-49.3001692",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -16.6361046,
+          "longitude": -49.3001692,
+          "address": "R. 25 de Dezembro, 725 - quadra 12 lote 32 - Jardim Gramado, Goiânia - GO, 74585-725, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-16.6361046%2C-49.3001692",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

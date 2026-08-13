@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "rota-351-estudio-escola-de-musica-campinas-e231f7",
+  "sourceId": "e231f7d2991a91ad5a0f55ea0bbeb4e59fa56113212706b9f115f864b8a385a2",
+  "name": "Rota 351- Estúdio & Escola de Música",
+  "type": "Recording studio",
+  "slug": "rota-351-estudio-escola-de-musica",
+  "location": {
+    "city": "Campinas",
+    "state": "São Paulo",
+    "address": "R. Dr. Albano de Almeida Lima, 351 - Jardim Chapadão, Campinas - SP, 13073-131, Brazil",
+    "latitude": -22.8890399,
+    "longitude": -47.069117899999995
+  },
+  "contacts": {
+    "phone": "+55 19 98901-5391",
+    "website": "https://www.instagram.com/rota351estudio/",
+    "instagram": "https://www.instagram.com/rota351estudio/"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "88146eefdbc539205b9f50d6383450c57fccfd4b759e6738c1e20e211cf24d27",
+    "originalRecord": {
+      "title": "Rota 351- Estúdio & Escola de Música",
+      "type": "Recording studio",
+      "cidade": "Campinas",
+      "estado": "São Paulo",
+      "ratingCount": 31,
+      "rating": 4.8,
+      "address": "R. Dr. Albano de Almeida Lima, 351 - Jardim Chapadão, Campinas - SP, 13073-131, Brazil",
+      "phoneNumber": "+55 19 98901-5391",
+      "website": "https://www.instagram.com/rota351estudio/",
+      "latitude": -22.8890399,
+      "longitude": -47.069117899999995,
+      "score_comercial": 95.34,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://www.instagram.com/rota351estudio/"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.8,
+          "maximo": 5,
+          "valor": 4.8
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 10.54,
+          "maximo": 15,
+          "valor": 31,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.8 de 5.",
+        "Quantidade de avaliações considerada: 31; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 95.34,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

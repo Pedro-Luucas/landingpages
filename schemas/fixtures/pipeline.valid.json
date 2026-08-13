@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-12T18:40:00Z",
+  "items": [
+    {
+      "studioId": "aurora-sound-lab-cwb",
+      "status": "ready_for_review",
+      "currentStage": "validating",
+      "attempt": 1,
+      "inputHash": "ad68107853d723ef9ee3ab57e56aaacd125269c8f722a117ca22e7b1411122b7",
+      "lastSuccessfulStage": "validating",
+      "warnings": [
+        {
+          "code": "DIRECTORY_LOW_CONFIDENCE",
+          "message": "One equipment list came from a third-party directory and was not used as a primary fact.",
+          "stage": "enriching",
+          "at": "2026-08-12T16:10:00Z",
+          "retryable": false
+        }
+      ],
+      "history": [
+        {
+          "to": "imported",
+          "at": "2026-08-12T12:00:00Z",
+          "actor": "pipeline:importer",
+          "reason": "Normalized synthetic source record."
+        },
+        {
+          "from": "imported",
+          "to": "queued",
+          "at": "2026-08-12T12:05:00Z",
+          "actor": "pipeline:cli",
+          "reason": "Enqueued for discovery."
+        },
+        {
+          "from": "queued",
+          "to": "discovering",
+          "at": "2026-08-12T12:06:00Z",
+          "actor": "pipeline:orchestrator"
+        },
+        {
+          "from": "discovering",
+          "to": "scraping",
+          "at": "2026-08-12T12:20:00Z",
+          "actor": "pipeline:orchestrator"
+        },
+        {
+          "from": "scraping",
+          "to": "enriching",
+          "at": "2026-08-12T13:10:00Z",
+          "actor": "pipeline:orchestrator"
+        },
+        {
+          "from": "enriching",
+          "to": "selecting_media",
+          "at": "2026-08-12T16:12:00Z",
+          "actor": "pipeline:orchestrator"
+        },
+        {
+          "from": "selecting_media",
+          "to": "generating",
+          "at": "2026-08-12T16:40:00Z",
+          "actor": "pipeline:orchestrator"
+        },
+        {
+          "from": "generating",
+          "to": "validating",
+          "at": "2026-08-12T17:15:00Z",
+          "actor": "pipeline:orchestrator"
+        },
+        {
+          "from": "validating",
+          "to": "ready_for_review",
+          "at": "2026-08-12T18:40:00Z",
+          "actor": "pipeline:orchestrator"
+        }
+      ],
+      "createdAt": "2026-08-12T12:00:00Z",
+      "updatedAt": "2026-08-12T18:40:00Z"
+    },
+    {
+      "studioId": "norte-wave-studio-cwb",
+      "status": "failed",
+      "currentStage": "scraping",
+      "attempt": 2,
+      "retryAt": "2026-08-12T19:10:00Z",
+      "lastSuccessfulStage": "discovering",
+      "warnings": [],
+      "error": {
+        "code": "PLATFORM_BLOCKED",
+        "message": "Public profile fetch returned a persistent block page; no login or evasion was attempted.",
+        "retryable": false,
+        "stage": "scraping",
+        "occurredAt": "2026-08-12T18:05:00Z"
+      },
+      "history": [
+        {
+          "to": "imported",
+          "at": "2026-08-12T12:00:00Z",
+          "actor": "pipeline:importer"
+        },
+        {
+          "from": "imported",
+          "to": "queued",
+          "at": "2026-08-12T17:00:00Z",
+          "actor": "pipeline:cli"
+        },
+        {
+          "from": "queued",
+          "to": "discovering",
+          "at": "2026-08-12T17:01:00Z",
+          "actor": "pipeline:orchestrator"
+        },
+        {
+          "from": "discovering",
+          "to": "scraping",
+          "at": "2026-08-12T17:20:00Z",
+          "actor": "pipeline:orchestrator"
+        },
+        {
+          "from": "scraping",
+          "to": "failed",
+          "at": "2026-08-12T18:05:00Z",
+          "actor": "pipeline:orchestrator",
+          "reason": "Public scrape blocked after two attempts."
+        }
+      ],
+      "createdAt": "2026-08-12T12:00:00Z",
+      "updatedAt": "2026-08-12T18:05:00Z"
+    }
+  ]
+}

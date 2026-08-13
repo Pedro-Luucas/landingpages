@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "studioId": "quorum-estudio-sao-paulo-f88c00",
+  "sourceId": "f88c007cc7d4e6a8b1229efa93cb5b66dfe26b25f95a6d4e40c7353369453aba",
+  "name": "Quorum Estudio",
+  "type": "Recording studio",
+  "slug": "quorum-estudio",
+  "location": {
+    "city": "São Paulo",
+    "state": "São Paulo",
+    "address": "Rua Apinajés, 749 - Perdizes, São Paulo - SP, 05017-000, Brazil",
+    "latitude": -23.537581499999998,
+    "longitude": -46.6801068
+  },
+  "contacts": {
+    "phone": "+55 11 99359-8893",
+    "website": "https://linktr.ee/quorumestudio"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "11bd090a0fb4a7375dc5e9ae6819b4a671793e6dd6e17aa719099cbc6f298dec",
+    "originalRecord": {
+      "title": "Quorum Estudio",
+      "type": "Recording studio",
+      "cidade": "São Paulo",
+      "estado": "São Paulo",
+      "ratingCount": 52,
+      "rating": 5,
+      "address": "Rua Apinajés, 749 - Perdizes, São Paulo - SP, 05017-000, Brazil",
+      "phoneNumber": "+55 11 99359-8893",
+      "website": "https://linktr.ee/quorumestudio",
+      "latitude": -23.537581499999998,
+      "longitude": -46.6801068,
+      "score_comercial": 97.08,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://linktr.ee/quorumestudio"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 12.08,
+          "maximo": 15,
+          "valor": 52,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 52; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 97.08,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

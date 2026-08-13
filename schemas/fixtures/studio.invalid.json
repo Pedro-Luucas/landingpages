@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "studioId": "aurora-sound-lab-cwb",
+  "sourceId": "synthetic-aurora-001",
+  "type": "Recording studio",
+  "slug": "aurora-sound-lab",
+  "location": {
+    "city": "Curitiba",
+    "state": "Paraná"
+  },
+  "contacts": {},
+  "source": {
+    "importedAt": "2026-08-12T12:00:00Z",
+    "sourceFile": "data/source/estudios.json",
+    "sourceHash": "2ad84956f9ac3efe108e5de29f346c039a34350c32eb7d4a1c22a195cbe158d0",
+    "originalRecord": {}
+  },
+  "pipelineStatus": "pending",
+  "updatedAt": "2026-08-12T18:40:00Z"
+}

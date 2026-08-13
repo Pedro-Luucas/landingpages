@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "base-slz-sao-luis-cbb4e6",
+  "sourceId": "cbb4e671b5a9fd8e72ca47f7aaa07311cd8ae6b161900637d2df8eb98706efeb",
+  "name": "Base SLZ",
+  "type": "Recording studio",
+  "slug": "base-slz",
+  "location": {
+    "city": "São Luís",
+    "state": "Maranhão",
+    "address": "R. da Odontologia, Quadra 07 - Número 07 - Cohafuma, São Luís - MA, 65074-750, Brazil",
+    "latitude": -2.5094168,
+    "longitude": -44.265363199999996
+  },
+  "contacts": {
+    "phone": "+55 98 98293-3236",
+    "website": "http://www.instagram.com/baseslz",
+    "instagram": "http://www.instagram.com/baseslz"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "1a824588c48a545c87d9f3cb4d33188a5dc811c4ada535792cc1c969d0f9ae97",
+    "originalRecord": {
+      "title": "Base SLZ",
+      "type": "Recording studio",
+      "cidade": "São Luís",
+      "estado": "Maranhão",
+      "ratingCount": 37,
+      "rating": 4.9,
+      "address": "R. da Odontologia, Quadra 07 - Número 07 - Cohafuma, São Luís - MA, 65074-750, Brazil",
+      "phoneNumber": "+55 98 98293-3236",
+      "website": "http://www.instagram.com/baseslz",
+      "latitude": -2.5094168,
+      "longitude": -44.265363199999996,
+      "score_comercial": 95.97,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "http://www.instagram.com/baseslz"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.9,
+          "maximo": 5,
+          "valor": 4.9
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 11.07,
+          "maximo": 15,
+          "valor": 37,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.9 de 5.",
+        "Quantidade de avaliações considerada: 37; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 95.97,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

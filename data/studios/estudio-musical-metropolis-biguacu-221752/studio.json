@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-musical-metropolis-biguacu-221752",
+  "sourceId": "2217522529ab9dca3465efcb799c7074c93b63b02766799fa6dd4b065bfe1523",
+  "name": "Estúdio Musical METRÓPOLIS",
+  "type": "Recording studio",
+  "slug": "estudio-musical-metropolis",
+  "location": {
+    "city": "Biguaçu",
+    "state": "Santa Catarina",
+    "address": "Servidão Valdevino Marques da Natividade, 870 - Ingleses do Rio Vermelho, Florianópolis - SC, 88058-483, Brazil",
+    "latitude": -27.454529599999997,
+    "longitude": -48.395992
+  },
+  "contacts": {
+    "phone": "+55 48 98494-6180",
+    "website": "https://linktr.ee/estudiomusicalmetropolis"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "34ecff06477c0216d5a62aabc3e3719ed2355e27c46f8cd0859a6f046d2ac1c1",
+    "originalRecord": {
+      "title": "Estúdio Musical METRÓPOLIS",
+      "type": "Recording studio",
+      "cidade": "Biguaçu",
+      "estado": "Santa Catarina",
+      "ratingCount": 35,
+      "rating": 5,
+      "address": "Servidão Valdevino Marques da Natividade, 870 - Ingleses do Rio Vermelho, Florianópolis - SC, 88058-483, Brazil",
+      "phoneNumber": "+55 48 98494-6180",
+      "website": "https://linktr.ee/estudiomusicalmetropolis",
+      "latitude": -27.454529599999997,
+      "longitude": -48.395992,
+      "score_comercial": 95.9,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://linktr.ee/estudiomusicalmetropolis"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 10.9,
+          "maximo": 15,
+          "valor": 35,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 35; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 95.9,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

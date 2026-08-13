@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "studio-4214-sao-bernardo-4e0257",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://www.instagram.com/studiozaara",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "instagram": {
+        "value": "https://www.instagram.com/studiozaara",
+        "sourceUrl": "https://www.instagram.com/studiozaara",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Studio 4214 é um estúdio musical localizado em São Bernardo do Campo, São Paulo.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-23.6602474%2C-46.5660075",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 5,
+          "count": 99
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-23.6602474%2C-46.5660075",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -23.6602474,
+          "longitude": -46.5660075,
+          "address": "Av. Senador Vergueiro, 4214 - Rudge Ramos, São Bernardo do Campo - SP, 09604-000, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-23.6602474%2C-46.5660075",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "produtora-shanti-governador-v-513044",
+  "sourceId": "513044628c8835bec47c38573466ae84cdf008c2b376d4f09fbd6d159ade140a",
+  "name": "Produtora Shanti",
+  "type": "Recording studio",
+  "slug": "produtora-shanti",
+  "location": {
+    "city": "Governador Valadares",
+    "state": "Minas Gerais",
+    "address": "R. Oito, 40 - São Cristóvão, Gov. Valadares - MG, 35045-490, Brazil",
+    "latitude": -18.8829174,
+    "longitude": -41.9668163
+  },
+  "contacts": {
+    "phone": "+55 33 99808-6018",
+    "website": "https://www.instagram.com/shantiestudioficial",
+    "instagram": "https://www.instagram.com/shantiestudioficial"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "7b969a30288fff7f6e7b11f69f77904720319e19799d9d2b1545fea7231e45eb",
+    "originalRecord": {
+      "title": "Produtora Shanti",
+      "type": "Recording studio",
+      "cidade": "Governador Valadares",
+      "estado": "Minas Gerais",
+      "ratingCount": 35,
+      "rating": 5,
+      "address": "R. Oito, 40 - São Cristóvão, Gov. Valadares - MG, 35045-490, Brazil",
+      "phoneNumber": "+55 33 99808-6018",
+      "website": "https://www.instagram.com/shantiestudioficial",
+      "latitude": -18.8829174,
+      "longitude": -41.9668163,
+      "score_comercial": 95.9,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://www.instagram.com/shantiestudioficial"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 10.9,
+          "maximo": 15,
+          "valor": 35,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 35; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 95.9,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

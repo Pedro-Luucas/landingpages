@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "studioId": "aurora-sound-lab-cwb",
+  "generationId": "gen-aurora-sound-lab-cwb-20260812T171500Z",
+  "inputHash": "ad68107853d723ef9ee3ab57e56aaacd125269c8f722a117ca22e7b1411122b7",
+  "provider": "fake",
+  "model": "fake-multimodal-v1",
+  "promptVersion": "site-copy-v1",
+  "templateId": "editorial",
+  "branding": {
+    "colors": {
+      "background": "#0F1419",
+      "surface": "#1A2330",
+      "primary": "#E8A54B",
+      "secondary": "#4A7C9B",
+      "text": "#F4F1EA",
+      "mutedText": "#9AA4B2"
+    },
+    "fontHeading": "Fraunces",
+    "fontBody": "Source Sans 3",
+    "radius": "medium",
+    "mood": ["nocturnal", "focused", "warm"],
+    "imageTreatment": "soft-grain-shadow"
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Estúdio em Curitiba",
+      "title": "Grave e ensaie com calma no Aurora Sound Lab",
+      "subtitle": "Sala tratada no Água Verde, com cabine isolada e mesa analógica para sessões de voz, banda e podcast.",
+      "primaryCta": "Agendar visita"
+    },
+    "about": {
+      "title": "Um quarto de hotel para o som",
+      "body": "O Aurora Sound Lab é um estúdio de gravação em Curitiba voltado a ensaios longos e sessões de voz. A sala principal foi tratada para trabalho noturno, com cabine isolada e retorno independente."
+    },
+    "equipment": {
+      "title": "O que está na sala",
+      "intro": "Lista publicada no site oficial do estúdio.",
+      "items": [
+        "Mesa analógica SSL",
+        "Microfone Neumann TLM 103",
+        "Monitores Yamaha HS8",
+        "Cabine vocal isolada"
+      ]
+    },
+    "pricing": {
+      "title": "Sessões",
+      "items": [
+        {
+          "label": "Ensaio 2 horas",
+          "value": "R$ 120",
+          "note": "Inclui sala e PA."
+        },
+        {
+          "label": "Gravação 4 horas",
+          "value": "R$ 380",
+          "note": "Engenheiro incluso."
+        }
+      ]
+    },
+    "hours": {
+      "title": "Horários",
+      "items": [
+        { "day": "Segunda a sexta", "value": "10:00–22:00" },
+        { "day": "Sábado", "value": "11:00–20:00" },
+        { "day": "Domingo", "value": "Fechado" }
+      ]
+    },
+    "reviews": {
+      "title": "Quem já gravou aqui",
+      "rating": 4.8,
+      "count": 42,
+      "excerpts": [
+        "Sala silenciosa e engenheiro paciente na sessão de voz.",
+        "Ensaio de banda sem vazamento para a rua."
+      ]
+    },
+    "contact": {
+      "title": "Marque um horário",
+      "body": "Atendimento por telefone ou Instagram. Visitas com hora marcada.",
+      "cta": "Falar com o estúdio"
+    }
+  },
+  "sections": [
+    { "id": "hero", "enabled": true, "order": 0 },
+    { "id": "about", "enabled": true, "order": 1 },
+    { "id": "gallery", "enabled": true, "order": 2 },
+    { "id": "equipment", "enabled": true, "order": 3 },
+    { "id": "pricing", "enabled": true, "order": 4 },
+    { "id": "hours", "enabled": true, "order": 5 },
+    { "id": "reviews", "enabled": true, "order": 6 },
+    { "id": "contact", "enabled": true, "order": 7 },
+    { "id": "map", "enabled": true, "order": 8 }
+  ],
+  "assetPaths": [
+    "public/studios/aurora-sound-lab-cwb/logo.webp",
+    "public/studios/aurora-sound-lab-cwb/images/01.webp",
+    "public/studios/aurora-sound-lab-cwb/images/02.webp"
+  ],
+  "factualClaims": [
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": ["https://www.aurorasoundlab.example/sobre"]
+    },
+    {
+      "path": "copy.equipment.items",
+      "evidenceRefs": ["https://www.aurorasoundlab.example/sala"]
+    },
+    {
+      "path": "copy.pricing.items",
+      "evidenceRefs": ["https://www.aurorasoundlab.example/ensaios"]
+    },
+    {
+      "path": "copy.hours.items",
+      "evidenceRefs": ["https://www.aurorasoundlab.example/contato"]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": ["https://maps.example.com/place/aurora-sound-lab-cwb"]
+    },
+    {
+      "path": "location.address",
+      "evidenceRefs": [
+        "https://www.aurorasoundlab.example/contato",
+        "https://maps.example.com/place/aurora-sound-lab-cwb"
+      ]
+    }
+  ],
+  "warnings": [],
+  "createdAt": "2026-08-12T17:15:00Z"
+}

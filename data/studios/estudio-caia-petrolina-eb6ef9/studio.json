@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-caia-petrolina-eb6ef9",
+  "sourceId": "eb6ef9aa762ef3bb9e3c17cecb4d1cb1f071178ac02c76e1e48baea9c89be946",
+  "name": "Estúdio CAIA",
+  "type": "Recording studio",
+  "slug": "estudio-caia",
+  "location": {
+    "city": "Petrolina",
+    "state": "Pernambuco",
+    "address": "R. Rio Primavera, 46 - José e Maria, Petrolina - PE, 56300-190, Brazil",
+    "latitude": -9.3684633,
+    "longitude": -40.4986663
+  },
+  "contacts": {
+    "phone": "+55 87 98830-0319",
+    "website": "https://beacons.ai/estudiocaia"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "c1c1578718b9e34a6daa62c358a40769af56c052f419bc33c778671580c812e6",
+    "originalRecord": {
+      "title": "Estúdio CAIA",
+      "type": "Recording studio",
+      "cidade": "Petrolina",
+      "estado": "Pernambuco",
+      "ratingCount": 23,
+      "rating": 4.9,
+      "address": "R. Rio Primavera, 46 - José e Maria, Petrolina - PE, 56300-190, Brazil",
+      "phoneNumber": "+55 87 98830-0319",
+      "website": "https://beacons.ai/estudiocaia",
+      "latitude": -9.3684633,
+      "longitude": -40.4986663,
+      "score_comercial": 94.57,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://beacons.ai/estudiocaia"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.9,
+          "maximo": 5,
+          "valor": 4.9
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 9.67,
+          "maximo": 15,
+          "valor": 23,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.9 de 5.",
+        "Quantidade de avaliações considerada: 23; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 94.57,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

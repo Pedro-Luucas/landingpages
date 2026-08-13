@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-327-blumenau-b41ff7",
+  "sourceId": "b41ff73f2d47c23904b2c956401a4d743a984a050dd1f10cdd5e9f647935e099",
+  "name": "Estúdio 327",
+  "type": "Recording studio",
+  "slug": "estudio-327",
+  "location": {
+    "city": "Blumenau",
+    "state": "Santa Catarina",
+    "address": "R. São Cristóvão, 327 - Cordeiros, Itajaí - SC, 88310-160, Brazil",
+    "latitude": -26.8869926,
+    "longitude": -48.692723099999995
+  },
+  "contacts": {
+    "phone": "+55 47 99631-7900",
+    "website": "https://glaucioestudio327.wixsite.com/estudio327"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "f84cab753450364f7a1ac724d1d8e317581955282be1b42c387fb1abcb337cc0",
+    "originalRecord": {
+      "title": "Estúdio 327",
+      "type": "Recording studio",
+      "cidade": "Blumenau",
+      "estado": "Santa Catarina",
+      "ratingCount": 84,
+      "rating": 4.9,
+      "address": "R. São Cristóvão, 327 - Cordeiros, Itajaí - SC, 88310-160, Brazil",
+      "phoneNumber": "+55 47 99631-7900",
+      "website": "https://glaucioestudio327.wixsite.com/estudio327",
+      "latitude": -26.8869926,
+      "longitude": -48.692723099999995,
+      "score_comercial": 98.42,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://glaucioestudio327.wixsite.com/estudio327"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.9,
+          "maximo": 5,
+          "valor": 4.9
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 13.52,
+          "maximo": 15,
+          "valor": 84,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.9 de 5.",
+        "Quantidade de avaliações considerada: 84; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 98.42,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

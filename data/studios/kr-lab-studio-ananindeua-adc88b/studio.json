@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "kr-lab-studio-ananindeua-adc88b",
+  "sourceId": "adc88bbae47bf7f05c88a0cd0e0b375a8f004cd6515f80d365378a08b107fd5a",
+  "name": "KR Lab Studio",
+  "type": "Recording studio",
+  "slug": "kr-lab-studio",
+  "location": {
+    "city": "Ananindeua",
+    "state": "Pará",
+    "address": "R. Wg-7, 8 - Parque Verde, Belém - PA, 66633-620, Brazil",
+    "latitude": -1.3690554,
+    "longitude": -48.439330299999995
+  },
+  "contacts": {
+    "phone": "+55 91 98488-1484",
+    "website": "https://www.instagram.com/kadinhoprodutor/",
+    "instagram": "https://www.instagram.com/kadinhoprodutor/"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "9a1ad9d00ff83aa13cc5fd90282adbefbb99c5046035b9690132f26499fa30d2",
+    "originalRecord": {
+      "title": "KR Lab Studio",
+      "type": "Recording studio",
+      "cidade": "Ananindeua",
+      "estado": "Pará",
+      "ratingCount": 24,
+      "rating": 5,
+      "address": "R. Wg-7, 8 - Parque Verde, Belém - PA, 66633-620, Brazil",
+      "phoneNumber": "+55 91 98488-1484",
+      "website": "https://www.instagram.com/kadinhoprodutor/",
+      "latitude": -1.3690554,
+      "longitude": -48.439330299999995,
+      "score_comercial": 94.79,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://www.instagram.com/kadinhoprodutor/"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 9.79,
+          "maximo": 15,
+          "valor": 24,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 24; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 94.79,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

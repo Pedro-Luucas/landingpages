@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "studioId": "aurora-sound-lab-cwb",
+  "generationId": "gen-aurora-sound-lab-cwb-20260812T171500Z",
+  "inputHash": "ad68107853d723ef9ee3ab57e56aaacd125269c8f722a117ca22e7b1411122b7",
+  "provider": "fake",
+  "model": "fake-multimodal-v1",
+  "promptVersion": "site-copy-v1",
+  "templateId": "editorial",
+  "branding": {
+    "colors": {
+      "background": "#0F1419",
+      "surface": "#1A2330",
+      "primary": "#E8A54B",
+      "secondary": "#4A7C9B",
+      "text": "#F4F1EA",
+      "mutedText": "#9AA4B2"
+    },
+    "fontHeading": "Fraunces",
+    "fontBody": "Source Sans 3",
+    "radius": "medium",
+    "mood": ["nocturnal"]
+  },
+  "copy": {
+    "hero": {
+      "title": "Aurora Sound Lab"
+    },
+    "contact": {
+      "title": "Contato",
+      "cta": "Falar com o estúdio"
+    }
+  },
+  "sections": [
+    { "id": "hero", "enabled": true, "order": 0 },
+    { "id": "contact", "enabled": true, "order": 1 }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.pricing.items",
+      "evidenceRefs": []
+    }
+  ],
+  "warnings": [],
+  "createdAt": "2026-08-12T17:15:00Z"
+}

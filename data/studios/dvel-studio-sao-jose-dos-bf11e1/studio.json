@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "dvel-studio-sao-jose-dos-bf11e1",
+  "sourceId": "bf11e1c3ebe1bbdfe2d5200bcc23804913f351e059d646c3d7a2ee86c31390c2",
+  "name": "DVEL Studio",
+  "type": "Recording studio",
+  "slug": "dvel-studio",
+  "location": {
+    "city": "São José dos Campos",
+    "state": "São Paulo",
+    "address": "R. Piracicaba, 83 - Centro, São José dos Campos - SP, 12210-240, Brazil",
+    "latitude": -23.1791509,
+    "longitude": -45.877907799999996
+  },
+  "contacts": {
+    "phone": "+55 12 98299-0000",
+    "website": "https://instagram.com/estudiodvel",
+    "instagram": "https://instagram.com/estudiodvel"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "897f28c2de27d7d7452a9d0dff6c21873563f678d398fa9edd89bbf8071902ee",
+    "originalRecord": {
+      "title": "DVEL Studio",
+      "type": "Recording studio",
+      "cidade": "São José dos Campos",
+      "estado": "São Paulo",
+      "ratingCount": 54,
+      "rating": 4.8,
+      "address": "R. Piracicaba, 83 - Centro, São José dos Campos - SP, 12210-240, Brazil",
+      "phoneNumber": "+55 12 98299-0000",
+      "website": "https://instagram.com/estudiodvel",
+      "latitude": -23.1791509,
+      "longitude": -45.877907799999996,
+      "score_comercial": 96.99,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://instagram.com/estudiodvel"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.8,
+          "maximo": 5,
+          "valor": 4.8
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 12.19,
+          "maximo": 15,
+          "valor": 54,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.8 de 5.",
+        "Quantidade de avaliações considerada: 54; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 96.99,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

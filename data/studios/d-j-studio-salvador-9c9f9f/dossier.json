@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "d-j-studio-salvador-9c9f9f",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://www.facebook.com/djstudio2011",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "facebook": {
+        "value": "https://www.facebook.com/djstudio2011",
+        "sourceUrl": "https://www.facebook.com/djstudio2011",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "D & J Studio é um estúdio musical localizado em Salvador, Bahia.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-12.9581884%2C-38.447699899999996",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.6,
+          "count": 72
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-12.9581884%2C-38.447699899999996",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -12.9581884,
+          "longitude": -38.447699899999996,
+          "address": "2ª Travessa do Saboeiro, 61 - Saboeiro, Salvador - BA, 41180-605, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-12.9581884%2C-38.447699899999996",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-romanos-recife-63562a",
+  "sourceId": "63562ab9cd25d1c512f745d5b25ff799b664f1c9cd05f6d3267176d70e5891d3",
+  "name": "Estúdio Romanos",
+  "type": "Recording studio",
+  "slug": "estudio-romanos",
+  "location": {
+    "city": "Recife",
+    "state": "Pernambuco",
+    "address": "Av. Transamazônica - Peixinhos, Olinda - PE, 53300-240, Brazil",
+    "latitude": -8.0035103,
+    "longitude": -34.8769318
+  },
+  "contacts": {
+    "phone": "+55 997880157",
+    "website": "http://www.facebook.com/estudioromanos/",
+    "facebook": "http://www.facebook.com/estudioromanos/"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "c1c60145b36f1e4eefee4b8e3a5943d2d0c7a8b77e62d9c310db17d0d3da88de",
+    "originalRecord": {
+      "title": "Estúdio Romanos",
+      "type": "Recording studio",
+      "cidade": "Recife",
+      "estado": "Pernambuco",
+      "ratingCount": 70,
+      "rating": 4.7,
+      "address": "Av. Transamazônica - Peixinhos, Olinda - PE, 53300-240, Brazil",
+      "phoneNumber": "+55 997880157",
+      "website": "http://www.facebook.com/estudioromanos/",
+      "latitude": -8.0035103,
+      "longitude": -34.8769318,
+      "score_comercial": 97.67,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "http://www.facebook.com/estudioromanos/"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.7,
+          "maximo": 5,
+          "valor": 4.7
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 12.97,
+          "maximo": 15,
+          "valor": 70,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.7 de 5.",
+        "Quantidade de avaliações considerada: 70; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 97.67,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

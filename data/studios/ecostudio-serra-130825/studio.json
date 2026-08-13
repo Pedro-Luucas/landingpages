@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "ecostudio-serra-130825",
+  "sourceId": "130825f20d99399e84fb33e24972deb6886e49908f3e4b3ce1c7f6515dafbdbd",
+  "name": "ECOstudio",
+  "type": "Recording studio",
+  "slug": "ecostudio",
+  "location": {
+    "city": "Serra",
+    "state": "Espírito Santo",
+    "address": "R. Itapetinga - Parque Res. Mte. Alvaro, Serra - ES, 29170-805, Brazil",
+    "latitude": -20.162909199999998,
+    "longitude": -40.268987599999996
+  },
+  "contacts": {
+    "phone": "+55 27 99590-9268",
+    "website": "https://www.facebook.com/ecoeduzeck.cunha",
+    "facebook": "https://www.facebook.com/ecoeduzeck.cunha"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "dd693df77169397922041c1cfc4e873429112a85a238a8d7222d33b3d40c9980",
+    "originalRecord": {
+      "title": "ECOstudio",
+      "type": "Recording studio",
+      "cidade": "Serra",
+      "estado": "Espírito Santo",
+      "ratingCount": 40,
+      "rating": 4.8,
+      "address": "R. Itapetinga - Parque Res. Mte. Alvaro, Serra - ES, 29170-805, Brazil",
+      "phoneNumber": "+55 27 99590-9268",
+      "website": "https://www.facebook.com/ecoeduzeck.cunha",
+      "latitude": -20.162909199999998,
+      "longitude": -40.268987599999996,
+      "score_comercial": 96.1,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://www.facebook.com/ecoeduzeck.cunha"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.8,
+          "maximo": 5,
+          "valor": 4.8
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 11.3,
+          "maximo": 15,
+          "valor": 40,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.8 de 5.",
+        "Quantidade de avaliações considerada: 40; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 96.1,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

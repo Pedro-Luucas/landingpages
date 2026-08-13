@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-meyer-londrina-1f8166",
+  "sourceId": "1f8166c14db75f5cd745dd843d588640ba87bfa4f1d029c39e4c7333acf325f1",
+  "name": "Estúdio Meyer",
+  "type": "Recording studio",
+  "slug": "estudio-meyer",
+  "location": {
+    "city": "Londrina",
+    "state": "Paraná",
+    "address": "R. Massahiko Tomita, 124 - Vila Simoes, Londrina - PR, 86020-540, Brazil",
+    "latitude": -23.3147715,
+    "longitude": -51.1716585
+  },
+  "contacts": {
+    "phone": "+55 43 99607-6372",
+    "website": "http://www.instagram.com/estudiomeyer",
+    "instagram": "http://www.instagram.com/estudiomeyer"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "b03a1b49fdb3c772a6e6f3568455e0b3ad0a4238b80c6644ee5b5bc65aa664ad",
+    "originalRecord": {
+      "title": "Estúdio Meyer",
+      "type": "Recording studio",
+      "cidade": "Londrina",
+      "estado": "Paraná",
+      "ratingCount": 54,
+      "rating": 4.7,
+      "address": "R. Massahiko Tomita, 124 - Vila Simoes, Londrina - PR, 86020-540, Brazil",
+      "phoneNumber": "+55 43 99607-6372",
+      "website": "http://www.instagram.com/estudiomeyer",
+      "latitude": -23.3147715,
+      "longitude": -51.1716585,
+      "score_comercial": 96.89,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "http://www.instagram.com/estudiomeyer"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.7,
+          "maximo": 5,
+          "valor": 4.7
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 12.19,
+          "maximo": 15,
+          "valor": 54,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.7 de 5.",
+        "Quantidade de avaliações considerada: 54; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 96.89,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "studioId": "aurora-sound-lab-cwb",
+  "discovery": {
+    "attempts": [],
+    "selectedProfiles": {},
+    "requiresHumanReview": true
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Texto sem fonte confiável.",
+        "sourceUrl": "https://directory.example.com/aurora",
+        "sourceType": "directory",
+        "collectedAt": "2026-08-12T13:20:00Z",
+        "confidence": 1.4
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [],
+    "map": []
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": []
+}

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "studioId": "london-studio-guarulhos-67e9ad",
+  "generationId": "gen-0a175e9f58d89e31b401",
+  "inputHash": "0a175e9f58d89e31b4019c4522707ec15eda56ee1a26d05233ae414869cb90a6",
+  "provider": "deterministic-source",
+  "model": "source-batch-v1",
+  "promptVersion": "batch.v1",
+  "templateId": "minimal",
+  "branding": {
+    "colors": {
+      "background": "#0b0d0f",
+      "surface": "#15191d",
+      "primary": "#f3c969",
+      "secondary": "#72808d",
+      "text": "#f6f2e9",
+      "mutedText": "#a8afb5"
+    },
+    "fontHeading": "Literata",
+    "fontBody": "Source_Sans_3",
+    "radius": "medium",
+    "mood": [
+      "preciso",
+      "calmo"
+    ],
+    "imageTreatment": "Sem mídia não verificada; composição tipográfica e cromática."
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Guarulhos — São Paulo",
+      "title": "London Studio",
+      "subtitle": "Um endereço para música em Guarulhos. Consulte disponibilidade e detalhes diretamente com o estúdio.",
+      "primaryCta": "Falar com o estúdio"
+    },
+    "about": {
+      "title": "O estúdio",
+      "body": "London Studio é um estúdio musical localizado em Guarulhos, São Paulo."
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 4.8,
+      "count": 33
+    },
+    "contact": {
+      "title": "Vamos conversar?",
+      "body": "R. Celeste Fernandes Dalphorno, 163 B - Jardim Rosana, Guarulhos - SP, 07075-125, Brazil",
+      "cta": "Chamar no WhatsApp"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "about",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "gallery",
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "equipment",
+      "enabled": false,
+      "order": 3
+    },
+    {
+      "id": "pricing",
+      "enabled": false,
+      "order": 4
+    },
+    {
+      "id": "hours",
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "reviews",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "contact",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "map",
+      "enabled": true,
+      "order": 8
+    }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.hero.eyebrow",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    },
+    {
+      "path": "copy.hero.subtitle",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": [
+        "facts.googleReviews[0]"
+      ]
+    },
+    {
+      "path": "copy.contact.body",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    }
+  ],
+  "warnings": [
+    "Conteúdo limitado aos dados comerciais confirmados na fonte original."
+  ],
+  "createdAt": "2026-08-13T04:49:30Z",
+  "approvedAt": "2026-08-13T04:49:30Z",
+  "approvedBy": "batch:user-authorized",
+  "approvalNote": "Lote de 100 páginas autorizado pelo usuário; somente fatos da fonte e score entre 80 e 99.01.",
+  "assetHashes": []
+}

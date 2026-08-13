@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "4-studio-audiovisual-vila-velha-54a55c",
+  "sourceId": "54a55c5f8b39829321af6dc119be082e9bf2e677f526bbb26cfa480f15dc80f0",
+  "name": "4° Studio Audiovisual",
+  "type": "Recording studio",
+  "slug": "4-studio-audiovisual",
+  "location": {
+    "city": "Vila Velha",
+    "state": "Espírito Santo",
+    "address": "R. Olíbia Moreira Rodrigues, 325 - Jardim Marilandia, Vila Velha - ES, 29112-015, Brazil",
+    "latitude": -20.3552751,
+    "longitude": -40.3455884
+  },
+  "contacts": {
+    "phone": "+55 27 99861-5189",
+    "website": "http://instagram.com/4studioaudiovisual",
+    "instagram": "http://instagram.com/4studioaudiovisual"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "f17e0361274750461a29ebc75324207fafb4db6fd26ae5a6420f3268d06b5fb0",
+    "originalRecord": {
+      "title": "4° Studio Audiovisual",
+      "type": "Recording studio",
+      "cidade": "Vila Velha",
+      "estado": "Espírito Santo",
+      "ratingCount": 72,
+      "rating": 4.8,
+      "address": "R. Olíbia Moreira Rodrigues, 325 - Jardim Marilandia, Vila Velha - ES, 29112-015, Brazil",
+      "phoneNumber": "+55 27 99861-5189",
+      "website": "http://instagram.com/4studioaudiovisual",
+      "latitude": -20.3552751,
+      "longitude": -40.3455884,
+      "score_comercial": 97.85,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "http://instagram.com/4studioaudiovisual"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.8,
+          "maximo": 5,
+          "valor": 4.8
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 13.05,
+          "maximo": 15,
+          "valor": 72,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.8 de 5.",
+        "Quantidade de avaliações considerada: 72; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 97.85,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

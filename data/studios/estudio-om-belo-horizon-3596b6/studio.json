@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-om-belo-horizon-3596b6",
+  "sourceId": "3596b6535cb1ff6536c1d026bd9a1c6b507a1c886289437dbfd19dc077ae9f67",
+  "name": "Estudio Om",
+  "type": "Recording studio",
+  "slug": "estudio-om",
+  "location": {
+    "city": "Belo Horizonte",
+    "state": "Minas Gerais",
+    "address": "R. São Sebastião do Paraíso, 198 - Itapoã, Belo Horizonte - MG, 31710-080, Brazil",
+    "latitude": -19.836414899999998,
+    "longitude": -43.9642658
+  },
+  "contacts": {
+    "phone": "+55 31 99491-3838",
+    "website": "http://www.instagram.com/estudioombh",
+    "instagram": "http://www.instagram.com/estudioombh"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "569886b7fc882a280fb594ae8ecc24857537761220affa946f747601360f7295",
+    "originalRecord": {
+      "title": "Estudio Om",
+      "type": "Recording studio",
+      "cidade": "Belo Horizonte",
+      "estado": "Minas Gerais",
+      "ratingCount": 73,
+      "rating": 4.6,
+      "address": "R. São Sebastião do Paraíso, 198 - Itapoã, Belo Horizonte - MG, 31710-080, Brazil",
+      "phoneNumber": "+55 31 99491-3838",
+      "website": "http://www.instagram.com/estudioombh",
+      "latitude": -19.836414899999998,
+      "longitude": -43.9642658,
+      "score_comercial": 97.69,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "http://www.instagram.com/estudioombh"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.6,
+          "maximo": 5,
+          "valor": 4.6
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 13.09,
+          "maximo": 15,
+          "valor": 73,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.6 de 5.",
+        "Quantidade de avaliações considerada: 73; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 97.69,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

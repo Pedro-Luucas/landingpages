@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-biz-timon-cfeb64",
+  "sourceId": "cfeb643bdf6c090fcfb0bdbe03fee70ae3a1268efb23dcb841b06cba7f603505",
+  "name": "Estúdio Biz",
+  "type": "Recording studio",
+  "slug": "estudio-biz",
+  "location": {
+    "city": "Timon",
+    "state": "Maranhão",
+    "address": "Casa do compositor e cantor Tony Crissy - Q. Parque Piaui, 63 - casa 16 - Parque Piaui, Teresina - PI, 64025-220, Brazil",
+    "latitude": -5.14326,
+    "longitude": -42.786936999999995
+  },
+  "contacts": {
+    "phone": "+55 86 99989-9741",
+    "website": "https://www.facebook.com/tonycrissy",
+    "facebook": "https://www.facebook.com/tonycrissy"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "69576bf12e29ca172c7c4ae063cbf09f5a7f0c51682af167f04a11eaf719280d",
+    "originalRecord": {
+      "title": "Estúdio Biz",
+      "type": "Recording studio",
+      "cidade": "Timon",
+      "estado": "Maranhão",
+      "ratingCount": 34,
+      "rating": 3.9,
+      "address": "Casa do compositor e cantor Tony Crissy - Q. Parque Piaui, 63 - casa 16 - Parque Piaui, Teresina - PI, 64025-220, Brazil",
+      "phoneNumber": "+55 86 99989-9741",
+      "website": "https://www.facebook.com/tonycrissy",
+      "latitude": -5.14326,
+      "longitude": -42.786936999999995,
+      "score_comercial": 94.72,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://www.facebook.com/tonycrissy"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 3.9,
+          "maximo": 5,
+          "valor": 3.9
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 10.82,
+          "maximo": 15,
+          "valor": 34,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 3.9 de 5.",
+        "Quantidade de avaliações considerada: 34; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 94.72,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

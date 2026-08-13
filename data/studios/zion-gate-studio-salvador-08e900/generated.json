@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "studioId": "zion-gate-studio-salvador-08e900",
+  "generationId": "gen-a5571d70152079097267",
+  "inputHash": "a5571d7015207909726746766c28c14b68ee05bb6058c9e9d2bc4a25eb4073be",
+  "provider": "deterministic-source",
+  "model": "source-batch-v1",
+  "promptVersion": "batch.v1",
+  "templateId": "immersive",
+  "branding": {
+    "colors": {
+      "background": "#08080a",
+      "surface": "#18181d",
+      "primary": "#d7ff3f",
+      "secondary": "#9a8cff",
+      "text": "#f8f8f2",
+      "mutedText": "#a4a4ad"
+    },
+    "fontHeading": "Bebas_Neue",
+    "fontBody": "IBM_Plex_Sans",
+    "radius": "none",
+    "mood": [
+      "imersivo",
+      "noturno"
+    ],
+    "imageTreatment": "Sem mídia não verificada; composição tipográfica e cromática."
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Salvador — Bahia",
+      "title": "Zion Gate Studio",
+      "subtitle": "Um endereço para música em Salvador. Consulte disponibilidade e detalhes diretamente com o estúdio.",
+      "primaryCta": "Falar com o estúdio"
+    },
+    "about": {
+      "title": "O estúdio",
+      "body": "Zion Gate Studio é um estúdio musical localizado em Salvador, Bahia."
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 4.6,
+      "count": 67
+    },
+    "contact": {
+      "title": "Vamos conversar?",
+      "body": "R. Rio de Janeiro, 558 - Pituba, Salvador - BA, 41830-400, Brazil",
+      "cta": "Chamar no WhatsApp"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "about",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "gallery",
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "equipment",
+      "enabled": false,
+      "order": 3
+    },
+    {
+      "id": "pricing",
+      "enabled": false,
+      "order": 4
+    },
+    {
+      "id": "hours",
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "reviews",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "contact",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "map",
+      "enabled": true,
+      "order": 8
+    }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.hero.eyebrow",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    },
+    {
+      "path": "copy.hero.subtitle",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": [
+        "facts.googleReviews[0]"
+      ]
+    },
+    {
+      "path": "copy.contact.body",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    }
+  ],
+  "warnings": [
+    "Conteúdo limitado aos dados comerciais confirmados na fonte original."
+  ],
+  "createdAt": "2026-08-13T04:49:30Z"
+}

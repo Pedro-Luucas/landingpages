@@ -1,0 +1,409 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://landingpages.local/schemas/dossier.schema.json",
+  "title": "Dossier",
+  "description": "Evidence wrapper collected for a studio: discovery, social, facts, and media.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "studioId",
+    "discovery",
+    "social",
+    "facts",
+    "media",
+    "warnings"
+  ],
+  "properties": {
+    "schemaVersion": { "$ref": "#/$defs/SchemaVersion" },
+    "studioId": { "$ref": "#/$defs/StudioId" },
+    "discovery": { "$ref": "#/$defs/Discovery" },
+    "social": { "$ref": "#/$defs/Social" },
+    "facts": { "$ref": "#/$defs/Facts" },
+    "media": { "$ref": "#/$defs/Media" },
+    "warnings": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/PipelineWarning" }
+    },
+    "completedAt": { "type": "string", "format": "date-time" }
+  },
+  "$defs": {
+    "SchemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "StudioId": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "SourceType": {
+      "type": "string",
+      "enum": [
+        "official_site",
+        "instagram",
+        "facebook",
+        "google",
+        "directory",
+        "source_json"
+      ]
+    },
+    "Evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "value",
+        "sourceUrl",
+        "sourceType",
+        "collectedAt",
+        "confidence"
+      ],
+      "properties": {
+        "value": true,
+        "sourceUrl": { "type": "string", "format": "uri" },
+        "sourceType": { "$ref": "#/$defs/SourceType" },
+        "collectedAt": { "type": "string", "format": "date-time" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "excerpt": { "type": "string" }
+      }
+    },
+    "EvidenceString": {
+      "allOf": [
+        { "$ref": "#/$defs/Evidence" },
+        {
+          "type": "object",
+          "properties": {
+            "value": { "type": "string" }
+          }
+        }
+      ]
+    },
+    "EvidenceStringArray": {
+      "allOf": [
+        { "$ref": "#/$defs/Evidence" },
+        {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        }
+      ]
+    },
+    "HighlightValue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "text": { "type": "string" }
+      }
+    },
+    "EvidenceHighlight": {
+      "allOf": [
+        { "$ref": "#/$defs/Evidence" },
+        {
+          "type": "object",
+          "properties": {
+            "value": { "$ref": "#/$defs/HighlightValue" }
+          }
+        }
+      ]
+    },
+    "PriceEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "amountText"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "amountText": { "type": "string", "minLength": 1 },
+        "conditions": { "type": "string" }
+      }
+    },
+    "EvidencePrices": {
+      "allOf": [
+        { "$ref": "#/$defs/Evidence" },
+        {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "array",
+              "items": { "$ref": "#/$defs/PriceEntry" }
+            }
+          }
+        }
+      ]
+    },
+    "OpeningHoursEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["day", "intervals"],
+      "properties": {
+        "day": { "type": "string", "minLength": 1 },
+        "intervals": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "EvidenceOpeningHours": {
+      "allOf": [
+        { "$ref": "#/$defs/Evidence" },
+        {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "array",
+              "items": { "$ref": "#/$defs/OpeningHoursEntry" }
+            }
+          }
+        }
+      ]
+    },
+    "GoogleReviewsValue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [],
+      "properties": {
+        "rating": { "type": "number", "minimum": 0, "maximum": 5 },
+        "count": { "type": "integer", "minimum": 0 },
+        "excerpts": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "EvidenceGoogleReviews": {
+      "allOf": [
+        { "$ref": "#/$defs/Evidence" },
+        {
+          "type": "object",
+          "properties": {
+            "value": { "$ref": "#/$defs/GoogleReviewsValue" }
+          }
+        }
+      ]
+    },
+    "MapValue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [],
+      "properties": {
+        "latitude": { "type": "number", "minimum": -90, "maximum": 90 },
+        "longitude": { "type": "number", "minimum": -180, "maximum": 180 },
+        "address": { "type": "string" },
+        "placeId": { "type": "string" }
+      }
+    },
+    "EvidenceMap": {
+      "allOf": [
+        { "$ref": "#/$defs/Evidence" },
+        {
+          "type": "object",
+          "properties": {
+            "value": { "$ref": "#/$defs/MapValue" }
+          }
+        }
+      ]
+    },
+    "DiscoveryAttempt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["at", "method", "result"],
+      "properties": {
+        "at": { "type": "string", "format": "date-time" },
+        "method": { "type": "string", "minLength": 1 },
+        "query": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "result": { "type": "string", "minLength": 1 },
+        "evidence": {
+          "type": "object",
+          "additionalProperties": true
+        }
+      }
+    },
+    "SelectedProfiles": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [],
+      "properties": {
+        "instagram": { "$ref": "#/$defs/EvidenceString" },
+        "facebook": { "$ref": "#/$defs/EvidenceString" }
+      }
+    },
+    "Discovery": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["attempts", "selectedProfiles", "requiresHumanReview"],
+      "properties": {
+        "attempts": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/DiscoveryAttempt" }
+        },
+        "selectedProfiles": { "$ref": "#/$defs/SelectedProfiles" },
+        "requiresHumanReview": { "type": "boolean" }
+      }
+    },
+    "PostMedia": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "type"],
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "type": {
+          "type": "string",
+          "enum": ["image", "video", "carousel"]
+        },
+        "localPath": { "type": "string", "minLength": 1 }
+      }
+    },
+    "SocialPost": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["externalId", "url", "media", "collectedAt"],
+      "properties": {
+        "externalId": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "publishedAt": { "type": "string", "format": "date-time" },
+        "caption": { "type": "string" },
+        "media": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/PostMedia" }
+        },
+        "collectedAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "Social": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["highlights", "posts"],
+      "properties": {
+        "bio": { "$ref": "#/$defs/EvidenceString" },
+        "profileImage": { "$ref": "#/$defs/EvidenceString" },
+        "highlights": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/EvidenceHighlight" }
+        },
+        "posts": {
+          "type": "array",
+          "maxItems": 30,
+          "items": { "$ref": "#/$defs/SocialPost" }
+        }
+      }
+    },
+    "Facts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "description",
+        "equipment",
+        "prices",
+        "openingHours",
+        "googleReviews",
+        "map"
+      ],
+      "properties": {
+        "description": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/EvidenceString" }
+        },
+        "equipment": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/EvidenceStringArray" }
+        },
+        "prices": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/EvidencePrices" }
+        },
+        "openingHours": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/EvidenceOpeningHours" }
+        },
+        "googleReviews": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/EvidenceGoogleReviews" }
+        },
+        "map": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/EvidenceMap" }
+        }
+      }
+    },
+    "AssetCore": {
+      "type": "object",
+      "required": [
+        "sourceUrl",
+        "sha256",
+        "mime",
+        "sizeBytes",
+        "localPath",
+        "collectedAt"
+      ],
+      "properties": {
+        "sourceUrl": { "type": "string", "format": "uri" },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-fA-F0-9]{64}$"
+        },
+        "mime": { "type": "string", "minLength": 1 },
+        "sizeBytes": { "type": "integer", "minimum": 0 },
+        "width": { "type": "integer", "minimum": 1 },
+        "height": { "type": "integer", "minimum": 1 },
+        "localPath": { "type": "string", "minLength": 1 },
+        "licenseOrUse": { "type": "string" },
+        "collectedAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "DownloadedAsset": {
+      "$ref": "#/$defs/AssetCore",
+      "unevaluatedProperties": false
+    },
+    "MediaCandidate": {
+      "$ref": "#/$defs/AssetCore",
+      "type": "object",
+      "unevaluatedProperties": false,
+      "properties": {
+        "score": { "type": "number", "minimum": 0, "maximum": 1 },
+        "qualityScore": { "type": "number", "minimum": 0, "maximum": 1 },
+        "relevanceScore": { "type": "number", "minimum": 0, "maximum": 1 },
+        "flags": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "usableAsHero": { "type": "boolean" },
+        "usableAsGallery": { "type": "boolean" }
+      }
+    },
+    "Media": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["candidates", "selected"],
+      "properties": {
+        "logo": { "$ref": "#/$defs/DownloadedAsset" },
+        "candidates": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/MediaCandidate" }
+        },
+        "selected": {
+          "type": "array",
+          "maxItems": 10,
+          "items": { "$ref": "#/$defs/DownloadedAsset" }
+        }
+      }
+    },
+    "PipelineWarning": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "message"],
+      "properties": {
+        "code": { "type": "string", "minLength": 1 },
+        "message": { "type": "string", "minLength": 1 },
+        "stage": { "type": "string", "minLength": 1 },
+        "at": { "type": "string", "format": "date-time" },
+        "retryable": { "type": "boolean" }
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "studioId": "la-cueva-records-apui-8d973d",
+  "generationId": "gen-9f5c3a88b859993c069b",
+  "inputHash": "9f5c3a88b859993c069b7ccf6e7fbdb18f227ae6e934cce28e5f0c5fc15b720e",
+  "provider": "deterministic-source",
+  "model": "source-batch-v1",
+  "promptVersion": "batch.v1",
+  "templateId": "bold",
+  "branding": {
+    "colors": {
+      "background": "#111018",
+      "surface": "#201b2b",
+      "primary": "#ff6b4a",
+      "secondary": "#6fd0ca",
+      "text": "#fff6ea",
+      "mutedText": "#b9acbd"
+    },
+    "fontHeading": "Archivo_Black",
+    "fontBody": "Outfit",
+    "radius": "large",
+    "mood": [
+      "enérgico",
+      "direto"
+    ],
+    "imageTreatment": "Sem mídia não verificada; composição tipográfica e cromática."
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Apuí — Amazonas",
+      "title": "La Cueva Records",
+      "subtitle": "Um endereço para música em Apuí. Consulte disponibilidade e detalhes diretamente com o estúdio.",
+      "primaryCta": "Falar com o estúdio"
+    },
+    "about": {
+      "title": "O estúdio",
+      "body": "La Cueva Records é um estúdio musical localizado em Apuí, Amazonas."
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 4.7,
+      "count": 36
+    },
+    "contact": {
+      "title": "Vamos conversar?",
+      "body": "10171 NW 58th St, Doral, FL 33178",
+      "cta": "Chamar no WhatsApp"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "about",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "gallery",
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "equipment",
+      "enabled": false,
+      "order": 3
+    },
+    {
+      "id": "pricing",
+      "enabled": false,
+      "order": 4
+    },
+    {
+      "id": "hours",
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "reviews",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "contact",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "map",
+      "enabled": true,
+      "order": 8
+    }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.hero.eyebrow",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    },
+    {
+      "path": "copy.hero.subtitle",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": [
+        "facts.googleReviews[0]"
+      ]
+    },
+    {
+      "path": "copy.contact.body",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    }
+  ],
+  "warnings": [
+    "Conteúdo limitado aos dados comerciais confirmados na fonte original."
+  ],
+  "createdAt": "2026-08-13T04:49:30Z",
+  "approvedAt": "2026-08-13T04:49:30Z",
+  "approvedBy": "batch:user-authorized",
+  "approvalNote": "Lote de 100 páginas autorizado pelo usuário; somente fatos da fonte e score entre 80 e 99.01.",
+  "assetHashes": []
+}

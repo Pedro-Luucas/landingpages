@@ -1,0 +1,59 @@
+.immersive-root {
+  background: var(--studio-bg);
+}
+
+.immersive-grain,
+.immersive-hero {
+  position: relative;
+}
+
+.immersive-grain::after,
+.immersive-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.22;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
+}
+
+.immersive-vignette {
+  box-shadow: inset 0 0 18vw 4vw color-mix(in srgb, var(--studio-bg) 78%, #000);
+}
+
+.immersive-frame {
+  background: color-mix(in srgb, var(--studio-surface) 88%, #000);
+  box-shadow:
+    0 18px 40px color-mix(in srgb, #000 45%, transparent),
+    0 0 0 1px color-mix(in srgb, var(--studio-text) 12%, transparent);
+}
+
+.immersive-sprocket {
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent 0 14px,
+    color-mix(in srgb, var(--studio-text) 35%, transparent) 14px 18px,
+    transparent 18px 32px
+  );
+}
+
+.immersive-scrim {
+  background: linear-gradient(
+    to top,
+    color-mix(in srgb, var(--studio-bg) 92%, transparent),
+    color-mix(in srgb, var(--studio-bg) 35%, transparent),
+    transparent
+  );
+}
+
+.immersive-sheet {
+  background: color-mix(in srgb, var(--studio-text) 16%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .immersive-root * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "ecostudio-serra-130825",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://www.facebook.com/ecoeduzeck.cunha",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "facebook": {
+        "value": "https://www.facebook.com/ecoeduzeck.cunha",
+        "sourceUrl": "https://www.facebook.com/ecoeduzeck.cunha",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "ECOstudio é um estúdio musical localizado em Serra, Espírito Santo.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-20.162909199999998%2C-40.268987599999996",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.8,
+          "count": 40
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-20.162909199999998%2C-40.268987599999996",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -20.162909199999998,
+          "longitude": -40.268987599999996,
+          "address": "R. Itapetinga - Parque Res. Mte. Alvaro, Serra - ES, 29170-805, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-20.162909199999998%2C-40.268987599999996",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

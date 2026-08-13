@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://landingpages.local/schemas/deployment.schema.json",
+  "title": "Deployment",
+  "description": "Record of a Vercel deployment for an approved studio. Never persist tokens or other secrets.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "deploymentId",
+    "generationId",
+    "projectId",
+    "projectName",
+    "url",
+    "gitRef",
+    "status",
+    "studioId",
+    "environment",
+    "createdAt",
+    "history"
+  ],
+  "propertyNames": {
+    "not": {
+      "anyOf": [
+        { "pattern": "[Tt]oken" },
+        { "pattern": "[Ss]ecret" },
+        { "pattern": "[Pp]assword" },
+        { "pattern": "[Aa][Pp][Ii][_-]?[Kk]ey" },
+        { "pattern": "[Cc]redential" },
+        { "pattern": "[Aa]uthorization" },
+        { "pattern": "[Bb]earer" }
+      ]
+    }
+  },
+  "properties": {
+    "schemaVersion": { "$ref": "#/$defs/SchemaVersion" },
+    "deploymentId": { "type": "string", "minLength": 1 },
+    "generationId": { "type": "string", "minLength": 1 },
+    "projectId": { "type": "string", "minLength": 1 },
+    "projectName": { "type": "string", "minLength": 1 },
+    "url": { "type": "string", "format": "uri" },
+    "gitRef": { "type": "string", "minLength": 1 },
+    "status": { "$ref": "#/$defs/DeploymentStatus" },
+    "studioId": { "$ref": "#/$defs/StudioId" },
+    "environment": { "$ref": "#/$defs/DeploymentEnvironment" },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "readyAt": { "type": "string", "format": "date-time" },
+    "error": { "$ref": "#/$defs/DeploymentError" },
+    "history": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/DeploymentHistoryEntry" }
+    }
+  },
+  "$defs": {
+    "SchemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "StudioId": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "DeploymentStatus": {
+      "type": "string",
+      "enum": ["queued", "building", "ready", "error", "canceled"]
+    },
+    "DeploymentEnvironment": {
+      "type": "string",
+      "enum": ["production", "preview", "development"]
+    },
+    "DeploymentError": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "message", "retryable", "occurredAt"],
+      "properties": {
+        "code": { "type": "string", "minLength": 1 },
+        "message": { "type": "string", "minLength": 1 },
+        "retryable": { "type": "boolean" },
+        "occurredAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "DeploymentHistoryEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["to", "at", "actor"],
+      "properties": {
+        "from": { "$ref": "#/$defs/DeploymentStatus" },
+        "to": { "$ref": "#/$defs/DeploymentStatus" },
+        "at": { "type": "string", "format": "date-time" },
+        "actor": { "type": "string", "minLength": 1 },
+        "reason": { "type": "string" }
+      }
+    }
+  }
+}

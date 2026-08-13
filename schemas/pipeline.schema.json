@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://landingpages.local/schemas/pipeline.schema.json",
+  "title": "PipelineState",
+  "description": "Persisted pipeline queue and per-studio progress at data/state/pipeline.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "updatedAt", "items"],
+  "properties": {
+    "schemaVersion": { "$ref": "#/$defs/SchemaVersion" },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "items": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/PipelineItem" }
+    }
+  },
+  "$defs": {
+    "SchemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "StudioId": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "PipelineStatus": {
+      "type": "string",
+      "enum": [
+        "imported",
+        "queued",
+        "discovering",
+        "needs_social_review",
+        "scraping",
+        "enriching",
+        "selecting_media",
+        "generating",
+        "validating",
+        "ready_for_review",
+        "approved",
+        "rejected",
+        "deploying",
+        "deployed",
+        "failed"
+      ]
+    },
+    "PipelineWarning": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "message"],
+      "properties": {
+        "code": { "type": "string", "minLength": 1 },
+        "message": { "type": "string", "minLength": 1 },
+        "stage": { "type": "string", "minLength": 1 },
+        "at": { "type": "string", "format": "date-time" },
+        "retryable": { "type": "boolean" }
+      }
+    },
+    "PipelineError": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "message", "retryable", "stage", "occurredAt"],
+      "properties": {
+        "code": { "type": "string", "minLength": 1 },
+        "message": { "type": "string", "minLength": 1 },
+        "retryable": { "type": "boolean" },
+        "stage": { "type": "string", "minLength": 1 },
+        "occurredAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "PipelineHistoryEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["to", "at", "actor"],
+      "properties": {
+        "from": { "$ref": "#/$defs/PipelineStatus" },
+        "to": { "$ref": "#/$defs/PipelineStatus" },
+        "at": { "type": "string", "format": "date-time" },
+        "actor": { "type": "string", "minLength": 1 },
+        "reason": { "type": "string" }
+      }
+    },
+    "PipelineItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "studioId",
+        "status",
+        "attempt",
+        "warnings",
+        "history",
+        "createdAt",
+        "updatedAt"
+      ],
+      "properties": {
+        "studioId": { "$ref": "#/$defs/StudioId" },
+        "status": { "$ref": "#/$defs/PipelineStatus" },
+        "currentStage": { "type": "string", "minLength": 1 },
+        "attempt": { "type": "integer", "minimum": 0 },
+        "retryAt": { "type": "string", "format": "date-time" },
+        "lockedBy": { "type": "string", "minLength": 1 },
+        "lockExpiresAt": { "type": "string", "format": "date-time" },
+        "inputHash": {
+          "type": "string",
+          "pattern": "^[a-fA-F0-9]{64}$"
+        },
+        "lastSuccessfulStage": { "type": "string", "minLength": 1 },
+        "warnings": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/PipelineWarning" }
+        },
+        "error": { "$ref": "#/$defs/PipelineError" },
+        "history": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/PipelineHistoryEntry" }
+        },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      }
+    }
+  }
+}

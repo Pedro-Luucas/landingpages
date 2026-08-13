@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "jetmusic-studio-goiania-798553",
+  "sourceId": "79855384bfcd25e6b732d2986ce6f68be97033f17a53e2b35d155479aedcca80",
+  "name": "JETMusic Studio",
+  "type": "Recording studio",
+  "slug": "jetmusic-studio",
+  "location": {
+    "city": "Goiânia",
+    "state": "Goiás",
+    "address": "R. 25 de Dezembro, 725 - quadra 12 lote 32 - Jardim Gramado, Goiânia - GO, 74585-725, Brazil",
+    "latitude": -16.6361046,
+    "longitude": -49.3001692
+  },
+  "contacts": {
+    "phone": "+55 62 99600-7189",
+    "website": "https://instagram.com/jetmusicstudio?igshid=1gsf4yir9vbzi",
+    "instagram": "https://instagram.com/jetmusicstudio?igshid=1gsf4yir9vbzi"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "2768ba2ac7b1d712ef0a7a5a836ec6a43c4fceef5a3e2ec1c4de15e469855915",
+    "originalRecord": {
+      "title": "JETMusic Studio",
+      "type": "Recording studio",
+      "cidade": "Goiânia",
+      "estado": "Goiás",
+      "ratingCount": 80,
+      "rating": 4.9,
+      "address": "R. 25 de Dezembro, 725 - quadra 12 lote 32 - Jardim Gramado, Goiânia - GO, 74585-725, Brazil",
+      "phoneNumber": "+55 62 99600-7189",
+      "website": "https://instagram.com/jetmusicstudio?igshid=1gsf4yir9vbzi",
+      "latitude": -16.6361046,
+      "longitude": -49.3001692,
+      "score_comercial": 98.27,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://instagram.com/jetmusicstudio?igshid=1gsf4yir9vbzi"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.9,
+          "maximo": 5,
+          "valor": 4.9
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 13.37,
+          "maximo": 15,
+          "valor": 80,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.9 de 5.",
+        "Quantidade de avaliações considerada: 80; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 98.27,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

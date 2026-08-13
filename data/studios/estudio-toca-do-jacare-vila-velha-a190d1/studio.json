@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-toca-do-jacare-vila-velha-a190d1",
+  "sourceId": "a190d1cc0fa956102e4371d66b897be0f9a7d0cfae9f21c875ed86e2895113e6",
+  "name": "Estudio Toca do Jacaré",
+  "type": "Recording studio",
+  "slug": "estudio-toca-do-jacare",
+  "location": {
+    "city": "Vila Velha",
+    "state": "Espírito Santo",
+    "address": "Ed Delta Center - Av. Alziro Zarur, 401 - Sala 05 05 - Jardim da Penha, Vitória - ES, 29060-350, Brazil",
+    "latitude": -20.2795676,
+    "longitude": -40.2998496
+  },
+  "contacts": {
+    "phone": "+55 27 99842-4878",
+    "website": "http://www.facebook.com/estudiotocadojacare",
+    "facebook": "http://www.facebook.com/estudiotocadojacare"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "1803bde21468e57a5d8bea87de90349370b337d6f949a2eb79a884aaa3d8655f",
+    "originalRecord": {
+      "title": "Estudio Toca do Jacaré",
+      "type": "Recording studio",
+      "cidade": "Vila Velha",
+      "estado": "Espírito Santo",
+      "ratingCount": 21,
+      "rating": 5,
+      "address": "Ed Delta Center - Av. Alziro Zarur, 401 - Sala 05 05 - Jardim da Penha, Vitória - ES, 29060-350, Brazil",
+      "phoneNumber": "+55 27 99842-4878",
+      "website": "http://www.facebook.com/estudiotocadojacare",
+      "latitude": -20.2795676,
+      "longitude": -40.2998496,
+      "score_comercial": 94.4,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "http://www.facebook.com/estudiotocadojacare"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 9.4,
+          "maximo": 15,
+          "valor": 21,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 21; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 94.4,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

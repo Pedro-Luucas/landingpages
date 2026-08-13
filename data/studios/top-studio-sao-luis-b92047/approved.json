@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "studioId": "top-studio-sao-luis-b92047",
+  "generationId": "gen-d16066372d8e1d23d75e",
+  "inputHash": "d16066372d8e1d23d75e1ae82f12fe45355cac3bab736a6254e5a4e3b46e9f5a",
+  "provider": "deterministic-source",
+  "model": "source-batch-v1",
+  "promptVersion": "batch.v1",
+  "templateId": "immersive",
+  "branding": {
+    "colors": {
+      "background": "#08080a",
+      "surface": "#18181d",
+      "primary": "#d7ff3f",
+      "secondary": "#9a8cff",
+      "text": "#f8f8f2",
+      "mutedText": "#a4a4ad"
+    },
+    "fontHeading": "Bebas_Neue",
+    "fontBody": "IBM_Plex_Sans",
+    "radius": "none",
+    "mood": [
+      "imersivo",
+      "noturno"
+    ],
+    "imageTreatment": "Sem mídia não verificada; composição tipográfica e cromática."
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "São Luís — Maranhão",
+      "title": "Top Studio",
+      "subtitle": "Um endereço para música em São Luís. Consulte disponibilidade e detalhes diretamente com o estúdio.",
+      "primaryCta": "Falar com o estúdio"
+    },
+    "about": {
+      "title": "O estúdio",
+      "body": "Top Studio é um estúdio musical localizado em São Luís, Maranhão."
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 4.8,
+      "count": 78
+    },
+    "contact": {
+      "title": "Vamos conversar?",
+      "body": "R. 7, Quadra 16 - Casa 13 - Cohatrac, São José de Ribamar - MA, 65052-853, Brazil",
+      "cta": "Chamar no WhatsApp"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "about",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "gallery",
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "equipment",
+      "enabled": false,
+      "order": 3
+    },
+    {
+      "id": "pricing",
+      "enabled": false,
+      "order": 4
+    },
+    {
+      "id": "hours",
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "reviews",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "contact",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "map",
+      "enabled": true,
+      "order": 8
+    }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.hero.eyebrow",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    },
+    {
+      "path": "copy.hero.subtitle",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": [
+        "facts.googleReviews[0]"
+      ]
+    },
+    {
+      "path": "copy.contact.body",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    }
+  ],
+  "warnings": [
+    "Conteúdo limitado aos dados comerciais confirmados na fonte original."
+  ],
+  "createdAt": "2026-08-13T04:49:30Z",
+  "approvedAt": "2026-08-13T04:49:30Z",
+  "approvedBy": "batch:user-authorized",
+  "approvalNote": "Lote de 100 páginas autorizado pelo usuário; somente fatos da fonte e score entre 80 e 99.01.",
+  "assetHashes": []
+}

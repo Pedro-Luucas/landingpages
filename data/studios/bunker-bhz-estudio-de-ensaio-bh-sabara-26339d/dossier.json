@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "studioId": "bunker-bhz-estudio-de-ensaio-bh-sabara-26339d",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://bunkerbhz.my.canva.site/",
+        "result": "source_contact_only"
+      }
+    ],
+    "selectedProfiles": {},
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Bunker Bhz - Estúdio de Ensaio BH é um estúdio musical localizado em Sabará, Minas Gerais.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-19.9058453%2C-43.9447033",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.8,
+          "count": 64
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-19.9058453%2C-43.9447033",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -19.9058453,
+          "longitude": -43.9447033,
+          "address": "R. Comendador Nohme Salomão, 165 - Lagoinha, Belo Horizonte - MG, 31210-050, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-19.9058453%2C-43.9447033",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

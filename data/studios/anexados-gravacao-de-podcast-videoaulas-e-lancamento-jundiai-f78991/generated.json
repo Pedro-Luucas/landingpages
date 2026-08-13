@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "studioId": "anexados-gravacao-de-podcast-videoaulas-e-lancamento-jundiai-f78991",
+  "generationId": "gen-0e2e86d581f299981dff",
+  "inputHash": "0e2e86d581f299981dff33d0fa3625ba0ccaa8ea9fff462411e71670834d1414",
+  "provider": "deterministic-source",
+  "model": "source-batch-v1",
+  "promptVersion": "batch.v1",
+  "templateId": "editorial",
+  "branding": {
+    "colors": {
+      "background": "#efe6d3",
+      "surface": "#faf3e6",
+      "primary": "#213a5c",
+      "secondary": "#a04e36",
+      "text": "#17202a",
+      "mutedText": "#6d6b68"
+    },
+    "fontHeading": "Fraunces",
+    "fontBody": "Newsreader",
+    "radius": "small",
+    "mood": [
+      "editorial",
+      "autoral"
+    ],
+    "imageTreatment": "Sem mídia não verificada; composição tipográfica e cromática."
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Jundiaí — São Paulo",
+      "title": "Anexados: Gravação de Podcast, Videoaulas e Lançamentos em Jundiaí",
+      "subtitle": "Um endereço para música em Jundiaí. Consulte disponibilidade e detalhes diretamente com o estúdio.",
+      "primaryCta": "Falar com o estúdio"
+    },
+    "about": {
+      "title": "O estúdio",
+      "body": "Anexados: Gravação de Podcast, Videoaulas e Lançamentos em Jundiaí é um estúdio musical localizado em Jundiaí, São Paulo."
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 5,
+      "count": 91
+    },
+    "contact": {
+      "title": "Vamos conversar?",
+      "body": "R. Vig. J. J. Rodrigues, 21 - sala 1204 - Vila Arens, Jundiaí - SP, 13201-001, Brazil",
+      "cta": "Chamar no WhatsApp"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "about",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "gallery",
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "equipment",
+      "enabled": false,
+      "order": 3
+    },
+    {
+      "id": "pricing",
+      "enabled": false,
+      "order": 4
+    },
+    {
+      "id": "hours",
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "reviews",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "contact",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "map",
+      "enabled": true,
+      "order": 8
+    }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.hero.eyebrow",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    },
+    {
+      "path": "copy.hero.subtitle",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": [
+        "facts.googleReviews[0]"
+      ]
+    },
+    {
+      "path": "copy.contact.body",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    }
+  ],
+  "warnings": [
+    "Conteúdo limitado aos dados comerciais confirmados na fonte original."
+  ],
+  "createdAt": "2026-08-13T04:49:30Z"
+}

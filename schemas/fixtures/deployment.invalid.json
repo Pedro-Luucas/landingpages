@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "deploymentId": "dpl-aurora-sound-lab-cwb-001",
+  "generationId": "gen-aurora-sound-lab-cwb-20260812T171500Z",
+  "projectId": "prj-aurora-sound-lab-cwb",
+  "projectName": "studio-aurora-sound-lab-cwb",
+  "url": "https://studio-aurora-sound-lab-cwb.example.com/",
+  "gitRef": "efddf505a9b2cdcda645da1f0c58e7f6d0b48bdb",
+  "status": "shipped",
+  "studioId": "aurora-sound-lab-cwb",
+  "environment": "production",
+  "createdAt": "2026-08-12T19:00:00Z",
+  "history": []
+}

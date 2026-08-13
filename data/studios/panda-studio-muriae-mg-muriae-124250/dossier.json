@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "panda-studio-muriae-mg-muriae-124250",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "http://www.facebook.com/pandastudiomuriae",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "facebook": {
+        "value": "http://www.facebook.com/pandastudiomuriae",
+        "sourceUrl": "http://www.facebook.com/pandastudiomuriae",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Panda Studio - Muriaé-MG é um estúdio musical localizado em Muriaé, Minas Gerais.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-21.12564%2C-42.3516883",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 5,
+          "count": 25
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-21.12564%2C-42.3516883",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -21.12564,
+          "longitude": -42.3516883,
+          "address": "R. João XXIII, 53 - Edgar Miranda, Muriaé - MG, 36889-368, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-21.12564%2C-42.3516883",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

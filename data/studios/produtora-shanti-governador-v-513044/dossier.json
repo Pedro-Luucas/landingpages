@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "produtora-shanti-governador-v-513044",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://www.instagram.com/shantiestudioficial",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "instagram": {
+        "value": "https://www.instagram.com/shantiestudioficial",
+        "sourceUrl": "https://www.instagram.com/shantiestudioficial",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Produtora Shanti é um estúdio musical localizado em Governador Valadares, Minas Gerais.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-18.8829174%2C-41.9668163",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 5,
+          "count": 35
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-18.8829174%2C-41.9668163",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -18.8829174,
+          "longitude": -41.9668163,
+          "address": "R. Oito, 40 - São Cristóvão, Gov. Valadares - MG, 35045-490, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-18.8829174%2C-41.9668163",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

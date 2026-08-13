@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "studioId": "frog-estudio-joinville-cc3746",
+  "generationId": "gen-4d941f3a4ccfc36191af",
+  "inputHash": "4d941f3a4ccfc36191af36d911f1fe523d872c5432b44e810b20891410e328cc",
+  "provider": "deterministic-source",
+  "model": "source-batch-v1",
+  "promptVersion": "batch.v1",
+  "templateId": "bold",
+  "branding": {
+    "colors": {
+      "background": "#08080a",
+      "surface": "#18181d",
+      "primary": "#d7ff3f",
+      "secondary": "#9a8cff",
+      "text": "#f8f8f2",
+      "mutedText": "#a4a4ad"
+    },
+    "fontHeading": "Archivo_Black",
+    "fontBody": "Outfit",
+    "radius": "large",
+    "mood": [
+      "enérgico",
+      "direto"
+    ],
+    "imageTreatment": "Sem mídia não verificada; composição tipográfica e cromática."
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Joinville — Santa Catarina",
+      "title": "Frog Estúdio",
+      "subtitle": "Um endereço para música em Joinville. Consulte disponibilidade e detalhes diretamente com o estúdio.",
+      "primaryCta": "Falar com o estúdio"
+    },
+    "about": {
+      "title": "O estúdio",
+      "body": "Frog Estúdio é um estúdio musical localizado em Joinville, Santa Catarina."
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 5,
+      "count": 80
+    },
+    "contact": {
+      "title": "Vamos conversar?",
+      "body": "Av. Alm. Jaceguay, 997 - Santo Antônio, Joinville - SC, 89218-075, Brazil",
+      "cta": "Chamar no WhatsApp"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "about",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "gallery",
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "equipment",
+      "enabled": false,
+      "order": 3
+    },
+    {
+      "id": "pricing",
+      "enabled": false,
+      "order": 4
+    },
+    {
+      "id": "hours",
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "reviews",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "contact",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "map",
+      "enabled": true,
+      "order": 8
+    }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.hero.eyebrow",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    },
+    {
+      "path": "copy.hero.subtitle",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": [
+        "facts.googleReviews[0]"
+      ]
+    },
+    {
+      "path": "copy.contact.body",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    }
+  ],
+  "warnings": [
+    "Conteúdo limitado aos dados comerciais confirmados na fonte original."
+  ],
+  "createdAt": "2026-08-13T04:49:30Z"
+}

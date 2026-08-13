@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "studioId": "container-estudio-taubate-55f6d7",
+  "sourceId": "55f6d72ec1a5d916e47b11650f9166f496859b2e88ec063b342251946752277c",
+  "name": "Container Estúdio",
+  "type": "Recording studio",
+  "slug": "container-estudio",
+  "location": {
+    "city": "Taubaté",
+    "state": "São Paulo",
+    "address": "R. Dona Benta, 1194 - Jardim Gurilândia, Taubaté - SP, 12071-580, Brazil",
+    "latitude": -23.0095056,
+    "longitude": -45.5313624
+  },
+  "contacts": {
+    "phone": "+55 12 99171-5260",
+    "website": "https://containeror.wixsite.com/containerestudio"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "a8a46eefe6c872dce0e6a2596391a57cf1675d49a2e04fb6d69faab0fc26bbd1",
+    "originalRecord": {
+      "title": "Container Estúdio",
+      "type": "Recording studio",
+      "cidade": "Taubaté",
+      "estado": "São Paulo",
+      "ratingCount": 48,
+      "rating": 4.9,
+      "address": "R. Dona Benta, 1194 - Jardim Gurilândia, Taubaté - SP, 12071-580, Brazil",
+      "phoneNumber": "+55 12 99171-5260",
+      "website": "https://containeror.wixsite.com/containerestudio",
+      "latitude": -23.0095056,
+      "longitude": -45.5313624,
+      "score_comercial": 96.74,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://containeror.wixsite.com/containerestudio"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.9,
+          "maximo": 5,
+          "valor": 4.9
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 11.84,
+          "maximo": 15,
+          "valor": 48,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.9 de 5.",
+        "Quantidade de avaliações considerada: 48; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 96.74,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

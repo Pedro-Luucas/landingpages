@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "aquarela-studios-ensaios-gravacoes-e-producao-musica-sorocaba-8f523c",
+  "sourceId": "8f523c09a325263e8428abfe5c8ca044f25db093b6c3e03cd47480080210de90",
+  "name": "Aquarela Studios (Ensaios, Gravações e Produção Musical)",
+  "type": "Recording studio",
+  "slug": "aquarela-studios-ensaios-gravacoes-e-producao-musical",
+  "location": {
+    "city": "Sorocaba",
+    "state": "São Paulo",
+    "address": "Rua Amador Bueno, 44 - Centro, Sorocaba - SP, 18030-105, Brazil",
+    "latitude": -23.504559699999998,
+    "longitude": -47.462606099999995
+  },
+  "contacts": {
+    "phone": "+55 15 99124-1983",
+    "website": "https://www.facebook.com/aquarelarecords",
+    "facebook": "https://www.facebook.com/aquarelarecords"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "a2f1948ef50c0ae3e3a51455c90fdbc0b591c9ee7267ce60b81f0c29ce0ca165",
+    "originalRecord": {
+      "title": "Aquarela Studios (Ensaios, Gravações e Produção Musical)",
+      "type": "Recording studio",
+      "cidade": "Sorocaba",
+      "estado": "São Paulo",
+      "ratingCount": 64,
+      "rating": 4.8,
+      "address": "Rua Amador Bueno, 44 - Centro, Sorocaba - SP, 18030-105, Brazil",
+      "phoneNumber": "+55 15 99124-1983",
+      "website": "https://www.facebook.com/aquarelarecords",
+      "latitude": -23.504559699999998,
+      "longitude": -47.462606099999995,
+      "score_comercial": 97.5,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://www.facebook.com/aquarelarecords"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.8,
+          "maximo": 5,
+          "valor": 4.8
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 12.7,
+          "maximo": 15,
+          "valor": 64,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.8 de 5.",
+        "Quantidade de avaliações considerada: 64; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 97.5,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

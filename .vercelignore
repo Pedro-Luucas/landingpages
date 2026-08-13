@@ -1,0 +1,11 @@
+.git
+.next
+.venv
+.pytest_cache
+pipeline/tests
+tests
+data/source
+data/logs
+data/state/locks
+estudios_musica.json
+plan.md

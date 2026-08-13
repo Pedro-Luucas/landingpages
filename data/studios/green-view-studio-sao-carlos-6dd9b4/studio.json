@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "green-view-studio-sao-carlos-6dd9b4",
+  "sourceId": "6dd9b48300c9a6239ede83a1432108736d09d5b5aacea7afee04e7fbbcebb3d3",
+  "name": "Green View Studio",
+  "type": "Rehearsal studio",
+  "slug": "green-view-studio",
+  "location": {
+    "city": "São Carlos",
+    "state": "São Paulo",
+    "address": "R. Sebastião Sampaio Osório, 999 - Parque Paraiso, São Carlos - SP, 13562-120, Brazil",
+    "latitude": -22.0004658,
+    "longitude": -47.916120199999995
+  },
+  "contacts": {
+    "phone": "+55 16 98149-6487",
+    "website": "https://www.instagram.com/_greenview_studio/",
+    "instagram": "https://www.instagram.com/_greenview_studio/"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "9b9cab988180124a760cdfe86b79cc8bbfdcead327c9c8eecc75191072beef8f",
+    "originalRecord": {
+      "title": "Green View Studio",
+      "type": "Rehearsal studio",
+      "cidade": "São Carlos",
+      "estado": "São Paulo",
+      "ratingCount": 36,
+      "rating": 5,
+      "address": "R. Sebastião Sampaio Osório, 999 - Parque Paraiso, São Carlos - SP, 13562-120, Brazil",
+      "phoneNumber": "+55 16 98149-6487",
+      "website": "https://www.instagram.com/_greenview_studio/",
+      "latitude": -22.0004658,
+      "longitude": -47.916120199999995,
+      "score_comercial": 95.99,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://www.instagram.com/_greenview_studio/"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 10.99,
+          "maximo": 15,
+          "valor": 36,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 36; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 95.99,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

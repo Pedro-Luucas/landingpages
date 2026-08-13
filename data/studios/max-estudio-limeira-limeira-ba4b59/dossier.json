@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "max-estudio-limeira-limeira-ba4b59",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://www.facebook.com/estudiomaxsander/",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "facebook": {
+        "value": "https://www.facebook.com/estudiomaxsander/",
+        "sourceUrl": "https://www.facebook.com/estudiomaxsander/",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Max Estúdio Limeira é um estúdio musical localizado em Limeira, São Paulo.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-22.5892953%2C-47.4078686",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.9,
+          "count": 48
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-22.5892953%2C-47.4078686",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -22.5892953,
+          "longitude": -47.4078686,
+          "address": "R. Francisco Faber, 380 - Parque Das Nações, Limeira - SP, 13481-012, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-22.5892953%2C-47.4078686",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-two-stroke-maringa-f92da7",
+  "generationId": "gen-1834fe661c8ea15d3247",
+  "inputHash": "1834fe661c8ea15d3247d9cb64bfd56f484f129b1d3f03c6e27eb5a1666c5293",
+  "provider": "deterministic-source",
+  "model": "source-batch-v1",
+  "promptVersion": "batch.v1",
+  "templateId": "immersive",
+  "branding": {
+    "colors": {
+      "background": "#111018",
+      "surface": "#201b2b",
+      "primary": "#ff6b4a",
+      "secondary": "#6fd0ca",
+      "text": "#fff6ea",
+      "mutedText": "#b9acbd"
+    },
+    "fontHeading": "Bebas_Neue",
+    "fontBody": "IBM_Plex_Sans",
+    "radius": "none",
+    "mood": [
+      "imersivo",
+      "noturno"
+    ],
+    "imageTreatment": "Sem mídia não verificada; composição tipográfica e cromática."
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Maringá — Paraná",
+      "title": "Estúdio Two Stroke",
+      "subtitle": "Um endereço para música em Maringá. Consulte disponibilidade e detalhes diretamente com o estúdio.",
+      "primaryCta": "Falar com o estúdio"
+    },
+    "about": {
+      "title": "O estúdio",
+      "body": "Estúdio Two Stroke é um estúdio musical localizado em Maringá, Paraná."
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 5,
+      "count": 23
+    },
+    "contact": {
+      "title": "Vamos conversar?",
+      "body": "R. Guerino Baldo, 89 - Jardim São Silvestre, Maringá - PR, 87055-360, Brazil",
+      "cta": "Chamar no WhatsApp"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "about",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "gallery",
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "equipment",
+      "enabled": false,
+      "order": 3
+    },
+    {
+      "id": "pricing",
+      "enabled": false,
+      "order": 4
+    },
+    {
+      "id": "hours",
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "reviews",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "contact",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "map",
+      "enabled": true,
+      "order": 8
+    }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.hero.eyebrow",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    },
+    {
+      "path": "copy.hero.subtitle",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": [
+        "facts.googleReviews[0]"
+      ]
+    },
+    {
+      "path": "copy.contact.body",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    }
+  ],
+  "warnings": [
+    "Conteúdo limitado aos dados comerciais confirmados na fonte original."
+  ],
+  "createdAt": "2026-08-13T04:49:30Z",
+  "approvedAt": "2026-08-13T04:49:30Z",
+  "approvedBy": "batch:user-authorized",
+  "approvalNote": "Lote de 100 páginas autorizado pelo usuário; somente fatos da fonte e score entre 80 e 99.01.",
+  "assetHashes": []
+}

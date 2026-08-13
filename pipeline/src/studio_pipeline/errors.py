@@ -1,0 +1,38 @@
+"""Stable pipeline error codes (plan §13)."""
+
+from __future__ import annotations
+
+INPUT_INVALID = "INPUT_INVALID"
+SCHEMA_INVALID = "SCHEMA_INVALID"
+DUPLICATE_STUDIO = "DUPLICATE_STUDIO"
+LOCKED = "LOCKED"
+LOCK_EXPIRED = "LOCK_EXPIRED"
+STATE_CONFLICT = "STATE_CONFLICT"
+
+# Reserved for later milestones; exported so callers can share one catalog.
+SOCIAL_NOT_FOUND = "SOCIAL_NOT_FOUND"
+SOCIAL_AMBIGUOUS = "SOCIAL_AMBIGUOUS"
+PLATFORM_BLOCKED = "PLATFORM_BLOCKED"
+RATE_LIMITED = "RATE_LIMITED"
+HTTP_TIMEOUT = "HTTP_TIMEOUT"
+HTTP_NOT_FOUND = "HTTP_NOT_FOUND"
+DOWNLOAD_INVALID = "DOWNLOAD_INVALID"
+ASSET_TOO_LARGE = "ASSET_TOO_LARGE"
+AI_RATE_LIMITED = "AI_RATE_LIMITED"
+AI_OUTPUT_INVALID = "AI_OUTPUT_INVALID"
+AI_PROVIDER_ERROR = "AI_PROVIDER_ERROR"
+FACT_WITHOUT_EVIDENCE = "FACT_WITHOUT_EVIDENCE"
+BUILD_FAILED = "BUILD_FAILED"
+APPROVAL_REQUIRED = "APPROVAL_REQUIRED"
+VERCEL_AUTH_ERROR = "VERCEL_AUTH_ERROR"
+VERCEL_QUOTA = "VERCEL_QUOTA"
+DEPLOY_FAILED = "DEPLOY_FAILED"
+
+
+class PipelineError(Exception):
+    """User-facing failure with a stable machine-readable code."""
+
+    def __init__(self, code: str, message: str) -> None:
+        self.code = code
+        self.message = message
+        super().__init__(f"{code}: {message}")

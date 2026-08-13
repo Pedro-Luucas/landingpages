@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "anexados-gravacao-de-podcast-videoaulas-e-lancamento-jundiai-f78991",
+  "sourceId": "f78991f658c847955b3f3b92e539d1b3c33a60417f5edf6c1b459f8b15622863",
+  "name": "Anexados: Gravação de Podcast, Videoaulas e Lançamentos em Jundiaí",
+  "type": "Recording studio",
+  "slug": "anexados-gravacao-de-podcast-videoaulas-e-lancamentos-em-jundiai",
+  "location": {
+    "city": "Jundiaí",
+    "state": "São Paulo",
+    "address": "R. Vig. J. J. Rodrigues, 21 - sala 1204 - Vila Arens, Jundiaí - SP, 13201-001, Brazil",
+    "latitude": -23.19649,
+    "longitude": -46.8771663
+  },
+  "contacts": {
+    "phone": "+55 11 95370-4826",
+    "website": "https://www.instagram.com/anexados.agencia?igsh=OWp1YzFocnhveXpn&utm_source=qr",
+    "instagram": "https://www.instagram.com/anexados.agencia?igsh=OWp1YzFocnhveXpn&utm_source=qr"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "0b8260f1cfef44dfa2a803251c5e23cbd720dda312ea7590bd96d686ab32fc47",
+    "originalRecord": {
+      "title": "Anexados: Gravação de Podcast, Videoaulas e Lançamentos em Jundiaí",
+      "type": "Recording studio",
+      "cidade": "Jundiaí",
+      "estado": "São Paulo",
+      "ratingCount": 91,
+      "rating": 5,
+      "address": "R. Vig. J. J. Rodrigues, 21 - sala 1204 - Vila Arens, Jundiaí - SP, 13201-001, Brazil",
+      "phoneNumber": "+55 11 95370-4826",
+      "website": "https://www.instagram.com/anexados.agencia?igsh=OWp1YzFocnhveXpn&utm_source=qr",
+      "latitude": -23.19649,
+      "longitude": -46.8771663,
+      "score_comercial": 98.76,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://www.instagram.com/anexados.agencia?igsh=OWp1YzFocnhveXpn&utm_source=qr"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 13.76,
+          "maximo": 15,
+          "valor": 91,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 91; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 98.76,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

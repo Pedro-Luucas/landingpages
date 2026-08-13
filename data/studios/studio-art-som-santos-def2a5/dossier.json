@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "studio-art-som-santos-def2a5",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://pt-br.facebook.com/studioartsom",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "facebook": {
+        "value": "https://pt-br.facebook.com/studioartsom",
+        "sourceUrl": "https://pt-br.facebook.com/studioartsom",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Studio Art Som é um estúdio musical localizado em Santos, São Paulo.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-24.0065486%2C-46.418734",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.7,
+          "count": 79
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-24.0065486%2C-46.418734",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -24.0065486,
+          "longitude": -46.418734,
+          "address": "R. Fumio Miyazi, 531 - Boqueirão, Praia Grande - SP, 11701-160, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-24.0065486%2C-46.418734",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "studioId": "dog-house-som-e-imagem-blumenau-1d262f",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://sites.google.com/view/lowtechmusic/dog-house-som-e-imagem",
+        "result": "source_contact_only"
+      }
+    ],
+    "selectedProfiles": {},
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Dog House - Som e Imagem é um estúdio musical localizado em Blumenau, Santa Catarina.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-26.9232288%2C-49.1035762",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.9,
+          "count": 63
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-26.9232288%2C-49.1035762",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -26.9232288,
+          "longitude": -49.1035762,
+          "address": "R. Gen. Osório, 160 - Velha, Blumenau - SC, 89041-000, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-26.9232288%2C-49.1035762",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

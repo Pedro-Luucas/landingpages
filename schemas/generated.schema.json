@@ -1,0 +1,248 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://landingpages.local/schemas/generated.schema.json",
+  "title": "GeneratedSite",
+  "description": "AI-generated branding, copy, template choice, and evidence-backed factual claims.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "studioId",
+    "generationId",
+    "inputHash",
+    "provider",
+    "model",
+    "promptVersion",
+    "templateId",
+    "branding",
+    "copy",
+    "sections",
+    "assetPaths",
+    "factualClaims",
+    "warnings",
+    "createdAt"
+  ],
+  "properties": {
+    "schemaVersion": { "$ref": "#/$defs/SchemaVersion" },
+    "studioId": { "$ref": "#/$defs/StudioId" },
+    "generationId": { "type": "string", "minLength": 1 },
+    "inputHash": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{64}$"
+    },
+    "provider": { "type": "string", "minLength": 1 },
+    "model": { "type": "string", "minLength": 1 },
+    "promptVersion": { "type": "string", "minLength": 1 },
+    "templateId": {
+      "type": "string",
+      "minLength": 1,
+      "$comment": "Known templates: editorial, immersive, minimal, bold. Other ids are allowed."
+    },
+    "branding": { "$ref": "#/$defs/Branding" },
+    "copy": { "$ref": "#/$defs/Copy" },
+    "sections": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/Section" }
+    },
+    "assetPaths": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "factualClaims": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/FactualClaim" }
+    },
+    "warnings": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "createdAt": { "type": "string", "format": "date-time" }
+  },
+  "$defs": {
+    "SchemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "StudioId": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "Branding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["colors", "fontHeading", "fontBody", "radius", "mood"],
+      "properties": {
+        "colors": { "$ref": "#/$defs/Colors" },
+        "fontHeading": { "type": "string", "minLength": 1 },
+        "fontBody": { "type": "string", "minLength": 1 },
+        "radius": {
+          "type": "string",
+          "enum": ["none", "small", "medium", "large"]
+        },
+        "mood": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "imageTreatment": { "type": "string", "minLength": 1 }
+      }
+    },
+    "Colors": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "background",
+        "surface",
+        "primary",
+        "secondary",
+        "text",
+        "mutedText"
+      ],
+      "properties": {
+        "background": { "type": "string", "minLength": 1 },
+        "surface": { "type": "string", "minLength": 1 },
+        "primary": { "type": "string", "minLength": 1 },
+        "secondary": { "type": "string", "minLength": 1 },
+        "text": { "type": "string", "minLength": 1 },
+        "mutedText": { "type": "string", "minLength": 1 }
+      }
+    },
+    "Copy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hero", "contact"],
+      "properties": {
+        "hero": { "$ref": "#/$defs/HeroCopy" },
+        "about": { "$ref": "#/$defs/AboutCopy" },
+        "equipment": { "$ref": "#/$defs/EquipmentCopy" },
+        "pricing": { "$ref": "#/$defs/PricingCopy" },
+        "hours": { "$ref": "#/$defs/HoursCopy" },
+        "reviews": { "$ref": "#/$defs/ReviewsCopy" },
+        "contact": { "$ref": "#/$defs/ContactCopy" }
+      }
+    },
+    "HeroCopy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title"],
+      "properties": {
+        "eyebrow": { "type": "string", "minLength": 1 },
+        "title": { "type": "string", "minLength": 1 },
+        "subtitle": { "type": "string", "minLength": 1 },
+        "primaryCta": { "type": "string", "minLength": 1 }
+      }
+    },
+    "AboutCopy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "body"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "body": { "type": "string", "minLength": 1 }
+      }
+    },
+    "EquipmentCopy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "items"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "intro": { "type": "string", "minLength": 1 },
+        "items": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "PricingCopy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "items"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "items": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/PricingItem" }
+        }
+      }
+    },
+    "PricingItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "value"],
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "value": { "type": "string", "minLength": 1 },
+        "note": { "type": "string" }
+      }
+    },
+    "HoursCopy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "items"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "items": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/HoursItem" }
+        }
+      }
+    },
+    "HoursItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["day", "value"],
+      "properties": {
+        "day": { "type": "string", "minLength": 1 },
+        "value": { "type": "string", "minLength": 1 }
+      }
+    },
+    "ReviewsCopy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "rating": { "type": "number", "minimum": 0, "maximum": 5 },
+        "count": { "type": "integer", "minimum": 0 },
+        "excerpts": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "ContactCopy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "cta"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "body": { "type": "string" },
+        "cta": { "type": "string", "minLength": 1 }
+      }
+    },
+    "Section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "enabled", "order"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "enabled": { "type": "boolean" },
+        "order": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "FactualClaim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "evidenceRefs"],
+      "properties": {
+        "path": { "type": "string", "minLength": 1 },
+        "evidenceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

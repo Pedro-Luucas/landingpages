@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "criasom-estudio-bauru-30e66d",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "http://facebook.com/criasomestudio",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "facebook": {
+        "value": "http://facebook.com/criasomestudio",
+        "sourceUrl": "http://facebook.com/criasomestudio",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Criasom Estúdio é um estúdio musical localizado em Bauru, São Paulo.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-22.3375588%2C-49.0794383",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.8,
+          "count": 56
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-22.3375588%2C-49.0794383",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -22.3375588,
+          "longitude": -49.0794383,
+          "address": "R. Célio Daibem, 11-12 - Jardim Estoril, Bauru - SP, 17015-080, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-22.3375588%2C-49.0794383",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

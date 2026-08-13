@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-om-belo-horizon-3596b6",
+  "generationId": "gen-bbded5e27e2b26f70c1c",
+  "inputHash": "bbded5e27e2b26f70c1c13f93361daa28d4fd7f3145b0823f3646d6df27ec709",
+  "provider": "deterministic-source",
+  "model": "source-batch-v1",
+  "promptVersion": "batch.v1",
+  "templateId": "editorial",
+  "branding": {
+    "colors": {
+      "background": "#efe6d3",
+      "surface": "#faf3e6",
+      "primary": "#213a5c",
+      "secondary": "#a04e36",
+      "text": "#17202a",
+      "mutedText": "#6d6b68"
+    },
+    "fontHeading": "Fraunces",
+    "fontBody": "Newsreader",
+    "radius": "small",
+    "mood": [
+      "editorial",
+      "autoral"
+    ],
+    "imageTreatment": "Sem mídia não verificada; composição tipográfica e cromática."
+  },
+  "copy": {
+    "hero": {
+      "eyebrow": "Belo Horizonte — Minas Gerais",
+      "title": "Estudio Om",
+      "subtitle": "Um endereço para música em Belo Horizonte. Consulte disponibilidade e detalhes diretamente com o estúdio.",
+      "primaryCta": "Falar com o estúdio"
+    },
+    "about": {
+      "title": "O estúdio",
+      "body": "Estudio Om é um estúdio musical localizado em Belo Horizonte, Minas Gerais."
+    },
+    "reviews": {
+      "title": "Avaliações",
+      "rating": 4.6,
+      "count": 73
+    },
+    "contact": {
+      "title": "Vamos conversar?",
+      "body": "R. São Sebastião do Paraíso, 198 - Itapoã, Belo Horizonte - MG, 31710-080, Brazil",
+      "cta": "Chamar no WhatsApp"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "enabled": true,
+      "order": 0
+    },
+    {
+      "id": "about",
+      "enabled": true,
+      "order": 1
+    },
+    {
+      "id": "gallery",
+      "enabled": false,
+      "order": 2
+    },
+    {
+      "id": "equipment",
+      "enabled": false,
+      "order": 3
+    },
+    {
+      "id": "pricing",
+      "enabled": false,
+      "order": 4
+    },
+    {
+      "id": "hours",
+      "enabled": false,
+      "order": 5
+    },
+    {
+      "id": "reviews",
+      "enabled": true,
+      "order": 6
+    },
+    {
+      "id": "contact",
+      "enabled": true,
+      "order": 7
+    },
+    {
+      "id": "map",
+      "enabled": true,
+      "order": 8
+    }
+  ],
+  "assetPaths": [],
+  "factualClaims": [
+    {
+      "path": "copy.hero.eyebrow",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    },
+    {
+      "path": "copy.hero.subtitle",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.about.body",
+      "evidenceRefs": [
+        "facts.description[0]"
+      ]
+    },
+    {
+      "path": "copy.reviews",
+      "evidenceRefs": [
+        "facts.googleReviews[0]"
+      ]
+    },
+    {
+      "path": "copy.contact.body",
+      "evidenceRefs": [
+        "facts.map[0]"
+      ]
+    }
+  ],
+  "warnings": [
+    "Conteúdo limitado aos dados comerciais confirmados na fonte original."
+  ],
+  "createdAt": "2026-08-13T04:49:30Z"
+}

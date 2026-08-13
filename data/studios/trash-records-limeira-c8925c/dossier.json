@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "trash-records-limeira-c8925c",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "http://facebook.com/trashrecords",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "facebook": {
+        "value": "http://facebook.com/trashrecords",
+        "sourceUrl": "http://facebook.com/trashrecords",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "TRASH RECORDS é um estúdio musical localizado em Limeira, São Paulo.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-22.559635999999998%2C-47.415157",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.7,
+          "count": 50
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-22.559635999999998%2C-47.415157",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -22.559635999999998,
+          "longitude": -47.415157,
+          "address": "R. Ezequiel Paula Ramos, 257 B - Jardim Piratininga, Limeira - SP, 13484-327, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-22.559635999999998%2C-47.415157",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

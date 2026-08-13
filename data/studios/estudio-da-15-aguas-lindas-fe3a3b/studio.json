@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-da-15-aguas-lindas-fe3a3b",
+  "sourceId": "fe3a3bac1deca76733400013ff644a1058500b0ada290221712b41b2024aec6c",
+  "name": "Estúdio da 15",
+  "type": "Recording studio",
+  "slug": "estudio-da-15",
+  "location": {
+    "city": "Águas Lindas de Goiás",
+    "state": "Goiás",
+    "address": "Asa Norte Comércio Local Norte 115 bl a loja 31s - Asa Norte, Brasília - DF, 70297-400, Brazil",
+    "latitude": -15.740378799999998,
+    "longitude": -47.893172899999996
+  },
+  "contacts": {
+    "phone": "+55 61 98237-1263",
+    "website": "http://www.facebook.com/estudioda15",
+    "facebook": "http://www.facebook.com/estudioda15"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "a10586ceb11527ebe84e71ae8b5967d5cc64520db1b85d266d90d7218311e86e",
+    "originalRecord": {
+      "title": "Estúdio da 15",
+      "type": "Recording studio",
+      "cidade": "Águas Lindas de Goiás",
+      "estado": "Goiás",
+      "ratingCount": 33,
+      "rating": 4.9,
+      "address": "Asa Norte Comércio Local Norte 115 bl a loja 31s - Asa Norte, Brasília - DF, 70297-400, Brazil",
+      "phoneNumber": "+55 61 98237-1263",
+      "website": "http://www.facebook.com/estudioda15",
+      "latitude": -15.740378799999998,
+      "longitude": -47.893172899999996,
+      "score_comercial": 95.63,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "http://www.facebook.com/estudioda15"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.9,
+          "maximo": 5,
+          "valor": 4.9
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 10.73,
+          "maximo": 15,
+          "valor": 33,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.9 de 5.",
+        "Quantidade de avaliações considerada: 33; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 95.63,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

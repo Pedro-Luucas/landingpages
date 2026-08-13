@@ -1,0 +1,915 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-13T04:35:07Z",
+  "sourceFile": "estudios_musica.json",
+  "criteria": {
+    "minScore": 80,
+    "maxScore": 99.01,
+    "order": "score_desc_name_city",
+    "limit": 100
+  },
+  "eligibleCount": 654,
+  "count": 100,
+  "studios": [
+    {
+      "studioId": "studio-4214-sao-bernardo-4e0257",
+      "name": "Studio 4214",
+      "city": "São Bernardo do Campo",
+      "state": "São Paulo",
+      "score": 99.01,
+      "templateId": "editorial",
+      "href": "/studios/studio-4214-sao-bernardo-4e0257"
+    },
+    {
+      "studioId": "studio-morada-vila-velha-6aa577",
+      "name": "Studio Morada",
+      "city": "Vila Velha",
+      "state": "Espírito Santo",
+      "score": 98.99,
+      "templateId": "immersive",
+      "href": "/studios/studio-morada-vila-velha-6aa577"
+    },
+    {
+      "studioId": "bacca-estudio-e-sonorizacao-blumenau-877ba0",
+      "name": "Bacca - Estúdio e Sonorização",
+      "city": "Blumenau",
+      "state": "Santa Catarina",
+      "score": 98.98,
+      "templateId": "minimal",
+      "href": "/studios/bacca-estudio-e-sonorizacao-blumenau-877ba0"
+    },
+    {
+      "studioId": "fusion-studio-ensaios-e-producoes-musicais-goiania-16be24",
+      "name": "Fusion Studio - Ensaios e Produções Musicais",
+      "city": "Goiânia",
+      "state": "Goiás",
+      "score": 98.79,
+      "templateId": "bold",
+      "href": "/studios/fusion-studio-ensaios-e-producoes-musicais-goiania-16be24"
+    },
+    {
+      "studioId": "anexados-gravacao-de-podcast-videoaulas-e-lancamento-jundiai-f78991",
+      "name": "Anexados: Gravação de Podcast, Videoaulas e Lançamentos em Jundiaí",
+      "city": "Jundiaí",
+      "state": "São Paulo",
+      "score": 98.76,
+      "templateId": "editorial",
+      "href": "/studios/anexados-gravacao-de-podcast-videoaulas-e-lancamento-jundiai-f78991"
+    },
+    {
+      "studioId": "duarte-studio-salvador-07f24e",
+      "name": "Duarte Studio",
+      "city": "Salvador",
+      "state": "Bahia",
+      "score": 98.69,
+      "templateId": "immersive",
+      "href": "/studios/duarte-studio-salvador-07f24e"
+    },
+    {
+      "studioId": "estudiocurtirsom-maracanau-846e90",
+      "name": "EstudioCurtirsom",
+      "city": "Maracanaú",
+      "state": "Ceará",
+      "score": 98.62,
+      "templateId": "minimal",
+      "href": "/studios/estudiocurtirsom-maracanau-846e90"
+    },
+    {
+      "studioId": "estudio-raizes-recife-095385",
+      "name": "Estúdio Raizes",
+      "city": "Recife",
+      "state": "Pernambuco",
+      "score": 98.56,
+      "templateId": "bold",
+      "href": "/studios/estudio-raizes-recife-095385"
+    },
+    {
+      "studioId": "pulsar-estudio-belem-06e1c3",
+      "name": "Pulsar Estudio",
+      "city": "Belém",
+      "state": "Pará",
+      "score": 98.52,
+      "templateId": "editorial",
+      "href": "/studios/pulsar-estudio-belem-06e1c3"
+    },
+    {
+      "studioId": "estudio-327-blumenau-b41ff7",
+      "name": "Estúdio 327",
+      "city": "Blumenau",
+      "state": "Santa Catarina",
+      "score": 98.42,
+      "templateId": "immersive",
+      "href": "/studios/estudio-327-blumenau-b41ff7"
+    },
+    {
+      "studioId": "coruja-estudio-producoes-musicais-goiania-1eea1e",
+      "name": "Coruja Estúdio - Produções Musicais",
+      "city": "Goiânia",
+      "state": "Goiás",
+      "score": 98.41,
+      "templateId": "minimal",
+      "href": "/studios/coruja-estudio-producoes-musicais-goiania-1eea1e"
+    },
+    {
+      "studioId": "frog-estudio-joinville-cc3746",
+      "name": "Frog Estúdio",
+      "city": "Joinville",
+      "state": "Santa Catarina",
+      "score": 98.37,
+      "templateId": "bold",
+      "href": "/studios/frog-estudio-joinville-cc3746"
+    },
+    {
+      "studioId": "boomer-estudio-indaiatuba-3ff155",
+      "name": "Boomer Estúdio",
+      "city": "Indaiatuba",
+      "state": "São Paulo",
+      "score": 98.33,
+      "templateId": "editorial",
+      "href": "/studios/boomer-estudio-indaiatuba-3ff155"
+    },
+    {
+      "studioId": "fuzz-guitars-sao-jose-dos-8b4163",
+      "name": "Fuzz Guitars",
+      "city": "São José dos Pinhais",
+      "state": "Paraná",
+      "score": 98.28,
+      "templateId": "immersive",
+      "href": "/studios/fuzz-guitars-sao-jose-dos-8b4163"
+    },
+    {
+      "studioId": "jetmusic-studio-goiania-798553",
+      "name": "JETMusic Studio",
+      "city": "Goiânia",
+      "state": "Goiás",
+      "score": 98.27,
+      "templateId": "minimal",
+      "href": "/studios/jetmusic-studio-goiania-798553"
+    },
+    {
+      "studioId": "estudio-house-mix-mogi-das-cru-b34a94",
+      "name": "Estúdio House Mix",
+      "city": "Mogi das Cruzes",
+      "state": "São Paulo",
+      "score": 98.14,
+      "templateId": "bold",
+      "href": "/studios/estudio-house-mix-mogi-das-cru-b34a94"
+    },
+    {
+      "studioId": "efex-estudio-e-sonorizacao-senador-cane-085238",
+      "name": "Efex Estúdio e Sonorização",
+      "city": "Senador Canedo",
+      "state": "Goiás",
+      "score": 98.09,
+      "templateId": "editorial",
+      "href": "/studios/efex-estudio-e-sonorizacao-senador-cane-085238"
+    },
+    {
+      "studioId": "top-studio-sao-luis-b92047",
+      "name": "Top Studio",
+      "city": "São Luís",
+      "state": "Maranhão",
+      "score": 98.09,
+      "templateId": "immersive",
+      "href": "/studios/top-studio-sao-luis-b92047"
+    },
+    {
+      "studioId": "estudio-manga-aguas-lindas-4471de",
+      "name": "Estúdio Manga",
+      "city": "Águas Lindas de Goiás",
+      "state": "Goiás",
+      "score": 98.08,
+      "templateId": "minimal",
+      "href": "/studios/estudio-manga-aguas-lindas-4471de"
+    },
+    {
+      "studioId": "pedra-sonora-estudio-biguacu-3f0e20",
+      "name": "Pedra Sonora Estudio",
+      "city": "Biguaçu",
+      "state": "Santa Catarina",
+      "score": 98.08,
+      "templateId": "bold",
+      "href": "/studios/pedra-sonora-estudio-biguacu-3f0e20"
+    },
+    {
+      "studioId": "studio-art-som-santos-def2a5",
+      "name": "Studio Art Som",
+      "city": "Santos",
+      "state": "São Paulo",
+      "score": 98.03,
+      "templateId": "editorial",
+      "href": "/studios/studio-art-som-santos-def2a5"
+    },
+    {
+      "studioId": "as-estudio-sao-jose-dos-998fcf",
+      "name": "AS Estúdio",
+      "city": "São José dos Campos",
+      "state": "São Paulo",
+      "score": 97.98,
+      "templateId": "immersive",
+      "href": "/studios/as-estudio-sao-jose-dos-998fcf"
+    },
+    {
+      "studioId": "max-estudio-timon-a4b306",
+      "name": "MAX ESTÚDIO",
+      "city": "Timon",
+      "state": "Maranhão",
+      "score": 97.97,
+      "templateId": "minimal",
+      "href": "/studios/max-estudio-timon-a4b306"
+    },
+    {
+      "studioId": "estudio-akira-criciuma-5d78fa",
+      "name": "Estúdio Akira",
+      "city": "Criciúma",
+      "state": "Santa Catarina",
+      "score": 97.93,
+      "templateId": "bold",
+      "href": "/studios/estudio-akira-criciuma-5d78fa"
+    },
+    {
+      "studioId": "estudio-marco-zero-vila-velha-8fd10f",
+      "name": "Estúdio Marco Zero",
+      "city": "Vila Velha",
+      "state": "Espírito Santo",
+      "score": 97.89,
+      "templateId": "editorial",
+      "href": "/studios/estudio-marco-zero-vila-velha-8fd10f"
+    },
+    {
+      "studioId": "4-studio-audiovisual-vila-velha-54a55c",
+      "name": "4° Studio Audiovisual",
+      "city": "Vila Velha",
+      "state": "Espírito Santo",
+      "score": 97.85,
+      "templateId": "immersive",
+      "href": "/studios/4-studio-audiovisual-vila-velha-54a55c"
+    },
+    {
+      "studioId": "estudio-dois-curitiba-225efa",
+      "name": "Estúdio Dois",
+      "city": "Curitiba",
+      "state": "Paraná",
+      "score": 97.79,
+      "templateId": "minimal",
+      "href": "/studios/estudio-dois-curitiba-225efa"
+    },
+    {
+      "studioId": "bcstudio-tubarao-134be4",
+      "name": "Bcstudio",
+      "city": "Tubarão",
+      "state": "Santa Catarina",
+      "score": 97.77,
+      "templateId": "bold",
+      "href": "/studios/bcstudio-tubarao-134be4"
+    },
+    {
+      "studioId": "estudio-om-belo-horizon-3596b6",
+      "name": "Estudio Om",
+      "city": "Belo Horizonte",
+      "state": "Minas Gerais",
+      "score": 97.69,
+      "templateId": "editorial",
+      "href": "/studios/estudio-om-belo-horizon-3596b6"
+    },
+    {
+      "studioId": "estudio-romanos-recife-63562a",
+      "name": "Estúdio Romanos",
+      "city": "Recife",
+      "state": "Pernambuco",
+      "score": 97.67,
+      "templateId": "immersive",
+      "href": "/studios/estudio-romanos-recife-63562a"
+    },
+    {
+      "studioId": "d-j-studio-salvador-9c9f9f",
+      "name": "D & J Studio",
+      "city": "Salvador",
+      "state": "Bahia",
+      "score": 97.65,
+      "templateId": "minimal",
+      "href": "/studios/d-j-studio-salvador-9c9f9f"
+    },
+    {
+      "studioId": "estudio-central-nova-lima-868255",
+      "name": "Estúdio Central",
+      "city": "Nova Lima",
+      "state": "Minas Gerais",
+      "score": 97.65,
+      "templateId": "bold",
+      "href": "/studios/estudio-central-nova-lima-868255"
+    },
+    {
+      "studioId": "estudio-de-ensaio-e-gravacao-nem-5-graus-sao-jose-dos-3b733f",
+      "name": "Estúdio de Ensáio e Gravação Nem 5 Graus",
+      "city": "São José dos Pinhais",
+      "state": "Paraná",
+      "score": 97.64,
+      "templateId": "editorial",
+      "href": "/studios/estudio-de-ensaio-e-gravacao-nem-5-graus-sao-jose-dos-3b733f"
+    },
+    {
+      "studioId": "solange-almeida-studios-pacatuba-14e688",
+      "name": "Solange Almeida Studios",
+      "city": "Pacatuba",
+      "state": "Ceará",
+      "score": 97.56,
+      "templateId": "immersive",
+      "href": "/studios/solange-almeida-studios-pacatuba-14e688"
+    },
+    {
+      "studioId": "dog-house-som-e-imagem-blumenau-1d262f",
+      "name": "Dog House - Som e Imagem",
+      "city": "Blumenau",
+      "state": "Santa Catarina",
+      "score": 97.55,
+      "templateId": "minimal",
+      "href": "/studios/dog-house-som-e-imagem-blumenau-1d262f"
+    },
+    {
+      "studioId": "estudio-r-contagem-49a598",
+      "name": "Estúdio R",
+      "city": "Contagem",
+      "state": "Minas Gerais",
+      "score": 97.55,
+      "templateId": "bold",
+      "href": "/studios/estudio-r-contagem-49a598"
+    },
+    {
+      "studioId": "avancine-studio-estudio-de-podcast-antigo-detona-stu-ribeirao-pre-47e8fe",
+      "name": "Avancine Studio - Estudio de Podcast -\"Antigo Detona studio\".",
+      "city": "Ribeirão Preto",
+      "state": "São Paulo",
+      "score": 97.51,
+      "templateId": "editorial",
+      "href": "/studios/avancine-studio-estudio-de-podcast-antigo-detona-stu-ribeirao-pre-47e8fe"
+    },
+    {
+      "studioId": "manso-estudio-goiania-9b6215",
+      "name": "Manso Estúdio",
+      "city": "Goiânia",
+      "state": "Goiás",
+      "score": 97.51,
+      "templateId": "immersive",
+      "href": "/studios/manso-estudio-goiania-9b6215"
+    },
+    {
+      "studioId": "aquarela-studios-ensaios-gravacoes-e-producao-musica-sorocaba-8f523c",
+      "name": "Aquarela Studios (Ensaios, Gravações e Produção Musical)",
+      "city": "Sorocaba",
+      "state": "São Paulo",
+      "score": 97.5,
+      "templateId": "minimal",
+      "href": "/studios/aquarela-studios-ensaios-gravacoes-e-producao-musica-sorocaba-8f523c"
+    },
+    {
+      "studioId": "bunker-bhz-estudio-de-ensaio-bh-sabara-26339d",
+      "name": "Bunker Bhz - Estúdio de Ensaio BH",
+      "city": "Sabará",
+      "state": "Minas Gerais",
+      "score": 97.5,
+      "templateId": "bold",
+      "href": "/studios/bunker-bhz-estudio-de-ensaio-bh-sabara-26339d"
+    },
+    {
+      "studioId": "estudio-s-blumenau-6b3b2d",
+      "name": "Estúdio S",
+      "city": "Blumenau",
+      "state": "Santa Catarina",
+      "score": 97.5,
+      "templateId": "editorial",
+      "href": "/studios/estudio-s-blumenau-6b3b2d"
+    },
+    {
+      "studioId": "zion-gate-studio-salvador-08e900",
+      "name": "Zion Gate Studio",
+      "city": "Salvador",
+      "state": "Bahia",
+      "score": 97.44,
+      "templateId": "immersive",
+      "href": "/studios/zion-gate-studio-salvador-08e900"
+    },
+    {
+      "studioId": "estudio-mantra-vila-velha-48dc71",
+      "name": "Estúdio Mantra",
+      "city": "Vila Velha",
+      "state": "Espírito Santo",
+      "score": 97.4,
+      "templateId": "minimal",
+      "href": "/studios/estudio-mantra-vila-velha-48dc71"
+    },
+    {
+      "studioId": "criasom-estudio-bauru-30e66d",
+      "name": "Criasom Estúdio",
+      "city": "Bauru",
+      "state": "São Paulo",
+      "score": 97.1,
+      "templateId": "bold",
+      "href": "/studios/criasom-estudio-bauru-30e66d"
+    },
+    {
+      "studioId": "quorum-estudio-sao-paulo-f88c00",
+      "name": "Quorum Estudio",
+      "city": "São Paulo",
+      "state": "São Paulo",
+      "score": 97.08,
+      "templateId": "editorial",
+      "href": "/studios/quorum-estudio-sao-paulo-f88c00"
+    },
+    {
+      "studioId": "dvel-studio-sao-jose-dos-bf11e1",
+      "name": "DVEL Studio",
+      "city": "São José dos Campos",
+      "state": "São Paulo",
+      "score": 96.99,
+      "templateId": "immersive",
+      "href": "/studios/dvel-studio-sao-jose-dos-bf11e1"
+    },
+    {
+      "studioId": "estudio-nos-ribeirao-pre-117cba",
+      "name": "Estúdio Nós",
+      "city": "Ribeirão Preto",
+      "state": "São Paulo",
+      "score": 96.96,
+      "templateId": "minimal",
+      "href": "/studios/estudio-nos-ribeirao-pre-117cba"
+    },
+    {
+      "studioId": "estudio-meyer-londrina-1f8166",
+      "name": "Estúdio Meyer",
+      "city": "Londrina",
+      "state": "Paraná",
+      "score": 96.89,
+      "templateId": "bold",
+      "href": "/studios/estudio-meyer-londrina-1f8166"
+    },
+    {
+      "studioId": "estudio-matagal-sorocaba-8c447f",
+      "name": "Estúdio Matagal",
+      "city": "Sorocaba",
+      "state": "São Paulo",
+      "score": 96.78,
+      "templateId": "editorial",
+      "href": "/studios/estudio-matagal-sorocaba-8c447f"
+    },
+    {
+      "studioId": "container-estudio-taubate-55f6d7",
+      "name": "Container Estúdio",
+      "city": "Taubaté",
+      "state": "São Paulo",
+      "score": 96.74,
+      "templateId": "immersive",
+      "href": "/studios/container-estudio-taubate-55f6d7"
+    },
+    {
+      "studioId": "max-estudio-limeira-limeira-ba4b59",
+      "name": "Max Estúdio Limeira",
+      "city": "Limeira",
+      "state": "São Paulo",
+      "score": 96.74,
+      "templateId": "minimal",
+      "href": "/studios/max-estudio-limeira-limeira-ba4b59"
+    },
+    {
+      "studioId": "synth-studio-sao-jose-dos-a187a5",
+      "name": "Synth Studio",
+      "city": "São José dos Campos",
+      "state": "São Paulo",
+      "score": 96.71,
+      "templateId": "bold",
+      "href": "/studios/synth-studio-sao-jose-dos-a187a5"
+    },
+    {
+      "studioId": "trash-records-limeira-c8925c",
+      "name": "TRASH RECORDS",
+      "city": "Limeira",
+      "state": "São Paulo",
+      "score": 96.66,
+      "templateId": "editorial",
+      "href": "/studios/trash-records-limeira-c8925c"
+    },
+    {
+      "studioId": "cl-pro-estudio-e-gravadora-joinville-dfca0c",
+      "name": "CL PRO - Estúdio e Gravadora",
+      "city": "Joinville",
+      "state": "Santa Catarina",
+      "score": 96.55,
+      "templateId": "immersive",
+      "href": "/studios/cl-pro-estudio-e-gravadora-joinville-dfca0c"
+    },
+    {
+      "studioId": "dom-faro-records-estudio-de-gravacao-uberlandia-e18ef7",
+      "name": "Dom Faro Records - Estúdio de Gravação",
+      "city": "Uberlândia",
+      "state": "Minas Gerais",
+      "score": 96.51,
+      "templateId": "minimal",
+      "href": "/studios/dom-faro-records-estudio-de-gravacao-uberlandia-e18ef7"
+    },
+    {
+      "studioId": "studio-grano-sao-jose-de-58bcc2",
+      "name": "Studio Grano",
+      "city": "São José de Ribamar",
+      "state": "Maranhão",
+      "score": 96.45,
+      "templateId": "bold",
+      "href": "/studios/studio-grano-sao-jose-de-58bcc2"
+    },
+    {
+      "studioId": "estudio-bunker-cultural-araucaria-b5ed5b",
+      "name": "Estúdio Bunker Cultural",
+      "city": "Araucária",
+      "state": "Paraná",
+      "score": 96.44,
+      "templateId": "editorial",
+      "href": "/studios/estudio-bunker-cultural-araucaria-b5ed5b"
+    },
+    {
+      "studioId": "horus-estudio-de-fotografia-e-video-caucaia-4d60b1",
+      "name": "Hórus Estúdio de fotografia e vídeo",
+      "city": "Caucaia",
+      "state": "Ceará",
+      "score": 96.44,
+      "templateId": "immersive",
+      "href": "/studios/horus-estudio-de-fotografia-e-video-caucaia-4d60b1"
+    },
+    {
+      "studioId": "serraria-studio-feira-de-san-69b493",
+      "name": "Serraria Studio",
+      "city": "Feira de Santana",
+      "state": "Bahia",
+      "score": 96.3,
+      "templateId": "minimal",
+      "href": "/studios/serraria-studio-feira-de-san-69b493"
+    },
+    {
+      "studioId": "totte-studio-timon-ae475d",
+      "name": "Totte Studio",
+      "city": "Timon",
+      "state": "Maranhão",
+      "score": 96.17,
+      "templateId": "bold",
+      "href": "/studios/totte-studio-timon-ae475d"
+    },
+    {
+      "studioId": "ecostudio-serra-130825",
+      "name": "ECOstudio",
+      "city": "Serra",
+      "state": "Espírito Santo",
+      "score": 96.1,
+      "templateId": "editorial",
+      "href": "/studios/ecostudio-serra-130825"
+    },
+    {
+      "studioId": "4-44-prod-governador-v-663d07",
+      "name": "4.44 PROD",
+      "city": "Governador Valadares",
+      "state": "Minas Gerais",
+      "score": 96.07,
+      "templateId": "immersive",
+      "href": "/studios/4-44-prod-governador-v-663d07"
+    },
+    {
+      "studioId": "etp-studio-timon-6f12fb",
+      "name": "ETP Studio",
+      "city": "Timon",
+      "state": "Maranhão",
+      "score": 96.07,
+      "templateId": "minimal",
+      "href": "/studios/etp-studio-timon-6f12fb"
+    },
+    {
+      "studioId": "green-view-studio-sao-carlos-6dd9b4",
+      "name": "Green View Studio",
+      "city": "São Carlos",
+      "state": "São Paulo",
+      "score": 95.99,
+      "templateId": "bold",
+      "href": "/studios/green-view-studio-sao-carlos-6dd9b4"
+    },
+    {
+      "studioId": "base-slz-sao-luis-cbb4e6",
+      "name": "Base SLZ",
+      "city": "São Luís",
+      "state": "Maranhão",
+      "score": 95.97,
+      "templateId": "editorial",
+      "href": "/studios/base-slz-sao-luis-cbb4e6"
+    },
+    {
+      "studioId": "estudio-atitude-musical-trindade-ee3a20",
+      "name": "Estúdio Atitude Musical",
+      "city": "Trindade",
+      "state": "Goiás",
+      "score": 95.97,
+      "templateId": "immersive",
+      "href": "/studios/estudio-atitude-musical-trindade-ee3a20"
+    },
+    {
+      "studioId": "d-lima-studio-vitoria-de-s-4fdc57",
+      "name": "D'lima Stúdio",
+      "city": "Vitória de Santo Antão",
+      "state": "Pernambuco",
+      "score": 95.96,
+      "templateId": "minimal",
+      "href": "/studios/d-lima-studio-vitoria-de-s-4fdc57"
+    },
+    {
+      "studioId": "estudio-musical-metropolis-biguacu-221752",
+      "name": "Estúdio Musical METRÓPOLIS",
+      "city": "Biguaçu",
+      "state": "Santa Catarina",
+      "score": 95.9,
+      "templateId": "bold",
+      "href": "/studios/estudio-musical-metropolis-biguacu-221752"
+    },
+    {
+      "studioId": "produtora-shanti-governador-v-513044",
+      "name": "Produtora Shanti",
+      "city": "Governador Valadares",
+      "state": "Minas Gerais",
+      "score": 95.9,
+      "templateId": "editorial",
+      "href": "/studios/produtora-shanti-governador-v-513044"
+    },
+    {
+      "studioId": "ts7-producoes-campinas-797142",
+      "name": "TS7 PRODUÇÕES",
+      "city": "Campinas",
+      "state": "São Paulo",
+      "score": 95.89,
+      "templateId": "immersive",
+      "href": "/studios/ts7-producoes-campinas-797142"
+    },
+    {
+      "studioId": "alive-studios-timon-1b4135",
+      "name": "Alive Studios",
+      "city": "Timon",
+      "state": "Maranhão",
+      "score": 95.8,
+      "templateId": "minimal",
+      "href": "/studios/alive-studios-timon-1b4135"
+    },
+    {
+      "studioId": "estudio-vox-bh-santa-luzia-664a04",
+      "name": "Estúdio Vox BH",
+      "city": "Santa Luzia",
+      "state": "Minas Gerais",
+      "score": 95.79,
+      "templateId": "bold",
+      "href": "/studios/estudio-vox-bh-santa-luzia-664a04"
+    },
+    {
+      "studioId": "tulio-estudio-ensaio-divinopolis-c33880",
+      "name": "Tulio Estudio Ensaio",
+      "city": "Divinópolis",
+      "state": "Minas Gerais",
+      "score": 95.77,
+      "templateId": "editorial",
+      "href": "/studios/tulio-estudio-ensaio-divinopolis-c33880"
+    },
+    {
+      "studioId": "estudio-do-rio-vermelho-biguacu-5d041b",
+      "name": "Estúdio do Rio Vermelho",
+      "city": "Biguaçu",
+      "state": "Santa Catarina",
+      "score": 95.75,
+      "templateId": "immersive",
+      "href": "/studios/estudio-do-rio-vermelho-biguacu-5d041b"
+    },
+    {
+      "studioId": "mastering-estudio-aguas-lindas-796d5b",
+      "name": "Mastering Estudio",
+      "city": "Águas Lindas de Goiás",
+      "state": "Goiás",
+      "score": 95.72,
+      "templateId": "minimal",
+      "href": "/studios/mastering-estudio-aguas-lindas-796d5b"
+    },
+    {
+      "studioId": "la-cueva-records-apui-8d973d",
+      "name": "La Cueva Records",
+      "city": "Apuí",
+      "state": "Amazonas",
+      "score": 95.69,
+      "templateId": "bold",
+      "href": "/studios/la-cueva-records-apui-8d973d"
+    },
+    {
+      "studioId": "estudio-da-15-aguas-lindas-fe3a3b",
+      "name": "Estúdio da 15",
+      "city": "Águas Lindas de Goiás",
+      "state": "Goiás",
+      "score": 95.63,
+      "templateId": "editorial",
+      "href": "/studios/estudio-da-15-aguas-lindas-fe3a3b"
+    },
+    {
+      "studioId": "estudio-acquaphonia-records-maringa-3247c3",
+      "name": "Estúdio Acquaphonia Records",
+      "city": "Maringá",
+      "state": "Paraná",
+      "score": 95.54,
+      "templateId": "immersive",
+      "href": "/studios/estudio-acquaphonia-records-maringa-3247c3"
+    },
+    {
+      "studioId": "london-studio-guarulhos-67e9ad",
+      "name": "London Studio",
+      "city": "Guarulhos",
+      "state": "São Paulo",
+      "score": 95.53,
+      "templateId": "minimal",
+      "href": "/studios/london-studio-guarulhos-67e9ad"
+    },
+    {
+      "studioId": "eds-producoes-juazeiro-do-b19a6c",
+      "name": "EDS Produções",
+      "city": "Juazeiro do Norte",
+      "state": "Ceará",
+      "score": 95.35,
+      "templateId": "bold",
+      "href": "/studios/eds-producoes-juazeiro-do-b19a6c"
+    },
+    {
+      "studioId": "estudio-fermata-sao-jose-do-0e947e",
+      "name": "Estúdio Fermata",
+      "city": "São José do Rio Preto",
+      "state": "São Paulo",
+      "score": 95.35,
+      "templateId": "editorial",
+      "href": "/studios/estudio-fermata-sao-jose-do-0e947e"
+    },
+    {
+      "studioId": "rota-351-estudio-escola-de-musica-campinas-e231f7",
+      "name": "Rota 351- Estúdio & Escola de Música",
+      "city": "Campinas",
+      "state": "São Paulo",
+      "score": 95.34,
+      "templateId": "immersive",
+      "href": "/studios/rota-351-estudio-escola-de-musica-campinas-e231f7"
+    },
+    {
+      "studioId": "estudio-u-taboao-da-se-5db46e",
+      "name": "Estúdio U",
+      "city": "Taboão da Serra",
+      "state": "São Paulo",
+      "score": 95.14,
+      "templateId": "minimal",
+      "href": "/studios/estudio-u-taboao-da-se-5db46e"
+    },
+    {
+      "studioId": "estudio-kilombo-vespasiano-6cdbbf",
+      "name": "Estúdio Kilombo",
+      "city": "Vespasiano",
+      "state": "Minas Gerais",
+      "score": 95.04,
+      "templateId": "bold",
+      "href": "/studios/estudio-kilombo-vespasiano-6cdbbf"
+    },
+    {
+      "studioId": "estudio-mangus-lauro-de-fre-0ff748",
+      "name": "Estúdio Mangus",
+      "city": "Lauro de Freitas",
+      "state": "Bahia",
+      "score": 94.91,
+      "templateId": "editorial",
+      "href": "/studios/estudio-mangus-lauro-de-fre-0ff748"
+    },
+    {
+      "studioId": "panda-studio-muriae-mg-muriae-124250",
+      "name": "Panda Studio - Muriaé-MG",
+      "city": "Muriaé",
+      "state": "Minas Gerais",
+      "score": 94.91,
+      "templateId": "immersive",
+      "href": "/studios/panda-studio-muriae-mg-muriae-124250"
+    },
+    {
+      "studioId": "mark-studio-jundiai-d22532",
+      "name": "Mark Studio",
+      "city": "Jundiaí",
+      "state": "São Paulo",
+      "score": 94.84,
+      "templateId": "minimal",
+      "href": "/studios/mark-studio-jundiai-d22532"
+    },
+    {
+      "studioId": "mi-casa-estudio-vitoria-4c3744",
+      "name": "Mi Casa Estúdio",
+      "city": "Vitória",
+      "state": "Espírito Santo",
+      "score": 94.83,
+      "templateId": "bold",
+      "href": "/studios/mi-casa-estudio-vitoria-4c3744"
+    },
+    {
+      "studioId": "kr-lab-studio-ananindeua-adc88b",
+      "name": "KR Lab Studio",
+      "city": "Ananindeua",
+      "state": "Pará",
+      "score": 94.79,
+      "templateId": "editorial",
+      "href": "/studios/kr-lab-studio-ananindeua-adc88b"
+    },
+    {
+      "studioId": "studio-piaui-conect-timon-984746",
+      "name": "STUDIO PIAUI CONECT",
+      "city": "Timon",
+      "state": "Maranhão",
+      "score": 94.79,
+      "templateId": "immersive",
+      "href": "/studios/studio-piaui-conect-timon-984746"
+    },
+    {
+      "studioId": "eloy-studio-recife-66328b",
+      "name": "Eloy Studio",
+      "city": "Recife",
+      "state": "Pernambuco",
+      "score": 94.74,
+      "templateId": "minimal",
+      "href": "/studios/eloy-studio-recife-66328b"
+    },
+    {
+      "studioId": "plugg-n-play-studios-sao-jose-dos-925c64",
+      "name": "Plugg N' Play Studios",
+      "city": "São José dos Campos",
+      "state": "São Paulo",
+      "score": 94.73,
+      "templateId": "bold",
+      "href": "/studios/plugg-n-play-studios-sao-jose-dos-925c64"
+    },
+    {
+      "studioId": "estudio-biz-timon-cfeb64",
+      "name": "Estúdio Biz",
+      "city": "Timon",
+      "state": "Maranhão",
+      "score": 94.72,
+      "templateId": "editorial",
+      "href": "/studios/estudio-biz-timon-cfeb64"
+    },
+    {
+      "studioId": "estudio-two-stroke-maringa-f92da7",
+      "name": "Estúdio Two Stroke",
+      "city": "Maringá",
+      "state": "Paraná",
+      "score": 94.67,
+      "templateId": "immersive",
+      "href": "/studios/estudio-two-stroke-maringa-f92da7"
+    },
+    {
+      "studioId": "estudio-caia-juazeiro-cf0590",
+      "name": "Estúdio CAIA",
+      "city": "Juazeiro",
+      "state": "Bahia",
+      "score": 94.57,
+      "templateId": "minimal",
+      "href": "/studios/estudio-caia-juazeiro-cf0590"
+    },
+    {
+      "studioId": "estudio-caia-petrolina-eb6ef9",
+      "name": "Estúdio CAIA",
+      "city": "Petrolina",
+      "state": "Pernambuco",
+      "score": 94.57,
+      "templateId": "bold",
+      "href": "/studios/estudio-caia-petrolina-eb6ef9"
+    },
+    {
+      "studioId": "groove-estudio-mogi-das-cru-29fa72",
+      "name": "Groove Estúdio",
+      "city": "Mogi das Cruzes",
+      "state": "São Paulo",
+      "score": 94.51,
+      "templateId": "editorial",
+      "href": "/studios/groove-estudio-mogi-das-cru-29fa72"
+    },
+    {
+      "studioId": "estudio-abrigo-nuclear-jaragua-do-s-5ec989",
+      "name": "Estúdio Abrigo Nuclear",
+      "city": "Jaraguá do Sul",
+      "state": "Santa Catarina",
+      "score": 94.4,
+      "templateId": "immersive",
+      "href": "/studios/estudio-abrigo-nuclear-jaragua-do-s-5ec989"
+    },
+    {
+      "studioId": "estudio-toca-do-jacare-vila-velha-a190d1",
+      "name": "Estudio Toca do Jacaré",
+      "city": "Vila Velha",
+      "state": "Espírito Santo",
+      "score": 94.4,
+      "templateId": "minimal",
+      "href": "/studios/estudio-toca-do-jacare-vila-velha-a190d1"
+    },
+    {
+      "studioId": "timelab-studio-maringa-ea4c1d",
+      "name": "TimeLab Studio",
+      "city": "Maringá",
+      "state": "Paraná",
+      "score": 94.4,
+      "templateId": "bold",
+      "href": "/studios/timelab-studio-maringa-ea4c1d"
+    }
+  ]
+}

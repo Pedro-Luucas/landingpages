@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "bacca-estudio-e-sonorizacao-blumenau-877ba0",
+  "sourceId": "877ba08d1611e8cad61f5ee3feacb360f864982c449ba30a7449c261b54c83b7",
+  "name": "Bacca - Estúdio e Sonorização",
+  "type": "Recording studio",
+  "slug": "bacca-estudio-e-sonorizacao",
+  "location": {
+    "city": "Blumenau",
+    "state": "Santa Catarina",
+    "address": "R. Freymundo Mette, 165 - Velha Central, Blumenau - SC, 89040-230, Brazil",
+    "latitude": -26.9275718,
+    "longitude": -49.1229526
+  },
+  "contacts": {
+    "phone": "+55 47 99646-2251",
+    "website": "https://www.facebook.com/baccaestudio",
+    "facebook": "https://www.facebook.com/baccaestudio"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "925eb9e88c8287a00f8dcacc6908ca1bb9ad03da9a5d54c6d667126f1f513562",
+    "originalRecord": {
+      "title": "Bacca - Estúdio e Sonorização",
+      "type": "Recording studio",
+      "cidade": "Blumenau",
+      "estado": "Santa Catarina",
+      "ratingCount": 98,
+      "rating": 5,
+      "address": "R. Freymundo Mette, 165 - Velha Central, Blumenau - SC, 89040-230, Brazil",
+      "phoneNumber": "+55 47 99646-2251",
+      "website": "https://www.facebook.com/baccaestudio",
+      "latitude": -26.9275718,
+      "longitude": -49.1229526,
+      "score_comercial": 98.98,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://www.facebook.com/baccaestudio"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 13.98,
+          "maximo": 15,
+          "valor": 98,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 98; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 98.98,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

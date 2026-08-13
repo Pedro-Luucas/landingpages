@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "avancine-studio-estudio-de-podcast-antigo-detona-stu-ribeirao-pre-47e8fe",
+  "sourceId": "47e8fef739c6b2888a99c447923ec6c04b32d737ef80a06e86fdc3606b12ca7b",
+  "name": "Avancine Studio - Estudio de Podcast -\"Antigo Detona studio\".",
+  "type": "Recording studio",
+  "slug": "avancine-studio-estudio-de-podcast-antigo-detona-studio",
+  "location": {
+    "city": "Ribeirão Preto",
+    "state": "São Paulo",
+    "address": "R. João Alves Silva Júnior, 558 - sala 9 - Condomínio Itamaraty, Ribeirão Preto - SP, 14024-190, Brazil",
+    "latitude": -21.210633599999998,
+    "longitude": -47.8117704
+  },
+  "contacts": {
+    "phone": "+55 16 99793-3357",
+    "website": "https://www.instagram.com/avancinestudiorp?igsh=MWwwbTVvZGRycGx6cw%3D%3D",
+    "instagram": "https://www.instagram.com/avancinestudiorp?igsh=MWwwbTVvZGRycGx6cw%3D%3D"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "d627b732cab33beaf72a535491e2bc8e22e8fda98f19847111c14dac54957861",
+    "originalRecord": {
+      "title": "Avancine Studio - Estudio de Podcast -\"Antigo Detona studio\".",
+      "type": "Recording studio",
+      "cidade": "Ribeirão Preto",
+      "estado": "São Paulo",
+      "ratingCount": 60,
+      "rating": 5,
+      "address": "R. João Alves Silva Júnior, 558 - sala 9 - Condomínio Itamaraty, Ribeirão Preto - SP, 14024-190, Brazil",
+      "phoneNumber": "+55 16 99793-3357",
+      "website": "https://www.instagram.com/avancinestudiorp?igsh=MWwwbTVvZGRycGx6cw%3D%3D",
+      "latitude": -21.210633599999998,
+      "longitude": -47.8117704,
+      "score_comercial": 97.51,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://www.instagram.com/avancinestudiorp?igsh=MWwwbTVvZGRycGx6cw%3D%3D"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 12.51,
+          "maximo": 15,
+          "valor": 60,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 60; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 97.51,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

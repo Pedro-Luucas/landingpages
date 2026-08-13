@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-caia-petrolina-eb6ef9",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://beacons.ai/estudiocaia",
+        "result": "source_contact_only"
+      }
+    ],
+    "selectedProfiles": {},
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Estúdio CAIA é um estúdio musical localizado em Petrolina, Pernambuco.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-9.3684633%2C-40.4986663",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.9,
+          "count": 23
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-9.3684633%2C-40.4986663",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -9.3684633,
+          "longitude": -40.4986663,
+          "address": "R. Rio Primavera, 46 - José e Maria, Petrolina - PE, 56300-190, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-9.3684633%2C-40.4986663",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

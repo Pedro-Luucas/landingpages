@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-nos-ribeirao-pre-117cba",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "http://www.facebook.com/estudionos",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "facebook": {
+        "value": "http://www.facebook.com/estudionos",
+        "sourceUrl": "http://www.facebook.com/estudionos",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Estúdio Nós é um estúdio musical localizado em Ribeirão Preto, São Paulo.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-21.1689538%2C-47.8152198",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.5,
+          "count": 59
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-21.1689538%2C-47.8152198",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -21.1689538,
+          "longitude": -47.8152198,
+          "address": "R. Gonçalves Dias, 260 - Vila Tiberio, Ribeirão Preto - SP, 14050-380, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-21.1689538%2C-47.8152198",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}

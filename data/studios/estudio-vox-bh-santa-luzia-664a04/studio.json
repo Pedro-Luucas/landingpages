@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "studioId": "estudio-vox-bh-santa-luzia-664a04",
+  "sourceId": "664a047eccbea62a4c16d8baaf8e8b6ff5102244a00105e766fca53b732dcbe0",
+  "name": "Estúdio Vox BH",
+  "type": "Recording studio",
+  "slug": "estudio-vox-bh",
+  "location": {
+    "city": "Santa Luzia",
+    "state": "Minas Gerais",
+    "address": "R. Nélia, 292 - São Tomaz, Belo Horizonte - MG, 31741-130, Brazil",
+    "latitude": -19.842846599999998,
+    "longitude": -43.952180899999995
+  },
+  "contacts": {
+    "phone": "+55 31 98682-9146",
+    "website": "https://alexandredamatagui.wixsite.com/estudiovoxbh"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "c255990834c34b8a9730f721bf45244cb2153241392a966cc008a0e604755f36",
+    "originalRecord": {
+      "title": "Estúdio Vox BH",
+      "type": "Recording studio",
+      "cidade": "Santa Luzia",
+      "estado": "Minas Gerais",
+      "ratingCount": 36,
+      "rating": 4.8,
+      "address": "R. Nélia, 292 - São Tomaz, Belo Horizonte - MG, 31741-130, Brazil",
+      "phoneNumber": "+55 31 98682-9146",
+      "website": "https://alexandredamatagui.wixsite.com/estudiovoxbh",
+      "latitude": -19.842846599999998,
+      "longitude": -43.952180899999995,
+      "score_comercial": 95.79,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "https://alexandredamatagui.wixsite.com/estudiovoxbh"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 4.8,
+          "maximo": 5,
+          "valor": 4.8
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 10.99,
+          "maximo": 15,
+          "valor": 36,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 4.8 de 5.",
+        "Quantidade de avaliações considerada: 36; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 95.79,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

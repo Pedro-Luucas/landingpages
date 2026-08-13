@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://landingpages.local/schemas/studio.schema.json",
+  "title": "Studio",
+  "description": "Normalized studio record persisted as data/studios/<studioId>/studio.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "studioId",
+    "name",
+    "slug",
+    "location",
+    "contacts",
+    "source",
+    "pipelineStatus",
+    "updatedAt"
+  ],
+  "properties": {
+    "schemaVersion": { "$ref": "#/$defs/SchemaVersion" },
+    "studioId": { "$ref": "#/$defs/StudioId" },
+    "sourceId": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "type": { "type": "string", "minLength": 1 },
+    "slug": { "$ref": "#/$defs/Slug" },
+    "location": { "$ref": "#/$defs/Location" },
+    "contacts": { "$ref": "#/$defs/Contacts" },
+    "source": { "$ref": "#/$defs/Source" },
+    "commercialScore": { "type": "number", "minimum": 0, "maximum": 100 },
+    "pipelineStatus": { "$ref": "#/$defs/PipelineStatus" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  },
+  "$defs": {
+    "SchemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "StudioId": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "Slug": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "PipelineStatus": {
+      "type": "string",
+      "enum": [
+        "imported",
+        "queued",
+        "discovering",
+        "needs_social_review",
+        "scraping",
+        "enriching",
+        "selecting_media",
+        "generating",
+        "validating",
+        "ready_for_review",
+        "approved",
+        "rejected",
+        "deploying",
+        "deployed",
+        "failed"
+      ]
+    },
+    "Location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [],
+      "properties": {
+        "city": { "type": "string", "minLength": 1 },
+        "state": { "type": "string", "minLength": 1 },
+        "address": { "type": "string", "minLength": 1 },
+        "latitude": { "type": "number", "minimum": -90, "maximum": 90 },
+        "longitude": { "type": "number", "minimum": -180, "maximum": 180 }
+      }
+    },
+    "Contacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [],
+      "properties": {
+        "phone": { "type": "string", "minLength": 1 },
+        "website": { "type": "string", "format": "uri" },
+        "instagram": { "type": "string", "minLength": 1 },
+        "facebook": { "type": "string", "minLength": 1 }
+      }
+    },
+    "Source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["importedAt", "sourceFile", "sourceHash", "originalRecord"],
+      "properties": {
+        "importedAt": { "type": "string", "format": "date-time" },
+        "sourceFile": { "type": "string", "minLength": 1 },
+        "sourceHash": {
+          "type": "string",
+          "pattern": "^[a-fA-F0-9]{64}$"
+        },
+        "originalRecord": true
+      }
+    }
+  }
+}

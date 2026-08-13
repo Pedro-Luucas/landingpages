@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "frog-estudio-joinville-cc3746",
+  "sourceId": "cc374651986e612c5bd5b6eff36a8be94ac8e1d16b1e7afab1d849499bba9aec",
+  "name": "Frog Estúdio",
+  "type": "Rehearsal studio",
+  "slug": "frog-estudio",
+  "location": {
+    "city": "Joinville",
+    "state": "Santa Catarina",
+    "address": "Av. Alm. Jaceguay, 997 - Santo Antônio, Joinville - SC, 89218-075, Brazil",
+    "latitude": -26.2737333,
+    "longitude": -48.8610377
+  },
+  "contacts": {
+    "phone": "+55 47 99617-7753",
+    "website": "http://www.instagram.com/FrogEstudio",
+    "instagram": "http://www.instagram.com/FrogEstudio"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "35771ee2fc62dc62fd8e89de0a02242e11ad2743d47db45b436d01b40c25ed40",
+    "originalRecord": {
+      "title": "Frog Estúdio",
+      "type": "Rehearsal studio",
+      "cidade": "Joinville",
+      "estado": "Santa Catarina",
+      "ratingCount": 80,
+      "rating": 5,
+      "address": "Av. Alm. Jaceguay, 997 - Santo Antônio, Joinville - SC, 89218-075, Brazil",
+      "phoneNumber": "+55 47 99617-7753",
+      "website": "http://www.instagram.com/FrogEstudio",
+      "latitude": -26.2737333,
+      "longitude": -48.8610377,
+      "score_comercial": 98.37,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "http://www.instagram.com/FrogEstudio"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 13.37,
+          "maximo": 15,
+          "valor": 80,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 80; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 98.37,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

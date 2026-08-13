@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "studioId": "aurora-sound-lab-cwb",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-12T12:06:10Z",
+        "method": "source_field",
+        "url": "https://www.aurorasoundlab.example/",
+        "result": "official_site",
+        "evidence": {
+          "host": "www.aurorasoundlab.example",
+          "kind": "official_site"
+        }
+      },
+      {
+        "at": "2026-08-12T12:06:40Z",
+        "method": "direct_url",
+        "url": "https://www.instagram.com/aurorasoundlab.cwb/",
+        "result": "matched",
+        "evidence": {
+          "handle": "aurorasoundlab.cwb",
+          "nameOverlap": 1
+        }
+      },
+      {
+        "at": "2026-08-12T12:07:20Z",
+        "method": "web_search",
+        "query": "Aurora Sound Lab Curitiba Instagram",
+        "result": "skipped_already_matched"
+      }
+    ],
+    "selectedProfiles": {
+      "instagram": {
+        "value": "https://www.instagram.com/aurorasoundlab.cwb/",
+        "sourceUrl": "https://www.aurorasoundlab.example/",
+        "sourceType": "official_site",
+        "collectedAt": "2026-08-12T12:06:40Z",
+        "confidence": 0.96,
+        "excerpt": "Link do Instagram no rodapé do site oficial."
+      },
+      "facebook": {
+        "value": "https://www.facebook.com/aurorasoundlab.cwb/",
+        "sourceUrl": "https://www.aurorasoundlab.example/contato",
+        "sourceType": "official_site",
+        "collectedAt": "2026-08-12T12:07:00Z",
+        "confidence": 0.82
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "bio": {
+      "value": "Estúdio de gravação e ensaio em Curitiba. Cabine isolada, mesa analógica, sessões de voz e banda.",
+      "sourceUrl": "https://www.instagram.com/aurorasoundlab.cwb/",
+      "sourceType": "instagram",
+      "collectedAt": "2026-08-12T12:30:00Z",
+      "confidence": 0.94
+    },
+    "profileImage": {
+      "value": "https://cdn.aurorasoundlab.example/profile.jpg",
+      "sourceUrl": "https://www.instagram.com/aurorasoundlab.cwb/",
+      "sourceType": "instagram",
+      "collectedAt": "2026-08-12T12:30:00Z",
+      "confidence": 0.9
+    },
+    "highlights": [
+      {
+        "value": {
+          "title": "A sala",
+          "text": "Tratamento acústico e cabine para voz."
+        },
+        "sourceUrl": "https://www.instagram.com/stories/highlights/aurora-sala/",
+        "sourceType": "instagram",
+        "collectedAt": "2026-08-12T12:32:00Z",
+        "confidence": 0.8
+      }
+    ],
+    "posts": [
+      {
+        "externalId": "ig_aurora_1001",
+        "url": "https://www.instagram.com/p/aurora1001/",
+        "publishedAt": "2026-07-20T21:14:00Z",
+        "caption": "Sessão de voz na cabine. TLM 103 no ar.",
+        "media": [
+          {
+            "url": "https://cdn.aurorasoundlab.example/posts/1001.jpg",
+            "type": "image",
+            "localPath": "data/studios/aurora-sound-lab-cwb/media/posts/1001.jpg"
+          }
+        ],
+        "collectedAt": "2026-08-12T12:40:00Z"
+      },
+      {
+        "externalId": "ig_aurora_1002",
+        "url": "https://www.instagram.com/p/aurora1002/",
+        "publishedAt": "2026-07-28T19:02:00Z",
+        "caption": "Ensaio de banda no sábado. Sala cheia, rua em silêncio.",
+        "media": [
+          {
+            "url": "https://cdn.aurorasoundlab.example/posts/1002a.jpg",
+            "type": "carousel",
+            "localPath": "data/studios/aurora-sound-lab-cwb/media/posts/1002a.jpg"
+          }
+        ],
+        "collectedAt": "2026-08-12T12:40:10Z"
+      },
+      {
+        "externalId": "ig_aurora_1003",
+        "url": "https://www.instagram.com/p/aurora1003/",
+        "publishedAt": "2026-08-02T22:40:00Z",
+        "caption": "Walkthrough da mesa antes da mix.",
+        "media": [
+          {
+            "url": "https://cdn.aurorasoundlab.example/posts/1003.mp4",
+            "type": "video"
+          }
+        ],
+        "collectedAt": "2026-08-12T12:40:20Z"
+      }
+    ]
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Estúdio de gravação e ensaio em Curitiba, com sala tratada e cabine isolada.",
+        "sourceUrl": "https://www.aurorasoundlab.example/sobre",
+        "sourceType": "official_site",
+        "collectedAt": "2026-08-12T13:20:00Z",
+        "confidence": 0.95,
+        "excerpt": "O Aurora Sound Lab é um estúdio de gravação em Curitiba..."
+      }
+    ],
+    "equipment": [
+      {
+        "value": [
+          "Mesa analógica SSL",
+          "Microfone Neumann TLM 103",
+          "Monitores Yamaha HS8",
+          "Cabine vocal isolada"
+        ],
+        "sourceUrl": "https://www.aurorasoundlab.example/sala",
+        "sourceType": "official_site",
+        "collectedAt": "2026-08-12T13:22:00Z",
+        "confidence": 0.93
+      }
+    ],
+    "prices": [
+      {
+        "value": [
+          {
+            "label": "Ensaio 2 horas",
+            "amountText": "R$ 120",
+            "conditions": "Inclui sala e PA."
+          },
+          {
+            "label": "Gravação 4 horas",
+            "amountText": "R$ 380",
+            "conditions": "Engenheiro incluso."
+          }
+        ],
+        "sourceUrl": "https://www.aurorasoundlab.example/ensaios",
+        "sourceType": "official_site",
+        "collectedAt": "2026-08-12T13:24:00Z",
+        "confidence": 0.91
+      }
+    ],
+    "openingHours": [
+      {
+        "value": [
+          { "day": "Monday", "intervals": ["10:00-22:00"] },
+          { "day": "Tuesday", "intervals": ["10:00-22:00"] },
+          { "day": "Wednesday", "intervals": ["10:00-22:00"] },
+          { "day": "Thursday", "intervals": ["10:00-22:00"] },
+          { "day": "Friday", "intervals": ["10:00-22:00"] },
+          { "day": "Saturday", "intervals": ["11:00-20:00"] },
+          { "day": "Sunday", "intervals": [] }
+        ],
+        "sourceUrl": "https://www.aurorasoundlab.example/contato",
+        "sourceType": "official_site",
+        "collectedAt": "2026-08-12T13:25:00Z",
+        "confidence": 0.88
+      }
+    ],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.8,
+          "count": 42,
+          "excerpts": [
+            "Sala silenciosa e engenheiro paciente na sessão de voz.",
+            "Ensaio de banda sem vazamento para a rua."
+          ]
+        },
+        "sourceUrl": "https://maps.example.com/place/aurora-sound-lab-cwb",
+        "sourceType": "google",
+        "collectedAt": "2026-08-12T14:10:00Z",
+        "confidence": 0.84
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -25.4298,
+          "longitude": -49.2714,
+          "address": "Rua Fictícia do Ensaio, 240, Curitiba - PR",
+          "placeId": "synthetic-place-aurora-cwb"
+        },
+        "sourceUrl": "https://maps.example.com/place/aurora-sound-lab-cwb",
+        "sourceType": "google",
+        "collectedAt": "2026-08-12T14:10:00Z",
+        "confidence": 0.86
+      }
+    ]
+  },
+  "media": {
+    "logo": {
+      "sourceUrl": "https://cdn.aurorasoundlab.example/profile.jpg",
+      "sha256": "f4d5c855e04e9942f2250a2c30f98232614d2188a18f02766782230e097225e4",
+      "mime": "image/jpeg",
+      "sizeBytes": 184320,
+      "width": 640,
+      "height": 640,
+      "localPath": "public/studios/aurora-sound-lab-cwb/logo.webp",
+      "licenseOrUse": "public-profile-image",
+      "collectedAt": "2026-08-12T16:20:00Z"
+    },
+    "candidates": [
+      {
+        "sourceUrl": "https://cdn.aurorasoundlab.example/posts/1001.jpg",
+        "sha256": "12ee601dde9054d78a974f2f6fbd63dfe713af82e36d5d78a1e9b7243f4a3dbc",
+        "mime": "image/jpeg",
+        "sizeBytes": 512000,
+        "width": 1600,
+        "height": 1200,
+        "localPath": "data/studios/aurora-sound-lab-cwb/media/candidates/1001.jpg",
+        "licenseOrUse": "public-post-image",
+        "collectedAt": "2026-08-12T16:22:00Z",
+        "score": 0.91,
+        "qualityScore": 0.88,
+        "relevanceScore": 0.94,
+        "flags": ["studio_room", "equipment"],
+        "usableAsHero": true,
+        "usableAsGallery": true
+      },
+      {
+        "sourceUrl": "https://cdn.aurorasoundlab.example/posts/1002a.jpg",
+        "sha256": "217998c0fa24e95c7987304b8c06be5ebe6bee29880997d20d1bdc0d5f6d58c0",
+        "mime": "image/jpeg",
+        "sizeBytes": 430080,
+        "width": 1600,
+        "height": 1066,
+        "localPath": "data/studios/aurora-sound-lab-cwb/media/candidates/1002a.jpg",
+        "licenseOrUse": "public-post-image",
+        "collectedAt": "2026-08-12T16:22:10Z",
+        "score": 0.84,
+        "qualityScore": 0.8,
+        "relevanceScore": 0.86,
+        "flags": ["studio_room", "band_session"],
+        "usableAsHero": false,
+        "usableAsGallery": true
+      },
+      {
+        "sourceUrl": "https://cdn.aurorasoundlab.example/posts/1003-thumb.jpg",
+        "sha256": "657c5082647eb16b76b5c79ac5ac3cebc778d019d8c25fa541ba04b3c1786d33",
+        "mime": "image/jpeg",
+        "sizeBytes": 96000,
+        "width": 640,
+        "height": 360,
+        "localPath": "data/studios/aurora-sound-lab-cwb/media/candidates/1003-thumb.jpg",
+        "licenseOrUse": "public-video-thumbnail",
+        "collectedAt": "2026-08-12T16:22:20Z",
+        "score": 0.41,
+        "qualityScore": 0.35,
+        "relevanceScore": 0.55,
+        "flags": ["low_resolution", "video_thumbnail"],
+        "usableAsHero": false,
+        "usableAsGallery": false
+      }
+    ],
+    "selected": [
+      {
+        "sourceUrl": "https://cdn.aurorasoundlab.example/posts/1001.jpg",
+        "sha256": "12ee601dde9054d78a974f2f6fbd63dfe713af82e36d5d78a1e9b7243f4a3dbc",
+        "mime": "image/webp",
+        "sizeBytes": 276480,
+        "width": 1600,
+        "height": 1200,
+        "localPath": "public/studios/aurora-sound-lab-cwb/images/01.webp",
+        "licenseOrUse": "public-post-image",
+        "collectedAt": "2026-08-12T16:30:00Z"
+      },
+      {
+        "sourceUrl": "https://cdn.aurorasoundlab.example/posts/1002a.jpg",
+        "sha256": "217998c0fa24e95c7987304b8c06be5ebe6bee29880997d20d1bdc0d5f6d58c0",
+        "mime": "image/webp",
+        "sizeBytes": 221184,
+        "width": 1600,
+        "height": 1066,
+        "localPath": "public/studios/aurora-sound-lab-cwb/images/02.webp",
+        "licenseOrUse": "public-post-image",
+        "collectedAt": "2026-08-12T16:30:10Z"
+      }
+    ]
+  },
+  "warnings": [
+    {
+      "code": "DIRECTORY_LOW_CONFIDENCE",
+      "message": "A third-party directory listed extra microphones that were not confirmed on the official site.",
+      "stage": "enriching",
+      "at": "2026-08-12T16:10:00Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-12T16:40:00Z"
+}

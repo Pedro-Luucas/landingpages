@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "studioId": "fusion-studio-ensaios-e-producoes-musicais-goiania-16be24",
+  "sourceId": "16be2482fdebf1212bc187c2738f1e680f7ae7704ab15d736026397f89a35e1e",
+  "name": "Fusion Studio - Ensaios e Produções Musicais",
+  "type": "Recording studio",
+  "slug": "fusion-studio-ensaios-e-producoes-musicais",
+  "location": {
+    "city": "Goiânia",
+    "state": "Goiás",
+    "address": "Ao lado do Buriti Shopping - Av. Dona Maria Cardoso, qd 101 - lt 07, sobreloja - Vila Sao Tomaz, Goiânia - GO, 74915-495, Brazil",
+    "latitude": -16.7418549,
+    "longitude": -49.2786714
+  },
+  "contacts": {
+    "phone": "+55 62 98186-8153",
+    "website": "http://www.instagram.com/fusionstudio1",
+    "instagram": "http://www.instagram.com/fusionstudio1"
+  },
+  "source": {
+    "importedAt": "2026-08-13T04:49:30Z",
+    "sourceFile": "estudios_musica.json",
+    "sourceHash": "8cf13891e660403e4ffda98bf538106dc748e696ac99f51dd0ee17752230ff2f",
+    "originalRecord": {
+      "title": "Fusion Studio - Ensaios e Produções Musicais",
+      "type": "Recording studio",
+      "cidade": "Goiânia",
+      "estado": "Goiás",
+      "ratingCount": 92,
+      "rating": 5,
+      "address": "Ao lado do Buriti Shopping - Av. Dona Maria Cardoso, qd 101 - lt 07, sobreloja - Vila Sao Tomaz, Goiânia - GO, 74915-495, Brazil",
+      "phoneNumber": "+55 62 98186-8153",
+      "website": "http://www.instagram.com/fusionstudio1",
+      "latitude": -16.7418549,
+      "longitude": -49.2786714,
+      "score_comercial": 98.79,
+      "score_componentes": {
+        "website": {
+          "pontos": 60,
+          "maximo": 60,
+          "categoria": "rede_social_ou_intermediario",
+          "valor": "http://www.instagram.com/fusionstudio1"
+        },
+        "telefone": {
+          "pontos": 15,
+          "maximo": 15,
+          "presente": true
+        },
+        "endereco": {
+          "pontos": 5,
+          "maximo": 5,
+          "presente": true
+        },
+        "nota": {
+          "pontos": 5,
+          "maximo": 5,
+          "valor": 5
+        },
+        "quantidade_avaliacoes": {
+          "pontos": 13.79,
+          "maximo": 15,
+          "valor": 92,
+          "referencia_percentil_95": 137.45
+        }
+      },
+      "score_justificativa": [
+        "Possui rede social ou página intermediária, mas não site próprio.",
+        "Possui telefone para contato.",
+        "Possui endereço informado.",
+        "Nota bruta considerada: 5.0 de 5.",
+        "Quantidade de avaliações considerada: 92; pontuação calculada em escala logarítmica."
+      ]
+    }
+  },
+  "commercialScore": 98.79,
+  "pipelineStatus": "approved",
+  "updatedAt": "2026-08-13T04:49:30Z"
+}

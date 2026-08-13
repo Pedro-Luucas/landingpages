@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "studioId": "pulsar-estudio-belem-06e1c3",
+  "discovery": {
+    "attempts": [
+      {
+        "at": "2026-08-13T04:49:30Z",
+        "method": "source_import",
+        "url": "https://www.facebook.com/pulsarsttudio",
+        "result": "social_profile_from_source"
+      }
+    ],
+    "selectedProfiles": {
+      "facebook": {
+        "value": "https://www.facebook.com/pulsarsttudio",
+        "sourceUrl": "https://www.facebook.com/pulsarsttudio",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    },
+    "requiresHumanReview": false
+  },
+  "social": {
+    "highlights": [],
+    "posts": []
+  },
+  "facts": {
+    "description": [
+      {
+        "value": "Pulsar Estudio é um estúdio musical localizado em Belém, Pará.",
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-1.4600883999999998%2C-48.4726029",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "equipment": [],
+    "prices": [],
+    "openingHours": [],
+    "googleReviews": [
+      {
+        "value": {
+          "rating": 4.7,
+          "count": 93
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-1.4600883999999998%2C-48.4726029",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ],
+    "map": [
+      {
+        "value": {
+          "latitude": -1.4600883999999998,
+          "longitude": -48.4726029,
+          "address": "R. dos Caripunas - Jurunas, Belém - PA, 66063-388, Brazil"
+        },
+        "sourceUrl": "https://www.google.com/maps/search/?api=1&query=-1.4600883999999998%2C-48.4726029",
+        "sourceType": "source_json",
+        "collectedAt": "2026-08-13T04:49:30Z",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "media": {
+    "candidates": [],
+    "selected": []
+  },
+  "warnings": [
+    {
+      "code": "SOURCE_ONLY_BATCH",
+      "message": "Página gerada somente com fatos presentes na fonte; mídia, preços, horários e equipamentos não confirmados foram omitidos.",
+      "stage": "batch",
+      "at": "2026-08-13T04:49:30Z",
+      "retryable": false
+    }
+  ],
+  "completedAt": "2026-08-13T04:49:30Z"
+}
